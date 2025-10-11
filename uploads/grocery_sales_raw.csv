@@ -1,0 +1,2251 @@
+Date,Category,Product,Quantity,Price,Total,CustomerID,PaymentMethod
+2022-05-03,Snacks,Candy,1000.0,99999.0,99999000.0,CUST3032,Card
+2023-12-11,Frozen,Frozen Meat,-5.0,241.91,-1209.55,CUST6447,
+2022-03-27,Vegetables,Onion,,-10.0,,CUST3972,UPI
+2022-03-08,Fruits,Banana,1000.0,99999.0,99999000.0,XXXX,UPI
+2021-10-22,Snacks,Candy,-5.0,215.09,-1075.45,CUST6455,
+2022-11-17,Beverages,Coffee,-5.0,-10.0,50.0,,
+2022-11-21,Fruits,Banana,,-10.0,,XXXX,Wallet
+2021-11-03,Vegetables,Spinach,1000.0,99999.0,99999000.0,XXXX,UPI
+2021-11-28,Snacks,Chips,8.0,217.1,1736.8,CUST2239,
+2022-06-14,Bakery,Bun,-5.0,,,,INVALID
+2023-09-22,Fruits,Grapes,1000.0,99999.0,99999000.0,XXXX,Card
+2022-01-30,Meat,Beef,,-10.0,,XXXX,INVALID
+2022-06-04,Snacks,Candy,1000.0,99999.0,99999000.0,,Wallet
+2023-08-21,Meat,Lamb,-5.0,,,CUST5821,Card
+2021-10-14,Dairy,Butter,,-10.0,,XXXX,Wallet
+2023-02-19,Vegetables,Spinach,1000.0,-10.0,-10000.0,CUST4981,Wallet
+2022-02-23,Snacks,Nuts,1000.0,-10.0,-10000.0,CUST4958,UPI
+2022-07-03,Dairy,Butter,3.0,-10.0,-30.0,,Card
+2023-07-12,Meat,Chicken,-5.0,-10.0,50.0,CUST4764,INVALID
+2022-10-27,Vegetables,Onion,1000.0,,,,Wallet
+2023-12-04,Beverages,Coffee,-5.0,99999.0,-499995.0,,
+2021-02-02,Fruits,Grapes,1000.0,99999.0,99999000.0,XXXX,UPI
+2021-07-11,Beverages,Juice,-5.0,-10.0,50.0,CUST4290,UPI
+2021-07-14,Snacks,Chips,,-10.0,,,Cash
+2022-12-10,Beverages,Juice,13.0,352.8,4586.400000000001,,Card
+2023-01-30,Fruits,Mango,8.0,184.51,1476.08,XXXX,
+2023-03-16,Meat,Lamb,1000.0,,,,INVALID
+2021-12-18,Beverages,Coke,1000.0,16.76,16760.0,XXXX,Cash
+2023-09-24,Fruits,Grapes,-5.0,99999.0,-499995.0,,
+2022-04-23,Snacks,Cookies,1000.0,,,,INVALID
+2023-06-03,Dairy,Cheese,9.0,99999.0,899991.0,,
+2023-04-17,Meat,Lamb,1000.0,-10.0,-10000.0,XXXX,Wallet
+2022-01-20,Beverages,Water,,,,CUST2965,Card
+2022-01-28,Snacks,Candy,7.0,39.76,278.32,CUST4852,Wallet
+2023-08-22,Snacks,Chips,-5.0,458.14,-2290.7,,Wallet
+2022-09-08,Vegetables,Potato,-5.0,,,,INVALID
+2022-06-22,Frozen,Frozen Meat,3.0,99999.0,299997.0,CUST9496,
+2022-09-07,Bakery,Cake,11.0,,,,INVALID
+2022-06-30,Dairy,Yogurt,1000.0,11.81,11810.0,,Cash
+2021-10-13,Bakery,Donut,-5.0,367.9,-1839.5,,Cash
+2021-05-31,Bakery,Croissant,3.0,341.4,1024.1999999999998,,
+2021-02-25,Meat,Beef,,261.5,,,
+2022-01-15,Frozen,Frozen Pizza,1000.0,-10.0,-10000.0,,INVALID
+2021-01-29,Beverages,Water,1000.0,99999.0,99999000.0,XXXX,Cash
+2022-06-08,Beverages,Coffee,1000.0,99999.0,99999000.0,,Card
+2023-08-04,Bakery,Bun,,296.35,,CUST5208,INVALID
+2022-09-05,Dairy,Yogurt,-5.0,,,,INVALID
+2022-06-09,Dairy,Milk,5.0,-10.0,-50.0,,Cash
+2023-06-11,Dairy,Yogurt,1000.0,99999.0,99999000.0,CUST1545,Cash
+2021-02-09,Bakery,Croissant,-5.0,-10.0,50.0,CUST8370,Cash
+2022-07-27,Fruits,Orange,,144.33,,XXXX,INVALID
+2023-05-18,Dairy,Cheese,,460.38,,,
+2023-08-03,Frozen,Frozen Pizza,,170.63,,XXXX,Wallet
+2021-12-16,Bakery,Bread,-5.0,99999.0,-499995.0,CUST5457,UPI
+2021-08-20,Dairy,Yogurt,,99999.0,,CUST1065,Cash
+2022-11-23,Dairy,Yogurt,19.0,99999.0,1899981.0,CUST5254,Card
+2022-10-23,Snacks,Chips,1000.0,,,,INVALID
+2021-07-12,Dairy,Cream,1000.0,99999.0,99999000.0,CUST8902,UPI
+2022-12-30,Bakery,Cake,,88.42,,,Wallet
+2021-04-24,Dairy,Milk,-5.0,276.22,-1381.1000000000001,CUST6051,Cash
+2023-04-21,Beverages,Water,13.0,11.75,152.75,XXXX,
+2021-01-01,Snacks,Nuts,1000.0,,,CUST5350,INVALID
+2021-07-15,Fruits,Grapes,-5.0,99999.0,-499995.0,XXXX,
+2022-05-14,Beverages,Juice,,-10.0,,XXXX,
+2021-02-10,Dairy,Yogurt,12.0,,,,
+2022-05-26,Vegetables,Onion,,,,,Cash
+2023-08-20,Frozen,Frozen Meat,-5.0,346.39,-1731.9499999999998,CUST8805,UPI
+2023-04-09,Beverages,Water,-5.0,338.61,-1693.0500000000002,CUST7289,INVALID
+2022-12-26,Bakery,Cake,-5.0,,,XXXX,INVALID
+2021-03-03,Fruits,Mango,-5.0,-10.0,50.0,XXXX,Wallet
+2022-08-10,Fruits,Mango,1000.0,67.57,67570.0,XXXX,INVALID
+2021-05-17,Dairy,Milk,1000.0,262.52,262520.0,CUST2074,
+2022-05-03,Frozen,Ice Cream,,,,CUST1493,INVALID
+2022-07-27,Vegetables,Onion,11.0,99999.0,1099989.0,CUST7858,Card
+2021-03-14,Dairy,Milk,1000.0,99999.0,99999000.0,CUST2551,Wallet
+2023-11-19,Bakery,Croissant,,166.5,,XXXX,UPI
+2022-04-02,Meat,Pork,-5.0,99999.0,-499995.0,,INVALID
+2022-11-03,Beverages,Coffee,,361.42,,CUST2564,Wallet
+2022-12-30,Beverages,Coke,7.0,-10.0,-70.0,CUST2250,INVALID
+2022-10-18,Beverages,Coffee,,246.72,,CUST9180,UPI
+2022-06-18,Frozen,Ice Cream,5.0,,,CUST2902,Cash
+2021-11-23,Dairy,Cream,4.0,360.9,1443.6,XXXX,Card
+2022-10-11,Bakery,Cake,16.0,99999.0,1599984.0,,Wallet
+2022-09-16,Vegetables,Onion,-5.0,,,XXXX,Card
+2023-03-18,Bakery,Croissant,1000.0,-10.0,-10000.0,,INVALID
+2021-12-05,Fruits,Apple,1.0,335.24,335.24,,Cash
+2021-03-28,Frozen,Ice Cream,,-10.0,,,Card
+2023-09-27,Snacks,Cookies,10.0,-10.0,-100.0,CUST7637,Wallet
+2023-02-28,Vegetables,Onion,1.0,-10.0,-10.0,CUST7577,
+2023-01-16,Fruits,Banana,1000.0,55.88,55880.0,XXXX,
+2022-06-29,Snacks,Chips,-5.0,99999.0,-499995.0,XXXX,
+2022-06-11,Meat,Beef,1000.0,104.6,104600.0,XXXX,INVALID
+2023-10-04,Fruits,Orange,-5.0,99999.0,-499995.0,,
+2023-04-08,Bakery,Croissant,1000.0,99999.0,99999000.0,XXXX,UPI
+2021-10-04,Meat,Beef,-5.0,99999.0,-499995.0,CUST4135,INVALID
+2022-04-03,Frozen,Frozen Veg,1000.0,99999.0,99999000.0,CUST1337,Cash
+2022-06-13,Meat,Fish,1000.0,-10.0,-10000.0,,Wallet
+2023-09-14,Beverages,Coke,-5.0,328.28,-1641.3999999999999,,UPI
+2022-01-01,Bakery,Bun,-5.0,435.87,-2179.35,XXXX,INVALID
+2022-10-05,Beverages,Coffee,,99999.0,,,Card
+2022-12-18,Vegetables,Potato,1000.0,34.07,34070.0,,Cash
+2021-04-14,Frozen,Frozen Fish,-5.0,-10.0,50.0,CUST7773,INVALID
+2021-05-29,Dairy,Cheese,5.0,,,CUST4268,Card
+2022-05-22,Snacks,Chocolate,,42.99,,CUST9546,
+2021-11-16,Snacks,Nuts,1000.0,,,XXXX,Wallet
+2022-12-12,Frozen,Frozen Fish,1000.0,-10.0,-10000.0,CUST3042,Wallet
+2021-06-03,Meat,Lamb,17.0,99999.0,1699983.0,CUST3373,
+2023-07-21,Frozen,Frozen Meat,,,,,Wallet
+2021-10-09,Snacks,Cookies,-5.0,-10.0,50.0,,UPI
+2023-06-27,Snacks,Chips,-5.0,273.21,-1366.05,XXXX,UPI
+2022-02-08,Bakery,Bread,1000.0,-10.0,-10000.0,CUST1576,Wallet
+2023-08-18,Meat,Fish,1000.0,-10.0,-10000.0,CUST8229,INVALID
+2021-08-30,Vegetables,Onion,1000.0,-10.0,-10000.0,CUST5894,
+2023-03-18,Dairy,Yogurt,1000.0,,,CUST5344,INVALID
+2023-05-13,Frozen,Frozen Pizza,13.0,,,CUST8118,Wallet
+2023-01-28,Meat,Fish,1000.0,322.92,322920.0,CUST1627,Cash
+2023-01-01,Meat,Pork,-5.0,,,CUST9341,UPI
+2023-09-16,Fruits,Orange,1000.0,99999.0,99999000.0,,INVALID
+2021-04-15,Fruits,Orange,-5.0,,,,Wallet
+2023-08-28,Beverages,Coffee,-5.0,482.93,-2414.65,XXXX,UPI
+2023-11-20,Dairy,Yogurt,1000.0,159.83,159830.0,,Card
+2023-10-12,Beverages,Juice,12.0,99999.0,1199988.0,,UPI
+2021-08-07,Beverages,Juice,12.0,236.87,2842.44,XXXX,Cash
+2022-02-19,Beverages,Coffee,,-10.0,,XXXX,UPI
+2022-09-13,Snacks,Cookies,-5.0,,,XXXX,Cash
+2023-01-20,Vegetables,Potato,2.0,99999.0,199998.0,,Wallet
+2023-05-11,Frozen,Frozen Fish,1000.0,490.93,490930.0,XXXX,Card
+2022-02-16,Fruits,Grapes,14.0,-10.0,-140.0,CUST6147,Cash
+2022-11-21,Beverages,Pepsi,1000.0,81.29,81290.0,CUST9275,
+2021-04-30,Meat,Beef,1000.0,421.62,421620.0,CUST5248,INVALID
+2023-07-01,Meat,Chicken,-5.0,99999.0,-499995.0,CUST6834,UPI
+2023-08-11,Dairy,Cheese,3.0,99999.0,299997.0,,Cash
+2023-08-16,Beverages,Juice,,99999.0,,XXXX,Cash
+2022-03-30,Frozen,Frozen Pizza,-5.0,,,,INVALID
+2022-02-05,Beverages,Coke,-5.0,,,,Cash
+2022-05-08,Snacks,Cookies,,465.78,,XXXX,Card
+2023-12-06,Frozen,Frozen Veg,-5.0,99999.0,-499995.0,CUST9331,UPI
+2022-08-29,Snacks,Chocolate,5.0,,,CUST5772,Cash
+2022-02-27,Meat,Beef,,,,,
+2021-03-11,Bakery,Croissant,11.0,99999.0,1099989.0,CUST4517,
+2022-11-22,Bakery,Donut,,,,CUST3671,UPI
+2022-10-08,Fruits,Orange,1000.0,99999.0,99999000.0,CUST4763,UPI
+2023-03-12,Meat,Lamb,-5.0,330.62,-1653.1,XXXX,Wallet
+2021-07-10,Beverages,Water,,-10.0,,CUST1703,INVALID
+2023-01-01,Beverages,Coffee,18.0,-10.0,-180.0,,Card
+2021-12-20,Snacks,Chips,17.0,-10.0,-170.0,XXXX,UPI
+2021-07-07,Snacks,Chips,13.0,440.49,5726.37,,
+2021-10-08,Frozen,Frozen Fish,1000.0,,,XXXX,UPI
+2021-06-27,Snacks,Nuts,,,,,Cash
+2023-08-01,Snacks,Candy,1.0,-10.0,-10.0,,UPI
+2021-04-20,Fruits,Mango,12.0,206.08,2472.96,CUST9161,
+2021-01-20,Vegetables,Onion,,,,,
+2021-05-15,Beverages,Water,,-10.0,,CUST7536,
+2022-07-29,Dairy,Butter,-5.0,,,XXXX,
+2022-07-19,Meat,Pork,10.0,-10.0,-100.0,,
+2021-12-15,Bakery,Cake,1000.0,-10.0,-10000.0,XXXX,Cash
+2022-11-14,Dairy,Butter,18.0,-10.0,-180.0,CUST1028,INVALID
+2021-02-14,Frozen,Frozen Veg,1000.0,-10.0,-10000.0,XXXX,
+2023-07-03,Frozen,Frozen Veg,-5.0,489.88,-2449.4,,Card
+2022-06-03,Snacks,Chips,1000.0,-10.0,-10000.0,,Wallet
+2021-02-07,Snacks,Chocolate,-5.0,99999.0,-499995.0,,UPI
+2022-04-09,Frozen,Frozen Pizza,2.0,394.25,788.5,CUST6034,Card
+2021-03-12,Frozen,Frozen Pizza,8.0,239.26,1914.08,XXXX,INVALID
+2021-12-26,Bakery,Donut,1000.0,99999.0,99999000.0,CUST4328,Cash
+2023-04-29,Meat,Pork,1000.0,340.83,340830.0,,INVALID
+2022-05-06,Frozen,Ice Cream,6.0,-10.0,-60.0,CUST9031,Card
+2021-01-06,Vegetables,Tomato,1000.0,-10.0,-10000.0,CUST5933,Wallet
+2023-07-10,Frozen,Frozen Fish,1000.0,413.11,413110.0,,Card
+2023-04-02,Meat,Lamb,1000.0,-10.0,-10000.0,,Cash
+2022-01-21,Snacks,Chips,7.0,99999.0,699993.0,CUST4536,UPI
+2022-06-22,Fruits,Orange,-5.0,277.96,-1389.8,CUST2863,
+2021-11-18,Fruits,Mango,,-10.0,,,Cash
+2023-04-26,Vegetables,Carrot,6.0,-10.0,-60.0,,UPI
+2022-03-20,Vegetables,Carrot,7.0,-10.0,-70.0,,Card
+2021-07-13,Bakery,Donut,1000.0,,,CUST9899,UPI
+2023-10-06,Bakery,Cake,15.0,-10.0,-150.0,CUST4647,INVALID
+2022-10-31,Meat,Pork,,-10.0,,,Wallet
+2021-08-08,Vegetables,Onion,,-10.0,,XXXX,
+2021-06-12,Frozen,Ice Cream,9.0,,,,Card
+2023-02-24,Bakery,Donut,8.0,,,XXXX,Cash
+2021-08-26,Snacks,Nuts,,99999.0,,XXXX,Wallet
+2021-02-16,Vegetables,Carrot,1000.0,99999.0,99999000.0,CUST4201,Card
+2021-03-06,Fruits,Mango,,,,,Card
+2023-10-01,Bakery,Cake,9.0,-10.0,-90.0,CUST5029,Card
+2021-07-15,Meat,Chicken,-5.0,,,CUST9709,Wallet
+2021-03-19,Bakery,Cake,9.0,461.81,4156.29,,Cash
+2023-07-05,Fruits,Apple,-5.0,,,XXXX,Wallet
+2021-10-11,Dairy,Cream,8.0,-10.0,-80.0,CUST7384,INVALID
+2022-09-05,Vegetables,Potato,1000.0,65.34,65340.0,,
+2023-09-16,Vegetables,Spinach,1000.0,-10.0,-10000.0,XXXX,Card
+2023-11-08,Beverages,Juice,-5.0,-10.0,50.0,CUST1099,INVALID
+2022-05-26,Bakery,Croissant,,277.02,,XXXX,Card
+2021-01-02,Vegetables,Spinach,,99999.0,,XXXX,Card
+2021-11-05,Snacks,Candy,1000.0,99999.0,99999000.0,,
+2023-03-22,Bakery,Cake,-5.0,-10.0,50.0,CUST9008,Wallet
+2022-03-11,Meat,Beef,-5.0,-10.0,50.0,XXXX,INVALID
+2021-01-04,Beverages,Coke,19.0,99999.0,1899981.0,CUST4101,Cash
+2021-08-31,Beverages,Water,19.0,332.05,6308.95,XXXX,Cash
+2023-02-27,Frozen,Frozen Pizza,17.0,-10.0,-170.0,CUST8024,
+2022-09-03,Fruits,Mango,,246.19,,CUST2381,
+2022-08-16,Meat,Chicken,1000.0,99999.0,99999000.0,XXXX,Cash
+2022-09-18,Snacks,Candy,14.0,345.26,4833.639999999999,CUST7963,Card
+2023-11-16,Beverages,Juice,,99999.0,,XXXX,UPI
+2023-10-06,Fruits,Mango,1000.0,433.08,433080.0,,UPI
+2023-12-27,Frozen,Frozen Meat,,99999.0,,CUST9247,Wallet
+2021-05-22,Fruits,Grapes,1000.0,-10.0,-10000.0,,INVALID
+2023-03-22,Vegetables,Potato,1000.0,73.72,73720.0,,Cash
+2022-01-20,Fruits,Grapes,-5.0,99999.0,-499995.0,XXXX,INVALID
+2022-09-10,Fruits,Orange,-5.0,-10.0,50.0,,INVALID
+2023-12-04,Fruits,Banana,1000.0,,,XXXX,Card
+2022-11-21,Fruits,Orange,-5.0,99999.0,-499995.0,CUST5709,Card
+2021-03-03,Beverages,Pepsi,7.0,,,,Wallet
+2022-06-07,Meat,Lamb,,475.63,,XXXX,UPI
+2022-06-03,Vegetables,Spinach,5.0,-10.0,-50.0,CUST3839,Card
+2021-02-13,Dairy,Cream,20.0,450.57,9011.4,,Wallet
+2022-06-07,Frozen,Frozen Pizza,12.0,99999.0,1199988.0,,Card
+2021-03-02,Snacks,Nuts,-5.0,99999.0,-499995.0,XXXX,Cash
+2022-11-16,Snacks,Chips,1000.0,99999.0,99999000.0,CUST1326,INVALID
+2023-08-07,Bakery,Bread,1000.0,-10.0,-10000.0,,UPI
+2021-02-16,Beverages,Juice,10.0,,,XXXX,INVALID
+2021-12-01,Dairy,Yogurt,-5.0,349.94,-1749.7,XXXX,UPI
+2023-01-04,Snacks,Chocolate,-5.0,395.45,-1977.25,CUST6625,Cash
+2023-12-09,Vegetables,Tomato,,50.39,,CUST4421,UPI
+2021-03-06,Meat,Lamb,-5.0,57.57,-287.85,CUST6317,UPI
+2021-11-09,Beverages,Pepsi,-5.0,99999.0,-499995.0,CUST9679,INVALID
+2022-05-08,Fruits,Banana,-5.0,,,CUST7180,
+2021-10-22,Dairy,Butter,1000.0,99999.0,99999000.0,XXXX,Card
+2022-08-07,Bakery,Croissant,,-10.0,,CUST2872,INVALID
+2023-04-09,Frozen,Frozen Fish,,99999.0,,,Card
+2021-11-11,Meat,Chicken,7.0,-10.0,-70.0,CUST8802,Card
+2023-09-14,Meat,Beef,1000.0,,,XXXX,INVALID
+2021-09-08,Beverages,Coffee,-5.0,-10.0,50.0,XXXX,Wallet
+2023-12-15,Fruits,Banana,-5.0,-10.0,50.0,,UPI
+2022-05-04,Vegetables,Potato,1000.0,,,CUST2529,
+2023-09-23,Dairy,Milk,1000.0,323.97,323970.0,,Card
+2021-04-21,Snacks,Chocolate,,-10.0,,XXXX,Wallet
+2023-04-05,Fruits,Orange,,-10.0,,CUST2337,Cash
+2023-05-14,Meat,Beef,5.0,137.01,685.05,CUST7670,Wallet
+2023-12-17,Frozen,Frozen Pizza,,-10.0,,,Wallet
+2023-03-31,Vegetables,Spinach,1000.0,99999.0,99999000.0,XXXX,Cash
+2022-05-03,Beverages,Coke,1000.0,,,,Card
+2021-02-04,Vegetables,Carrot,1000.0,-10.0,-10000.0,XXXX,INVALID
+2021-01-29,Frozen,Frozen Meat,-5.0,,,CUST7538,Cash
+2021-01-29,Frozen,Frozen Fish,1000.0,234.97,234970.0,XXXX,Wallet
+2021-10-17,Snacks,Candy,-5.0,,,,UPI
+2023-08-24,Fruits,Mango,,99999.0,,,UPI
+2021-08-08,Vegetables,Carrot,4.0,,,CUST8935,INVALID
+2021-10-13,Dairy,Milk,,-10.0,,CUST2280,Wallet
+2022-08-06,Meat,Fish,1000.0,99999.0,99999000.0,XXXX,
+2023-01-21,Dairy,Cheese,15.0,,,CUST5775,
+2022-05-22,Beverages,Pepsi,,127.63,,XXXX,UPI
+2022-06-04,Vegetables,Carrot,-5.0,,,XXXX,Card
+2021-09-20,Snacks,Chocolate,3.0,,,CUST5018,INVALID
+2023-07-11,Vegetables,Tomato,-5.0,99999.0,-499995.0,XXXX,
+2023-09-29,Snacks,Cookies,-5.0,99999.0,-499995.0,CUST2988,
+2023-04-24,Snacks,Chocolate,18.0,-10.0,-180.0,XXXX,INVALID
+2022-12-16,Vegetables,Carrot,-5.0,,,CUST1361,Card
+2021-10-10,Meat,Pork,18.0,,,,Cash
+2023-12-09,Dairy,Cheese,17.0,,,CUST6940,Card
+2023-10-25,Fruits,Banana,,,,XXXX,INVALID
+2022-08-18,Snacks,Chocolate,1000.0,138.21,138210.0,XXXX,Wallet
+2022-06-27,Meat,Fish,-5.0,99999.0,-499995.0,XXXX,INVALID
+2022-01-04,Bakery,Bun,,-10.0,,XXXX,Cash
+2021-04-20,Bakery,Bread,14.0,,,CUST8798,Card
+2022-08-28,Frozen,Frozen Meat,-5.0,-10.0,50.0,,Card
+2022-07-18,Fruits,Banana,-5.0,-10.0,50.0,XXXX,UPI
+2021-11-12,Dairy,Butter,6.0,99999.0,599994.0,CUST3524,UPI
+2021-08-16,Bakery,Croissant,-5.0,99999.0,-499995.0,CUST3279,INVALID
+2023-05-24,Frozen,Frozen Meat,1000.0,-10.0,-10000.0,XXXX,
+2022-10-13,Bakery,Bread,11.0,,,CUST8012,
+2022-03-05,Beverages,Water,9.0,431.55,3883.9500000000003,,
+2022-04-13,Dairy,Yogurt,,-10.0,,XXXX,
+2023-04-14,Dairy,Cream,,204.63,,,UPI
+2022-07-24,Dairy,Cream,1000.0,99999.0,99999000.0,,Wallet
+2022-02-19,Bakery,Bun,18.0,-10.0,-180.0,CUST2711,INVALID
+2021-04-13,Meat,Lamb,1.0,99999.0,99999.0,CUST2612,Card
+2022-03-25,Beverages,Water,-5.0,,,,Wallet
+2022-01-21,Dairy,Cheese,,99999.0,,CUST5739,INVALID
+2021-09-10,Fruits,Banana,9.0,99999.0,899991.0,,UPI
+2021-02-15,Snacks,Cookies,-5.0,-10.0,50.0,,
+2023-02-06,Meat,Fish,17.0,99999.0,1699983.0,CUST7672,Card
+2021-01-14,Frozen,Ice Cream,8.0,-10.0,-80.0,,
+2023-03-01,Vegetables,Onion,-5.0,99999.0,-499995.0,CUST5586,Wallet
+2021-03-24,Snacks,Candy,,485.63,,CUST7010,
+2023-06-01,Vegetables,Potato,1000.0,,,XXXX,UPI
+2021-09-11,Vegetables,Onion,5.0,141.01,705.05,,Wallet
+2022-01-07,Dairy,Cream,1000.0,322.66,322660.0,XXXX,Cash
+2022-02-17,Bakery,Bun,,-10.0,,CUST3614,
+2021-09-15,Frozen,Ice Cream,11.0,,,,UPI
+2023-05-29,Bakery,Cake,-5.0,99999.0,-499995.0,XXXX,Wallet
+2021-04-25,Meat,Pork,3.0,,,XXXX,UPI
+2021-05-28,Snacks,Chips,-5.0,99999.0,-499995.0,,Card
+2021-02-27,Fruits,Orange,1000.0,99999.0,99999000.0,XXXX,INVALID
+2022-05-19,Snacks,Chips,-5.0,,,XXXX,INVALID
+2021-02-12,Vegetables,Tomato,7.0,,,CUST6701,
+2023-05-18,Meat,Chicken,-5.0,,,XXXX,Cash
+2023-10-11,Frozen,Frozen Pizza,,,,CUST3850,
+2023-04-20,Meat,Pork,1000.0,-10.0,-10000.0,,Card
+2023-08-24,Beverages,Pepsi,18.0,360.62,6491.16,XXXX,UPI
+2022-04-22,Beverages,Pepsi,,,,CUST9432,INVALID
+2022-11-19,Dairy,Yogurt,-5.0,317.17,-1585.8500000000001,XXXX,Cash
+2023-04-25,Beverages,Coke,14.0,99999.0,1399986.0,XXXX,INVALID
+2023-03-05,Beverages,Pepsi,-5.0,99999.0,-499995.0,,INVALID
+2022-06-14,Frozen,Frozen Veg,,492.84,,,Cash
+2022-06-26,Vegetables,Potato,13.0,99999.0,1299987.0,CUST8202,Cash
+2021-09-28,Vegetables,Potato,1000.0,112.69,112690.0,XXXX,Cash
+2021-04-04,Bakery,Donut,-5.0,-10.0,50.0,XXXX,Cash
+2021-07-16,Dairy,Cheese,1000.0,99999.0,99999000.0,,
+2021-01-06,Frozen,Frozen Pizza,,,,CUST4631,Cash
+2021-06-20,Dairy,Yogurt,1000.0,99999.0,99999000.0,CUST1280,Cash
+2022-11-11,Meat,Beef,5.0,99999.0,499995.0,,INVALID
+2021-06-20,Bakery,Bread,16.0,,,,Wallet
+2022-10-12,Dairy,Butter,15.0,99999.0,1499985.0,,Card
+2022-01-26,Vegetables,Carrot,1000.0,-10.0,-10000.0,,
+2023-08-07,Bakery,Donut,-5.0,56.34,-281.70000000000005,CUST9661,Wallet
+2022-02-10,Bakery,Bread,13.0,,,XXXX,
+2023-11-03,Frozen,Ice Cream,13.0,,,,UPI
+2023-04-24,Fruits,Banana,18.0,99999.0,1799982.0,,UPI
+2021-04-01,Frozen,Frozen Veg,,,,,INVALID
+2023-05-09,Fruits,Mango,,295.27,,CUST2843,INVALID
+2021-03-17,Beverages,Water,-5.0,,,XXXX,Wallet
+2022-03-30,Frozen,Ice Cream,-5.0,,,XXXX,Cash
+2021-10-12,Bakery,Cake,8.0,,,CUST1829,
+2021-10-09,Bakery,Donut,,318.92,,XXXX,Cash
+2022-09-18,Snacks,Nuts,19.0,325.62,6186.78,CUST3241,INVALID
+2022-04-25,Fruits,Grapes,,-10.0,,XXXX,Wallet
+2021-07-01,Meat,Lamb,1000.0,,,,Wallet
+2023-08-20,Vegetables,Potato,-5.0,410.03,-2050.1499999999996,XXXX,
+2022-11-12,Beverages,Pepsi,,-10.0,,CUST5272,Cash
+2022-07-10,Bakery,Bread,15.0,99999.0,1499985.0,CUST1448,UPI
+2023-12-11,Vegetables,Onion,-5.0,,,,Card
+2021-03-31,Bakery,Bread,14.0,,,XXXX,Card
+2023-06-02,Beverages,Pepsi,-5.0,194.79,-973.9499999999999,CUST1734,INVALID
+2022-09-19,Beverages,Juice,-5.0,428.61,-2143.05,,INVALID
+2023-10-09,Frozen,Ice Cream,13.0,,,,
+2023-12-14,Snacks,Candy,-5.0,98.51,-492.55,XXXX,Card
+2023-05-27,Beverages,Water,4.0,-10.0,-40.0,CUST4674,INVALID
+2022-09-01,Beverages,Coke,,,,,INVALID
+2023-03-01,Beverages,Coffee,5.0,,,CUST5100,UPI
+2021-04-08,Dairy,Butter,10.0,99999.0,999990.0,XXXX,
+2023-11-04,Beverages,Water,13.0,250.01,3250.13,XXXX,INVALID
+2022-12-17,Bakery,Bun,,99999.0,,XXXX,UPI
+2021-09-01,Frozen,Frozen Fish,,99999.0,,XXXX,Wallet
+2023-01-24,Meat,Pork,,-10.0,,,Cash
+2021-01-04,Fruits,Apple,14.0,354.31,4960.34,CUST3834,Card
+2021-02-24,Dairy,Cheese,16.0,,,CUST6871,Card
+2022-06-13,Frozen,Frozen Meat,,,,,
+2023-04-17,Beverages,Coffee,1000.0,-10.0,-10000.0,XXXX,Wallet
+2021-10-10,Dairy,Milk,-5.0,99999.0,-499995.0,,
+2023-12-03,Bakery,Bread,-5.0,,,CUST2729,Wallet
+2023-02-26,Beverages,Pepsi,,,,CUST9444,UPI
+2021-12-26,Meat,Beef,6.0,99999.0,599994.0,CUST2574,UPI
+2021-09-01,Snacks,Cookies,20.0,,,,
+2023-02-17,Snacks,Cookies,,-10.0,,CUST4824,Cash
+2022-03-18,Beverages,Pepsi,,99999.0,,,Wallet
+2022-03-28,Bakery,Croissant,1000.0,,,,
+2022-02-14,Meat,Chicken,,99999.0,,,UPI
+2022-11-13,Beverages,Juice,18.0,-10.0,-180.0,CUST3880,Cash
+2022-08-20,Dairy,Cheese,1000.0,99999.0,99999000.0,XXXX,Card
+2023-10-18,Snacks,Candy,2.0,16.99,33.98,XXXX,Wallet
+2022-10-07,Snacks,Candy,,-10.0,,,UPI
+2022-03-09,Snacks,Chips,1000.0,320.12,320120.0,CUST3869,INVALID
+2021-05-12,Meat,Beef,,396.55,,,Wallet
+2022-06-01,Vegetables,Onion,,31.64,,,
+2022-04-25,Frozen,Frozen Fish,-5.0,261.32,-1306.6,,UPI
+2021-03-25,Frozen,Ice Cream,3.0,-10.0,-30.0,XXXX,
+2021-03-10,Vegetables,Onion,,,,,Card
+2023-10-08,Frozen,Frozen Fish,1000.0,,,,Card
+2023-07-20,Snacks,Nuts,,99999.0,,,Wallet
+2023-08-06,Vegetables,Tomato,-5.0,,,,Wallet
+2022-08-09,Fruits,Grapes,,264.82,,,
+2023-05-02,Frozen,Ice Cream,13.0,-10.0,-130.0,XXXX,
+2022-08-06,Dairy,Yogurt,-5.0,113.06,-565.3,,Card
+2022-05-05,Meat,Beef,1000.0,-10.0,-10000.0,,Card
+2023-03-28,Fruits,Apple,-5.0,,,CUST5342,UPI
+2022-10-18,Frozen,Frozen Pizza,-5.0,99999.0,-499995.0,,Cash
+2022-06-28,Bakery,Cake,-5.0,-10.0,50.0,XXXX,Cash
+2022-10-31,Snacks,Nuts,-5.0,,,,Wallet
+2021-09-20,Vegetables,Onion,,387.82,,,UPI
+2021-07-24,Fruits,Orange,1000.0,-10.0,-10000.0,,
+2022-07-19,Bakery,Bread,1000.0,405.31,405310.0,,
+2021-03-29,Snacks,Nuts,1000.0,379.82,379820.0,CUST8319,Cash
+2021-01-25,Beverages,Coffee,,-10.0,,CUST1022,Cash
+2023-02-19,Dairy,Cream,4.0,,,XXXX,Card
+2023-01-11,Beverages,Water,-5.0,,,CUST4132,Cash
+2023-03-08,Frozen,Frozen Pizza,,-10.0,,,
+2021-12-23,Fruits,Mango,-5.0,149.25,-746.25,,
+2022-01-10,Meat,Lamb,1000.0,-10.0,-10000.0,XXXX,UPI
+2023-06-11,Frozen,Frozen Veg,,,,CUST7577,Cash
+2021-03-27,Dairy,Cream,13.0,431.33,5607.29,XXXX,INVALID
+2022-04-08,Dairy,Yogurt,,210.95,,,UPI
+2023-07-03,Vegetables,Onion,-5.0,-10.0,50.0,,UPI
+2022-10-05,Fruits,Grapes,1000.0,,,XXXX,Cash
+2021-07-08,Dairy,Butter,1000.0,,,CUST8263,
+2021-05-13,Vegetables,Potato,15.0,,,CUST7643,Wallet
+2021-03-29,Snacks,Candy,1000.0,,,CUST5871,UPI
+2021-08-06,Dairy,Yogurt,-5.0,277.65,-1388.25,XXXX,Wallet
+2021-02-03,Snacks,Nuts,10.0,,,XXXX,Wallet
+2022-10-13,Vegetables,Tomato,1000.0,402.56,402560.0,XXXX,Wallet
+2021-10-25,Dairy,Milk,1000.0,,,XXXX,Cash
+2023-12-13,Dairy,Butter,,-10.0,,XXXX,Card
+2021-05-07,Vegetables,Tomato,-5.0,99999.0,-499995.0,CUST5312,Wallet
+2022-02-02,Snacks,Chocolate,2.0,113.98,227.96,XXXX,INVALID
+2023-04-08,Frozen,Frozen Fish,-5.0,99999.0,-499995.0,CUST9759,UPI
+2021-11-05,Beverages,Juice,1000.0,,,CUST2329,Cash
+2023-09-16,Fruits,Orange,-5.0,99999.0,-499995.0,CUST4104,Wallet
+2022-03-26,Vegetables,Potato,1000.0,105.6,105600.0,,
+2023-06-21,Vegetables,Potato,1000.0,-10.0,-10000.0,CUST7115,INVALID
+2021-01-22,Vegetables,Spinach,,99999.0,,XXXX,
+2022-09-06,Vegetables,Spinach,10.0,,,,Card
+2021-02-09,Frozen,Frozen Fish,1000.0,99999.0,99999000.0,,Wallet
+2021-09-30,Fruits,Banana,-5.0,-10.0,50.0,CUST3613,Wallet
+2023-07-11,Vegetables,Potato,,244.4,,,Card
+2023-06-16,Fruits,Orange,,232.88,,XXXX,INVALID
+2021-02-09,Bakery,Donut,,99999.0,,XXXX,Card
+2022-02-26,Beverages,Water,1000.0,,,,Card
+2022-03-30,Beverages,Juice,-5.0,261.76,-1308.8,,INVALID
+2021-05-03,Bakery,Cake,,99999.0,,CUST5506,Cash
+2022-04-14,Beverages,Coke,-5.0,124.54,-622.7,XXXX,
+2022-04-12,Dairy,Cheese,,-10.0,,CUST7458,Wallet
+2022-12-25,Meat,Fish,1000.0,-10.0,-10000.0,,Cash
+2021-12-15,Meat,Beef,-5.0,99999.0,-499995.0,XXXX,
+2023-01-21,Snacks,Candy,,,,XXXX,Card
+2022-06-22,Dairy,Milk,14.0,,,XXXX,Card
+2023-10-21,Snacks,Chocolate,1000.0,,,CUST2584,Card
+2023-01-05,Meat,Lamb,,-10.0,,XXXX,
+2021-05-29,Vegetables,Tomato,20.0,279.79,5595.8,,Cash
+2023-02-21,Bakery,Croissant,,,,CUST2616,
+2023-08-27,Frozen,Frozen Veg,-5.0,,,,
+2022-08-20,Snacks,Nuts,,309.02,,CUST2430,
+2021-04-28,Meat,Lamb,,99999.0,,,
+2021-02-13,Vegetables,Onion,,,,XXXX,
+2021-06-18,Frozen,Frozen Pizza,14.0,163.98,2295.72,XXXX,INVALID
+2021-10-22,Snacks,Nuts,-5.0,-10.0,50.0,,Cash
+2022-09-17,Bakery,Cake,6.0,223.53,1341.18,,UPI
+2021-04-02,Dairy,Butter,-5.0,99999.0,-499995.0,CUST1668,Cash
+2022-05-01,Beverages,Pepsi,-5.0,-10.0,50.0,CUST7683,Wallet
+2021-11-10,Bakery,Bun,11.0,-10.0,-110.0,CUST3705,INVALID
+2022-06-18,Dairy,Milk,-5.0,-10.0,50.0,XXXX,UPI
+2023-06-14,Fruits,Banana,8.0,,,,UPI
+2021-06-25,Meat,Chicken,-5.0,,,,INVALID
+2021-10-27,Beverages,Pepsi,1000.0,-10.0,-10000.0,XXXX,INVALID
+2022-05-29,Beverages,Pepsi,,99999.0,,CUST9549,Cash
+2022-03-29,Meat,Pork,-5.0,335.52,-1677.6,CUST6120,Card
+2023-11-14,Frozen,Frozen Meat,-5.0,,,CUST1829,Cash
+2021-01-17,Vegetables,Potato,,445.45,,CUST8988,Card
+2021-01-07,Meat,Lamb,,,,CUST2973,INVALID
+2022-07-24,Dairy,Yogurt,,,,XXXX,UPI
+2022-09-22,Meat,Beef,1000.0,,,XXXX,Cash
+2023-01-30,Fruits,Mango,,63.38,,XXXX,INVALID
+2023-02-05,Beverages,Coffee,5.0,253.71,1268.55,XXXX,Wallet
+2022-04-08,Dairy,Yogurt,1000.0,,,CUST3679,Card
+2021-01-11,Meat,Lamb,,-10.0,,,Card
+2023-06-05,Fruits,Apple,-5.0,-10.0,50.0,XXXX,Wallet
+2022-01-14,Vegetables,Spinach,,,,,UPI
+2022-08-24,Vegetables,Carrot,1000.0,,,CUST1311,UPI
+2021-10-13,Vegetables,Onion,1000.0,-10.0,-10000.0,,
+2021-08-01,Beverages,Coffee,1000.0,99999.0,99999000.0,,Cash
+2022-03-10,Fruits,Banana,,-10.0,,CUST4089,Card
+2022-09-14,Fruits,Banana,17.0,56.36,958.12,XXXX,
+2022-01-06,Meat,Fish,,42.78,,CUST4220,Card
+2021-04-14,Bakery,Bread,1000.0,-10.0,-10000.0,XXXX,Card
+2022-12-21,Dairy,Milk,,,,CUST7488,
+2021-04-12,Bakery,Bread,-5.0,-10.0,50.0,,Card
+2022-11-09,Fruits,Grapes,1000.0,,,,Cash
+2021-03-26,Vegetables,Tomato,-5.0,23.66,-118.3,CUST8191,Cash
+2021-04-25,Bakery,Croissant,,,,CUST8707,Card
+2021-12-29,Fruits,Orange,1000.0,,,CUST3657,Wallet
+2021-10-20,Dairy,Cream,1000.0,-10.0,-10000.0,XXXX,Card
+2023-05-30,Vegetables,Potato,1000.0,383.75,383750.0,,
+2022-10-07,Beverages,Coke,4.0,-10.0,-40.0,XXXX,UPI
+2022-04-04,Dairy,Cheese,1000.0,255.8,255800.0,,Wallet
+2021-10-03,Vegetables,Onion,1000.0,46.88,46880.0,,Wallet
+2022-07-30,Fruits,Apple,,,,XXXX,Cash
+2021-09-14,Dairy,Yogurt,1000.0,99999.0,99999000.0,XXXX,UPI
+2023-05-30,Frozen,Frozen Fish,6.0,,,,Wallet
+2021-08-28,Meat,Beef,-5.0,-10.0,50.0,CUST9377,
+2023-05-23,Bakery,Bun,-5.0,288.78,-1443.8999999999999,,
+2023-05-03,Frozen,Frozen Pizza,,432.19,,XXXX,UPI
+2022-06-14,Beverages,Juice,-5.0,,,,
+2021-06-16,Snacks,Candy,-5.0,-10.0,50.0,,Card
+2023-04-28,Fruits,Apple,-5.0,47.24,-236.20000000000002,XXXX,Cash
+2021-07-04,Frozen,Frozen Meat,1000.0,,,CUST1768,UPI
+2023-08-11,Beverages,Juice,14.0,99999.0,1399986.0,,UPI
+2022-10-07,Fruits,Mango,,99999.0,,CUST9960,Wallet
+2022-10-21,Meat,Lamb,14.0,,,XXXX,Cash
+2021-12-02,Bakery,Croissant,-5.0,,,CUST6215,UPI
+2021-09-07,Dairy,Cheese,4.0,122.07,488.28,CUST8954,Card
+2022-03-28,Dairy,Yogurt,-5.0,-10.0,50.0,XXXX,UPI
+2022-12-05,Frozen,Ice Cream,1000.0,,,CUST1544,UPI
+2021-01-21,Dairy,Cream,5.0,,,CUST9142,Wallet
+2022-08-19,Meat,Fish,1000.0,409.77,409770.0,XXXX,INVALID
+2021-12-24,Dairy,Cheese,,382.9,,,
+2022-11-29,Fruits,Apple,1000.0,,,,Card
+2022-07-19,Bakery,Bread,-5.0,99999.0,-499995.0,,INVALID
+2023-05-10,Fruits,Banana,1000.0,272.97,272970.0,XXXX,Card
+2022-07-12,Snacks,Chips,1000.0,-10.0,-10000.0,,Cash
+2023-08-08,Dairy,Yogurt,-5.0,,,CUST6841,
+2023-12-03,Fruits,Orange,,271.27,,XXXX,Wallet
+2023-04-18,Meat,Pork,-5.0,99999.0,-499995.0,XXXX,Card
+2023-08-03,Vegetables,Spinach,17.0,,,XXXX,
+2022-11-19,Vegetables,Tomato,-5.0,,,,UPI
+2022-12-18,Vegetables,Spinach,-5.0,,,CUST8986,Card
+2021-11-03,Fruits,Mango,16.0,-10.0,-160.0,,INVALID
+2021-12-11,Bakery,Cake,-5.0,-10.0,50.0,,Cash
+2023-10-04,Snacks,Chocolate,2.0,99999.0,199998.0,,
+2023-08-07,Snacks,Chocolate,1000.0,99999.0,99999000.0,XXXX,Cash
+2023-05-31,Snacks,Chips,8.0,-10.0,-80.0,,INVALID
+2022-12-04,Snacks,Chocolate,1000.0,,,,INVALID
+2021-02-25,Snacks,Cookies,11.0,99999.0,1099989.0,CUST7244,Wallet
+2021-05-29,Vegetables,Tomato,-5.0,-10.0,50.0,CUST1505,Card
+2022-06-24,Beverages,Pepsi,18.0,-10.0,-180.0,,Wallet
+2023-01-21,Frozen,Frozen Veg,,82.16,,,Card
+2022-03-30,Beverages,Juice,1000.0,,,CUST2885,Cash
+2022-03-18,Bakery,Donut,-5.0,405.77,-2028.85,,UPI
+2023-10-10,Fruits,Grapes,-5.0,286.03,-1430.1499999999999,,UPI
+2022-05-23,Dairy,Yogurt,1000.0,,,,INVALID
+2023-08-21,Dairy,Yogurt,-5.0,,,XXXX,
+2023-01-16,Snacks,Nuts,7.0,-10.0,-70.0,CUST9376,Wallet
+2021-12-06,Meat,Fish,1000.0,,,CUST2524,UPI
+2023-11-06,Beverages,Juice,,-10.0,,XXXX,Card
+2023-08-21,Beverages,Water,1000.0,,,,Card
+2021-01-27,Meat,Beef,,-10.0,,CUST5359,Cash
+2023-03-13,Bakery,Bread,,-10.0,,,UPI
+2022-02-01,Snacks,Chips,,,,,Card
+2022-08-02,Meat,Lamb,-5.0,-10.0,50.0,CUST7438,Cash
+2021-08-12,Vegetables,Tomato,1000.0,99999.0,99999000.0,,
+2023-11-19,Fruits,Grapes,,99999.0,,,Card
+2022-10-10,Fruits,Grapes,,-10.0,,,INVALID
+2023-03-19,Bakery,Bun,1000.0,240.34,240340.0,XXXX,INVALID
+2021-10-16,Snacks,Cookies,-5.0,-10.0,50.0,CUST1391,UPI
+2021-09-21,Meat,Beef,-5.0,99999.0,-499995.0,CUST6039,Wallet
+2022-01-13,Frozen,Frozen Meat,18.0,99999.0,1799982.0,,Wallet
+2022-06-11,Snacks,Candy,,346.43,,XXXX,Cash
+2022-05-30,Vegetables,Potato,-5.0,,,CUST4117,UPI
+2022-06-05,Bakery,Donut,-5.0,-10.0,50.0,,Wallet
+2022-08-27,Vegetables,Onion,1000.0,99999.0,99999000.0,,Wallet
+2021-08-11,Snacks,Chips,1000.0,-10.0,-10000.0,,Wallet
+2021-03-10,Vegetables,Spinach,-5.0,321.24,-1606.2,CUST5639,
+2022-07-15,Bakery,Bread,-5.0,114.1,-570.5,,
+2021-01-11,Meat,Pork,1000.0,-10.0,-10000.0,,Card
+2021-08-15,Frozen,Ice Cream,1000.0,-10.0,-10000.0,,
+2022-02-25,Dairy,Butter,1000.0,56.66,56660.0,CUST3535,Cash
+2021-11-29,Meat,Lamb,1000.0,99999.0,99999000.0,,Card
+2023-02-05,Snacks,Candy,,99999.0,,,INVALID
+2023-06-10,Dairy,Yogurt,,,,XXXX,
+2021-01-24,Bakery,Cake,6.0,,,XXXX,Wallet
+2022-07-09,Beverages,Water,-5.0,99999.0,-499995.0,XXXX,UPI
+2023-09-11,Vegetables,Onion,-5.0,99999.0,-499995.0,,Wallet
+2023-07-22,Vegetables,Potato,1000.0,-10.0,-10000.0,XXXX,Card
+2021-01-29,Meat,Beef,1000.0,,,,Card
+2021-10-29,Bakery,Bun,,99999.0,,CUST4781,Cash
+2022-01-18,Vegetables,Spinach,1.0,99999.0,99999.0,CUST6839,INVALID
+2022-10-19,Meat,Fish,1000.0,-10.0,-10000.0,XXXX,Card
+2022-12-13,Bakery,Bread,-5.0,99999.0,-499995.0,CUST5301,UPI
+2023-07-27,Meat,Beef,1000.0,99999.0,99999000.0,XXXX,INVALID
+2021-08-27,Beverages,Water,-5.0,,,,Wallet
+2023-12-17,Meat,Beef,18.0,99999.0,1799982.0,,
+2022-07-20,Beverages,Water,1000.0,487.04,487040.0,,
+2023-03-10,Dairy,Butter,1000.0,86.24,86240.0,,
+2021-07-19,Bakery,Croissant,-5.0,288.92,-1444.6000000000001,XXXX,Wallet
+2023-02-18,Beverages,Juice,1000.0,,,CUST3214,Card
+2021-07-18,Bakery,Croissant,1000.0,-10.0,-10000.0,XXXX,INVALID
+2022-09-16,Vegetables,Carrot,1000.0,435.64,435640.0,,Cash
+2021-07-02,Beverages,Coffee,6.0,99999.0,599994.0,,UPI
+2022-02-21,Beverages,Coffee,11.0,285.61,3141.71,CUST1042,
+2022-05-10,Beverages,Pepsi,1000.0,99999.0,99999000.0,,Cash
+2022-02-03,Meat,Lamb,10.0,-10.0,-100.0,XXXX,Card
+2022-10-05,Dairy,Yogurt,-5.0,,,XXXX,Card
+2022-08-11,Meat,Lamb,,,,,UPI
+2022-09-08,Frozen,Ice Cream,17.0,14.5,246.5,XXXX,UPI
+2022-11-02,Fruits,Banana,1000.0,-10.0,-10000.0,CUST9088,Wallet
+2022-02-14,Fruits,Apple,1000.0,99999.0,99999000.0,XXXX,UPI
+2023-03-03,Snacks,Chips,-5.0,99999.0,-499995.0,XXXX,UPI
+2021-02-04,Vegetables,Tomato,,-10.0,,,INVALID
+2022-03-24,Meat,Chicken,,,,CUST1650,
+2021-12-15,Fruits,Apple,11.0,-10.0,-110.0,,Wallet
+2022-10-27,Dairy,Cheese,4.0,-10.0,-40.0,,Card
+2021-03-22,Frozen,Frozen Pizza,,,,XXXX,UPI
+2022-03-04,Fruits,Grapes,16.0,-10.0,-160.0,CUST1101,
+2021-04-10,Frozen,Frozen Fish,,-10.0,,,Card
+2021-10-23,Snacks,Chips,,-10.0,,,UPI
+2023-04-02,Snacks,Chocolate,2.0,-10.0,-20.0,,Card
+2023-04-02,Bakery,Bread,-5.0,,,,
+2021-08-26,Frozen,Frozen Pizza,1000.0,438.38,438380.0,XXXX,Wallet
+2021-07-29,Snacks,Chips,1000.0,85.76,85760.0,CUST9540,
+2022-04-24,Bakery,Croissant,-5.0,-10.0,50.0,CUST5193,INVALID
+2021-02-08,Dairy,Cheese,,,,CUST1188,Cash
+2022-07-07,Snacks,Chocolate,7.0,99999.0,699993.0,CUST3057,Card
+2021-09-03,Dairy,Milk,4.0,99999.0,399996.0,XXXX,
+2023-06-06,Meat,Lamb,,-10.0,,CUST3252,UPI
+2021-05-06,Meat,Fish,-5.0,-10.0,50.0,,Cash
+2022-08-29,Dairy,Yogurt,,322.56,,,Wallet
+2023-06-01,Frozen,Frozen Pizza,,-10.0,,CUST2268,INVALID
+2022-06-08,Fruits,Orange,1000.0,252.82,252820.0,,Wallet
+2022-05-06,Beverages,Juice,1000.0,,,XXXX,
+2022-04-03,Frozen,Frozen Pizza,1000.0,99999.0,99999000.0,CUST5060,Card
+2021-09-20,Frozen,Frozen Meat,-5.0,99999.0,-499995.0,,Cash
+2023-11-05,Meat,Pork,-5.0,-10.0,50.0,XXXX,UPI
+2023-01-21,Dairy,Yogurt,,,,XXXX,
+2023-06-15,Snacks,Candy,,99999.0,,CUST2118,Card
+2022-02-08,Frozen,Ice Cream,,-10.0,,XXXX,Cash
+2022-07-23,Meat,Beef,-5.0,99999.0,-499995.0,,INVALID
+2021-12-28,Vegetables,Carrot,,-10.0,,XXXX,UPI
+2022-04-04,Meat,Pork,1000.0,99999.0,99999000.0,CUST2774,INVALID
+2021-02-10,Meat,Fish,7.0,99999.0,699993.0,XXXX,INVALID
+2021-01-28,Snacks,Chocolate,-5.0,401.54,-2007.7,,Wallet
+2022-07-17,Fruits,Apple,8.0,,,CUST7390,UPI
+2021-01-29,Meat,Chicken,1000.0,401.59,401590.0,CUST3309,Card
+2021-01-31,Frozen,Ice Cream,9.0,99999.0,899991.0,,INVALID
+2021-12-17,Bakery,Donut,,,,,INVALID
+2022-10-31,Bakery,Donut,1000.0,99999.0,99999000.0,XXXX,UPI
+2023-11-28,Frozen,Ice Cream,-5.0,-10.0,50.0,,UPI
+2022-05-12,Fruits,Apple,1000.0,,,XXXX,INVALID
+2022-01-22,Bakery,Donut,1000.0,99999.0,99999000.0,,INVALID
+2021-09-30,Vegetables,Carrot,,,,XXXX,INVALID
+2022-06-30,Meat,Beef,,-10.0,,CUST6345,UPI
+2023-06-02,Meat,Beef,,-10.0,,XXXX,INVALID
+2023-01-09,Fruits,Apple,1000.0,481.6,481600.0,,Cash
+2022-10-13,Bakery,Bun,1000.0,99999.0,99999000.0,CUST6934,Cash
+2023-04-12,Meat,Pork,17.0,-10.0,-170.0,XXXX,Cash
+2023-01-01,Snacks,Chips,,,,,INVALID
+2021-05-29,Vegetables,Onion,20.0,,,CUST7114,INVALID
+2021-08-13,Beverages,Coffee,-5.0,-10.0,50.0,CUST1500,Card
+2021-10-20,Frozen,Frozen Veg,-5.0,,,,Cash
+2023-08-11,Frozen,Frozen Pizza,,427.22,,XXXX,UPI
+2021-08-17,Beverages,Water,,308.27,,,Card
+2021-11-20,Bakery,Donut,,303.1,,XXXX,Card
+2022-01-24,Snacks,Cookies,1000.0,158.72,158720.0,XXXX,Wallet
+2021-09-13,Snacks,Nuts,-5.0,-10.0,50.0,,Card
+2023-09-08,Frozen,Ice Cream,,,,XXXX,INVALID
+2021-09-08,Bakery,Donut,-5.0,149.59,-747.95,,UPI
+2023-05-14,Beverages,Pepsi,1000.0,-10.0,-10000.0,,
+2022-05-11,Frozen,Frozen Meat,1000.0,-10.0,-10000.0,CUST2958,Wallet
+2022-01-08,Fruits,Apple,-5.0,-10.0,50.0,XXXX,Wallet
+2023-09-30,Beverages,Pepsi,1000.0,99999.0,99999000.0,XXXX,
+2022-03-27,Dairy,Butter,5.0,50.37,251.85,CUST1432,UPI
+2022-04-23,Fruits,Banana,1.0,34.14,34.14,CUST6163,Cash
+2022-10-20,Bakery,Croissant,-5.0,99999.0,-499995.0,,Card
+2021-07-03,Snacks,Chips,1000.0,,,,UPI
+2023-08-25,Snacks,Candy,-5.0,-10.0,50.0,XXXX,
+2022-01-02,Snacks,Chips,,232.83,,,Cash
+2022-11-28,Snacks,Cookies,3.0,-10.0,-30.0,CUST4140,UPI
+2021-01-07,Dairy,Cheese,1000.0,,,XXXX,Wallet
+2022-07-21,Meat,Pork,-5.0,99999.0,-499995.0,CUST6409,INVALID
+2022-04-25,Dairy,Butter,-5.0,266.99,-1334.95,XXXX,Cash
+2023-09-25,Vegetables,Potato,8.0,473.68,3789.44,XXXX,INVALID
+2021-05-29,Meat,Chicken,1000.0,99999.0,99999000.0,,
+2022-06-12,Bakery,Croissant,-5.0,-10.0,50.0,CUST3799,
+2021-06-18,Frozen,Ice Cream,,45.45,,XXXX,INVALID
+2023-01-01,Dairy,Yogurt,1000.0,,,,Cash
+2023-10-29,Fruits,Orange,18.0,,,CUST7607,INVALID
+2021-04-07,Fruits,Grapes,-5.0,134.22,-671.1,,INVALID
+2021-02-27,Vegetables,Tomato,-5.0,,,,UPI
+2022-07-28,Vegetables,Onion,1000.0,,,XXXX,UPI
+2021-06-19,Snacks,Candy,9.0,99999.0,899991.0,CUST4344,UPI
+2021-05-25,Beverages,Coffee,,99999.0,,CUST2376,Wallet
+2022-01-11,Fruits,Orange,,268.45,,XXXX,INVALID
+2022-05-30,Dairy,Cream,,99999.0,,XXXX,INVALID
+2021-02-06,Dairy,Cream,,-10.0,,XXXX,UPI
+2022-07-01,Bakery,Cake,-5.0,-10.0,50.0,CUST7338,INVALID
+2023-09-21,Bakery,Bun,1000.0,,,XXXX,UPI
+2022-02-27,Bakery,Cake,3.0,-10.0,-30.0,,Card
+2023-02-26,Frozen,Ice Cream,,,,CUST2672,Card
+2023-04-11,Fruits,Apple,,,,XXXX,Cash
+2021-04-05,Fruits,Mango,19.0,-10.0,-190.0,,
+2021-04-21,Beverages,Pepsi,1000.0,,,,Card
+2023-05-25,Fruits,Mango,,387.45,,XXXX,Cash
+2023-08-28,Fruits,Apple,,446.34,,CUST9219,Card
+2022-06-01,Frozen,Frozen Veg,4.0,,,,
+2023-07-02,Dairy,Milk,,99999.0,,XXXX,
+2023-07-15,Dairy,Milk,18.0,-10.0,-180.0,XXXX,UPI
+2022-09-14,Snacks,Cookies,,-10.0,,CUST3057,Card
+2023-12-29,Frozen,Frozen Fish,17.0,-10.0,-170.0,,
+2023-02-24,Bakery,Donut,4.0,99999.0,399996.0,XXXX,INVALID
+2021-11-08,Vegetables,Potato,-5.0,99999.0,-499995.0,CUST2286,Cash
+2022-11-21,Frozen,Frozen Veg,5.0,110.42,552.1,CUST1313,Wallet
+2022-01-31,Bakery,Cake,1000.0,,,XXXX,UPI
+2023-12-23,Dairy,Yogurt,-5.0,99999.0,-499995.0,,Wallet
+2021-08-07,Frozen,Ice Cream,-5.0,329.26,-1646.3,,Cash
+2021-05-25,Meat,Pork,1000.0,-10.0,-10000.0,CUST1924,
+2022-05-22,Fruits,Banana,,,,CUST4786,Card
+2021-01-18,Snacks,Cookies,,118.6,,XXXX,
+2022-03-16,Snacks,Candy,-5.0,,,XXXX,Wallet
+2023-05-31,Meat,Pork,-5.0,,,CUST5899,Cash
+2021-07-14,Meat,Pork,1000.0,99999.0,99999000.0,XXXX,Card
+2022-09-04,Snacks,Chocolate,,-10.0,,CUST4989,INVALID
+2021-10-16,Fruits,Mango,,99999.0,,CUST8659,UPI
+2023-05-21,Frozen,Frozen Veg,-5.0,175.37,-876.85,XXXX,
+2022-02-24,Meat,Fish,1000.0,,,,UPI
+2022-11-20,Fruits,Orange,10.0,180.4,1804.0,,Cash
+2022-04-20,Vegetables,Spinach,1000.0,,,XXXX,Cash
+2023-11-07,Frozen,Frozen Pizza,2.0,-10.0,-20.0,CUST3183,UPI
+2023-06-28,Snacks,Cookies,-5.0,323.83,-1619.1499999999999,,
+2021-12-19,Frozen,Ice Cream,-5.0,-10.0,50.0,,INVALID
+2021-12-03,Dairy,Cream,-5.0,,,XXXX,Card
+2022-12-08,Vegetables,Onion,3.0,-10.0,-30.0,XXXX,Card
+2022-01-04,Dairy,Cream,16.0,,,CUST9602,Wallet
+2022-02-16,Bakery,Croissant,-5.0,41.54,-207.7,CUST3355,Wallet
+2023-02-28,Fruits,Mango,13.0,99999.0,1299987.0,CUST6183,Wallet
+2021-07-19,Dairy,Milk,,,,,Wallet
+2022-01-22,Meat,Fish,1000.0,99999.0,99999000.0,XXXX,UPI
+2023-02-19,Meat,Pork,13.0,,,,Card
+2023-12-22,Frozen,Frozen Veg,9.0,-10.0,-90.0,,Cash
+2022-02-22,Vegetables,Tomato,-5.0,-10.0,50.0,,
+2022-06-17,Bakery,Bread,1000.0,49.29,49290.0,CUST8682,UPI
+2023-02-16,Fruits,Apple,6.0,,,XXXX,Card
+2023-08-31,Bakery,Cake,1000.0,99999.0,99999000.0,CUST1192,UPI
+2023-07-26,Bakery,Bread,1000.0,,,XXXX,Card
+2023-10-14,Fruits,Orange,2.0,414.52,829.04,XXXX,Wallet
+2021-11-19,Frozen,Frozen Pizza,,168.42,,XXXX,Wallet
+2023-08-21,Frozen,Frozen Pizza,1000.0,,,XXXX,
+2023-06-11,Snacks,Cookies,-5.0,99999.0,-499995.0,,Card
+2022-09-15,Dairy,Yogurt,1000.0,-10.0,-10000.0,CUST9522,
+2021-07-10,Bakery,Cake,14.0,,,CUST8773,UPI
+2023-05-01,Vegetables,Carrot,2.0,,,XXXX,Cash
+2021-03-27,Bakery,Croissant,14.0,337.73,4728.22,CUST8750,Wallet
+2021-08-14,Snacks,Candy,1000.0,,,XXXX,UPI
+2023-09-19,Bakery,Bun,,-10.0,,CUST9602,UPI
+2022-11-05,Meat,Lamb,-5.0,,,XXXX,Wallet
+2023-12-22,Vegetables,Carrot,-5.0,,,CUST5417,Card
+2023-02-27,Dairy,Cheese,,-10.0,,XXXX,Cash
+2021-05-23,Bakery,Donut,-5.0,99999.0,-499995.0,XXXX,Cash
+2023-08-31,Dairy,Cheese,,,,CUST9409,Card
+2022-01-11,Meat,Fish,-5.0,466.39,-2331.95,,Cash
+2021-07-06,Snacks,Candy,1000.0,104.71,104710.0,,Card
+2021-09-09,Dairy,Cheese,,144.96,,XXXX,INVALID
+2022-01-24,Snacks,Cookies,1000.0,-10.0,-10000.0,,Card
+2022-08-26,Vegetables,Onion,1000.0,-10.0,-10000.0,,INVALID
+2023-06-11,Fruits,Apple,4.0,99999.0,399996.0,CUST7133,INVALID
+2022-01-03,Meat,Lamb,-5.0,99999.0,-499995.0,XXXX,
+2022-05-10,Dairy,Cheese,-5.0,153.01,-765.05,XXXX,Wallet
+2022-12-26,Fruits,Banana,16.0,99999.0,1599984.0,XXXX,
+2023-06-05,Meat,Fish,16.0,-10.0,-160.0,CUST7055,Card
+2021-04-10,Beverages,Coke,-5.0,-10.0,50.0,CUST4938,Cash
+2021-01-28,Fruits,Grapes,1000.0,,,CUST2956,Card
+2021-01-23,Dairy,Cheese,2.0,,,XXXX,
+2021-07-30,Vegetables,Potato,1000.0,-10.0,-10000.0,CUST1001,Card
+2022-11-13,Fruits,Grapes,,-10.0,,CUST3164,Wallet
+2021-01-11,Meat,Beef,6.0,,,CUST5554,Wallet
+2021-01-23,Beverages,Pepsi,1000.0,-10.0,-10000.0,CUST2070,Card
+2021-06-03,Meat,Chicken,,,,XXXX,UPI
+2023-11-01,Snacks,Chips,1000.0,,,XXXX,INVALID
+2023-05-02,Frozen,Frozen Pizza,1000.0,52.99,52990.0,CUST6550,Cash
+2022-02-12,Vegetables,Tomato,-5.0,-10.0,50.0,XXXX,
+2022-04-06,Vegetables,Spinach,1000.0,-10.0,-10000.0,,Card
+2022-10-31,Dairy,Milk,-5.0,-10.0,50.0,,INVALID
+2021-08-10,Beverages,Coffee,9.0,,,XXXX,INVALID
+2021-01-21,Dairy,Yogurt,12.0,167.43,2009.16,XXXX,
+2021-03-05,Dairy,Cream,-5.0,,,CUST7607,Wallet
+2023-08-12,Vegetables,Spinach,1000.0,-10.0,-10000.0,CUST3934,Card
+2022-12-23,Frozen,Frozen Pizza,1000.0,,,CUST1339,
+2021-06-22,Dairy,Cheese,,99999.0,,,Cash
+2022-09-19,Fruits,Grapes,13.0,99999.0,1299987.0,CUST4628,UPI
+2022-12-25,Bakery,Bun,9.0,,,CUST9933,INVALID
+2021-05-11,Snacks,Chips,-5.0,99999.0,-499995.0,,Cash
+2023-03-05,Fruits,Mango,-5.0,406.92,-2034.6000000000001,CUST3474,Card
+2021-06-22,Beverages,Water,1000.0,58.54,58540.0,XXXX,Wallet
+2022-03-07,Dairy,Butter,-5.0,360.48,-1802.4,XXXX,Cash
+2022-05-04,Beverages,Coffee,8.0,263.8,2110.4,CUST7896,
+2023-05-23,Frozen,Frozen Veg,1000.0,,,CUST5529,Card
+2021-09-05,Fruits,Apple,,-10.0,,CUST2633,
+2021-06-15,Snacks,Chips,13.0,99999.0,1299987.0,,Card
+2023-07-07,Vegetables,Carrot,,-10.0,,XXXX,Wallet
+2022-02-19,Fruits,Banana,1000.0,,,XXXX,
+2021-04-21,Snacks,Cookies,-5.0,-10.0,50.0,,Cash
+2023-04-26,Dairy,Cream,1000.0,14.66,14660.0,,Cash
+2022-01-17,Bakery,Donut,-5.0,-10.0,50.0,,Wallet
+2022-11-15,Fruits,Mango,1000.0,99999.0,99999000.0,CUST1540,INVALID
+2021-07-15,Bakery,Cake,,,,CUST4479,
+2023-06-01,Bakery,Cake,-5.0,167.57,-837.8499999999999,XXXX,UPI
+2022-06-14,Beverages,Juice,14.0,273.4,3827.5999999999995,XXXX,Cash
+2021-09-12,Fruits,Grapes,,,,CUST7693,Cash
+2023-04-07,Bakery,Croissant,,-10.0,,XXXX,UPI
+2022-12-13,Beverages,Juice,,-10.0,,CUST4633,Cash
+2022-02-19,Meat,Chicken,,,,,UPI
+2022-03-31,Bakery,Croissant,,99999.0,,,
+2021-07-25,Meat,Chicken,1000.0,-10.0,-10000.0,CUST8305,Wallet
+2021-11-17,Meat,Chicken,,150.25,,CUST3883,UPI
+2022-08-01,Vegetables,Spinach,1000.0,,,,UPI
+2021-08-05,Vegetables,Potato,1000.0,425.96,425960.0,CUST1028,
+2021-10-13,Dairy,Milk,,,,,Wallet
+2023-11-30,Vegetables,Carrot,,99999.0,,CUST3665,UPI
+2021-09-07,Dairy,Yogurt,1000.0,-10.0,-10000.0,XXXX,INVALID
+2023-09-15,Snacks,Nuts,-5.0,299.05,-1495.25,,Cash
+2021-03-25,Snacks,Nuts,-5.0,378.31,-1891.55,CUST4174,Card
+2021-11-02,Fruits,Mango,18.0,80.95,1457.1000000000001,XXXX,Cash
+2022-05-04,Fruits,Banana,1000.0,99999.0,99999000.0,,Card
+2023-04-21,Dairy,Cheese,10.0,-10.0,-100.0,XXXX,UPI
+2021-06-22,Frozen,Frozen Fish,,-10.0,,CUST8355,Card
+2021-08-30,Frozen,Frozen Veg,,99999.0,,,Wallet
+2023-12-05,Beverages,Pepsi,-5.0,,,CUST9180,INVALID
+2023-08-01,Beverages,Water,-5.0,370.82,-1854.1,,Wallet
+2021-11-12,Beverages,Juice,,,,,Wallet
+2022-03-29,Beverages,Juice,-5.0,-10.0,50.0,,Card
+2022-01-12,Frozen,Ice Cream,1000.0,-10.0,-10000.0,CUST6752,
+2021-08-21,Beverages,Pepsi,18.0,-10.0,-180.0,XXXX,Wallet
+2021-01-19,Fruits,Orange,16.0,107.23,1715.68,,INVALID
+2023-12-08,Meat,Lamb,-5.0,-10.0,50.0,,
+2023-10-10,Snacks,Chocolate,1000.0,,,CUST4489,INVALID
+2023-02-11,Bakery,Donut,,,,CUST7426,INVALID
+2022-12-30,Frozen,Frozen Veg,,473.74,,,INVALID
+2023-11-25,Meat,Beef,,491.2,,,INVALID
+2023-07-10,Fruits,Orange,-5.0,-10.0,50.0,,
+2023-02-07,Snacks,Nuts,-5.0,-10.0,50.0,XXXX,UPI
+2021-09-11,Frozen,Frozen Pizza,17.0,-10.0,-170.0,CUST5372,INVALID
+2023-12-11,Fruits,Grapes,-5.0,99999.0,-499995.0,CUST6638,Wallet
+2023-05-12,Bakery,Cake,-5.0,,,CUST1407,Cash
+2023-11-05,Meat,Beef,16.0,99999.0,1599984.0,CUST3158,Card
+2022-05-20,Frozen,Frozen Fish,,108.77,,XXXX,UPI
+2022-10-17,Bakery,Bun,,157.05,,CUST7911,Card
+2021-01-05,Frozen,Frozen Fish,-5.0,280.17,-1400.8500000000001,,INVALID
+2021-12-11,Frozen,Ice Cream,1000.0,,,XXXX,Cash
+2022-03-24,Bakery,Cake,-5.0,378.61,-1893.0500000000002,CUST3253,
+2022-09-21,Bakery,Croissant,,,,CUST8306,Cash
+2021-04-13,Bakery,Cake,,,,CUST1327,INVALID
+2022-12-16,Beverages,Coke,1000.0,443.55,443550.0,CUST9344,Cash
+2023-11-14,Beverages,Pepsi,,99999.0,,,Wallet
+2023-06-21,Fruits,Mango,,,,XXXX,
+2021-12-11,Fruits,Grapes,,99999.0,,XXXX,Cash
+2023-05-08,Beverages,Pepsi,-5.0,,,,
+2021-09-01,Fruits,Banana,2.0,99999.0,199998.0,,UPI
+2022-07-20,Bakery,Cake,-5.0,78.72,-393.6,,Card
+2023-10-05,Vegetables,Potato,-5.0,99999.0,-499995.0,,Wallet
+2022-04-04,Dairy,Cheese,1000.0,,,XXXX,Wallet
+2021-04-13,Beverages,Pepsi,-5.0,260.89,-1304.4499999999998,CUST3600,Wallet
+2021-06-15,Snacks,Chocolate,1000.0,99999.0,99999000.0,XXXX,
+2023-01-26,Vegetables,Carrot,-5.0,,,CUST4179,Card
+2022-07-05,Frozen,Ice Cream,,99999.0,,XXXX,INVALID
+2022-10-29,Dairy,Yogurt,1000.0,,,CUST1990,UPI
+2023-10-13,Vegetables,Tomato,-5.0,-10.0,50.0,XXXX,Cash
+2021-11-11,Frozen,Frozen Meat,,178.23,,,INVALID
+2021-02-23,Beverages,Pepsi,1000.0,-10.0,-10000.0,,Wallet
+2023-07-22,Snacks,Chips,,80.82,,,Card
+2021-05-21,Meat,Lamb,1000.0,-10.0,-10000.0,,INVALID
+2022-09-18,Fruits,Grapes,,,,,
+2021-06-18,Frozen,Ice Cream,1000.0,-10.0,-10000.0,,
+2023-06-25,Bakery,Croissant,,-10.0,,XXXX,INVALID
+2021-04-14,Meat,Pork,1000.0,-10.0,-10000.0,XXXX,Card
+2021-01-03,Fruits,Orange,,,,,
+2021-12-06,Frozen,Frozen Pizza,13.0,-10.0,-130.0,,Card
+2022-03-22,Bakery,Bread,-5.0,,,XXXX,UPI
+2022-08-05,Snacks,Nuts,7.0,,,XXXX,Card
+2021-04-12,Vegetables,Potato,1000.0,-10.0,-10000.0,XXXX,UPI
+2022-07-30,Snacks,Nuts,1000.0,371.9,371900.0,,UPI
+2021-10-09,Fruits,Mango,-5.0,,,XXXX,Cash
+2022-08-20,Fruits,Grapes,1000.0,458.53,458530.0,,
+2021-10-23,Dairy,Cream,7.0,-10.0,-70.0,,
+2022-05-16,Fruits,Mango,1000.0,-10.0,-10000.0,CUST1684,Card
+2021-01-23,Fruits,Banana,-5.0,99999.0,-499995.0,,Card
+2023-05-16,Fruits,Grapes,,,,CUST4582,Cash
+2023-05-06,Dairy,Yogurt,,99999.0,,,Card
+2022-09-20,Frozen,Frozen Pizza,-5.0,-10.0,50.0,XXXX,Wallet
+2022-12-16,Frozen,Frozen Pizza,1000.0,177.81,177810.0,CUST3701,INVALID
+2022-08-05,Fruits,Banana,10.0,492.41,4924.1,,
+2023-01-31,Dairy,Milk,-5.0,,,XXXX,Cash
+2022-05-10,Meat,Pork,1000.0,,,CUST3052,INVALID
+2023-10-07,Fruits,Grapes,,,,XXXX,Cash
+2022-05-21,Beverages,Pepsi,1000.0,,,XXXX,
+2022-05-15,Meat,Chicken,10.0,-10.0,-100.0,CUST1151,Card
+2021-04-17,Meat,Beef,1000.0,99999.0,99999000.0,,Wallet
+2021-04-06,Fruits,Apple,13.0,99999.0,1299987.0,CUST8944,Wallet
+2021-04-03,Vegetables,Spinach,18.0,16.1,289.8,,Cash
+2021-07-25,Fruits,Grapes,1.0,,,XXXX,Cash
+2023-12-10,Meat,Lamb,1000.0,436.99,436990.0,XXXX,Wallet
+2023-06-14,Meat,Lamb,1000.0,99999.0,99999000.0,CUST4747,
+2022-12-13,Frozen,Frozen Meat,-5.0,99999.0,-499995.0,XXXX,UPI
+2021-06-30,Snacks,Chips,,99999.0,,,Cash
+2023-04-30,Fruits,Orange,6.0,372.84,2237.04,XXXX,UPI
+2022-03-02,Snacks,Candy,3.0,151.0,453.0,CUST9114,Cash
+2022-07-05,Dairy,Milk,,31.24,,,INVALID
+2021-07-04,Vegetables,Potato,20.0,-10.0,-200.0,XXXX,Card
+2023-08-30,Vegetables,Spinach,3.0,-10.0,-30.0,CUST4378,UPI
+2021-03-28,Snacks,Chips,1000.0,150.52,150520.0,CUST6337,INVALID
+2022-02-08,Fruits,Banana,6.0,-10.0,-60.0,,INVALID
+2022-03-23,Meat,Lamb,-5.0,-10.0,50.0,CUST5846,UPI
+2021-03-27,Dairy,Cream,,99999.0,,XXXX,Wallet
+2022-06-17,Dairy,Butter,,99999.0,,CUST4598,Wallet
+2021-11-26,Snacks,Chips,1000.0,-10.0,-10000.0,,Cash
+2023-04-14,Frozen,Ice Cream,17.0,,,CUST8651,INVALID
+2023-03-26,Snacks,Cookies,1000.0,99999.0,99999000.0,CUST3544,Wallet
+2023-10-22,Snacks,Cookies,-5.0,364.69,-1823.45,CUST5902,Wallet
+2022-06-05,Frozen,Frozen Pizza,10.0,-10.0,-100.0,CUST2073,Card
+2022-06-10,Frozen,Ice Cream,1000.0,379.96,379960.0,,Card
+2023-04-03,Beverages,Coke,11.0,,,CUST3076,Card
+2023-09-27,Snacks,Chips,1000.0,99999.0,99999000.0,XXXX,Cash
+2023-10-13,Vegetables,Spinach,11.0,-10.0,-110.0,CUST7906,INVALID
+2021-06-03,Meat,Lamb,1000.0,-10.0,-10000.0,CUST5553,UPI
+2023-09-11,Meat,Pork,3.0,-10.0,-30.0,,INVALID
+2021-05-18,Frozen,Frozen Meat,1000.0,45.16,45160.0,,
+2022-02-17,Vegetables,Potato,,,,,INVALID
+2022-09-04,Fruits,Grapes,1000.0,115.06,115060.0,CUST6104,
+2021-09-09,Vegetables,Potato,1000.0,416.15,416150.0,CUST5051,INVALID
+2022-03-02,Dairy,Cheese,-5.0,99999.0,-499995.0,,Card
+2022-06-06,Snacks,Candy,,91.14,,XXXX,Wallet
+2023-06-27,Meat,Pork,15.0,117.05,1755.75,CUST2343,Card
+2021-10-01,Frozen,Frozen Meat,,183.17,,XXXX,UPI
+2021-12-18,Beverages,Juice,1000.0,-10.0,-10000.0,,INVALID
+2023-06-08,Snacks,Chips,6.0,,,CUST9281,Card
+2021-08-24,Frozen,Frozen Fish,1000.0,99999.0,99999000.0,,Wallet
+2022-09-05,Meat,Lamb,5.0,131.79,658.9499999999999,CUST3149,INVALID
+2021-12-23,Dairy,Cheese,-5.0,99999.0,-499995.0,CUST8694,Card
+2022-09-13,Meat,Chicken,,,,XXXX,
+2021-12-04,Vegetables,Tomato,-5.0,,,,Cash
+2022-06-14,Vegetables,Carrot,-5.0,-10.0,50.0,CUST3004,INVALID
+2021-03-27,Dairy,Milk,6.0,-10.0,-60.0,CUST5843,Card
+2022-06-10,Dairy,Cheese,,,,CUST8986,INVALID
+2021-06-28,Meat,Pork,,-10.0,,XXXX,
+2023-07-05,Vegetables,Onion,16.0,-10.0,-160.0,XXXX,
+2022-07-18,Meat,Beef,1000.0,99.23,99230.0,,Card
+2022-04-16,Meat,Lamb,,99999.0,,CUST5267,
+2022-08-04,Beverages,Pepsi,20.0,99999.0,1999980.0,,Wallet
+2023-04-22,Beverages,Coke,-5.0,242.89,-1214.4499999999998,XXXX,Cash
+2023-11-11,Bakery,Croissant,-5.0,333.68,-1668.4,,Card
+2021-05-21,Vegetables,Onion,1000.0,-10.0,-10000.0,XXXX,INVALID
+2023-06-03,Frozen,Frozen Fish,-5.0,,,,Card
+2023-09-03,Bakery,Donut,9.0,315.82,2842.38,XXXX,
+2023-04-10,Fruits,Banana,,,,XXXX,INVALID
+2022-12-16,Fruits,Mango,,432.11,,,Cash
+2021-05-07,Bakery,Bread,3.0,371.9,1115.6999999999998,CUST6600,
+2023-08-08,Beverages,Pepsi,-5.0,99999.0,-499995.0,XXXX,UPI
+2023-10-27,Fruits,Grapes,,99999.0,,XXXX,Cash
+2023-06-04,Vegetables,Onion,20.0,-10.0,-200.0,CUST5723,INVALID
+2023-05-04,Bakery,Bun,-5.0,81.82,-409.09999999999997,XXXX,Cash
+2023-06-09,Meat,Pork,1000.0,-10.0,-10000.0,CUST8017,Card
+2022-09-08,Frozen,Frozen Meat,1000.0,99999.0,99999000.0,,Cash
+2021-07-11,Bakery,Bun,1000.0,346.33,346330.0,,Wallet
+2022-06-22,Fruits,Grapes,13.0,,,XXXX,INVALID
+2023-06-24,Fruits,Grapes,,246.12,,,INVALID
+2021-09-07,Fruits,Grapes,1000.0,99999.0,99999000.0,XXXX,INVALID
+2022-07-05,Snacks,Chocolate,16.0,-10.0,-160.0,,UPI
+2023-10-11,Bakery,Donut,-5.0,99999.0,-499995.0,CUST8002,INVALID
+2023-07-07,Bakery,Donut,,99999.0,,CUST5219,UPI
+2023-09-07,Snacks,Cookies,,230.52,,,Wallet
+2022-12-08,Frozen,Frozen Fish,19.0,-10.0,-190.0,CUST7106,INVALID
+2023-09-24,Beverages,Coffee,4.0,242.36,969.44,CUST7935,Wallet
+2023-02-21,Snacks,Chocolate,1000.0,,,,Wallet
+2022-04-10,Vegetables,Potato,5.0,-10.0,-50.0,CUST3287,UPI
+2022-12-16,Fruits,Orange,-5.0,371.99,-1859.95,XXXX,Wallet
+2022-03-05,Fruits,Grapes,1000.0,167.32,167320.0,CUST1773,UPI
+2022-12-24,Meat,Fish,1000.0,91.69,91690.0,XXXX,UPI
+2021-05-24,Frozen,Frozen Pizza,,99999.0,,XXXX,
+2023-01-31,Snacks,Chips,-5.0,99999.0,-499995.0,,INVALID
+2023-04-06,Bakery,Bun,-5.0,76.01,-380.05,CUST6915,Card
+2023-04-18,Snacks,Cookies,19.0,123.11,2339.09,XXXX,Wallet
+2021-03-24,Meat,Beef,1000.0,-10.0,-10000.0,,Cash
+2021-02-10,Vegetables,Tomato,1000.0,99999.0,99999000.0,,INVALID
+2021-09-18,Fruits,Mango,7.0,-10.0,-70.0,XXXX,Cash
+2022-11-13,Frozen,Frozen Pizza,1000.0,,,XXXX,Wallet
+2023-02-20,Frozen,Frozen Fish,15.0,-10.0,-150.0,CUST5221,Wallet
+2022-07-22,Frozen,Frozen Fish,-5.0,,,CUST6778,INVALID
+2023-03-30,Vegetables,Potato,-5.0,99999.0,-499995.0,CUST2753,UPI
+2023-10-25,Beverages,Coke,,99999.0,,XXXX,UPI
+2022-06-19,Beverages,Water,1000.0,339.42,339420.0,,UPI
+2022-06-01,Dairy,Cheese,9.0,152.37,1371.33,XXXX,Cash
+2022-07-13,Vegetables,Onion,,,,CUST5380,Wallet
+2023-11-10,Snacks,Chips,,,,CUST3198,Wallet
+2021-03-19,Dairy,Cream,,,,CUST8156,UPI
+2022-02-06,Vegetables,Tomato,20.0,99999.0,1999980.0,XXXX,Wallet
+2022-10-12,Dairy,Milk,1000.0,-10.0,-10000.0,XXXX,Cash
+2023-04-24,Frozen,Frozen Veg,1000.0,-10.0,-10000.0,CUST6699,UPI
+2021-09-14,Meat,Beef,,55.36,,CUST4746,Card
+2021-09-07,Meat,Fish,,345.42,,CUST1305,
+2021-07-30,Bakery,Croissant,-5.0,264.53,-1322.6499999999999,,Card
+2021-03-29,Dairy,Yogurt,1000.0,-10.0,-10000.0,XXXX,Card
+2023-08-20,Beverages,Coke,,,,CUST7886,UPI
+2023-07-02,Beverages,Coffee,,,,XXXX,UPI
+2023-01-15,Bakery,Bread,,,,,Cash
+2023-07-25,Vegetables,Carrot,-5.0,-10.0,50.0,,Card
+2023-05-18,Meat,Chicken,,405.95,,XXXX,UPI
+2022-08-04,Frozen,Frozen Pizza,1000.0,,,XXXX,INVALID
+2021-01-02,Frozen,Frozen Fish,13.0,,,CUST9025,Wallet
+2021-10-19,Fruits,Apple,1000.0,,,CUST9978,Cash
+2021-08-14,Frozen,Ice Cream,8.0,-10.0,-80.0,XXXX,INVALID
+2023-09-13,Bakery,Cake,1000.0,99999.0,99999000.0,CUST5563,Card
+2021-07-21,Fruits,Mango,1000.0,367.34,367340.0,CUST1906,Wallet
+2022-07-10,Bakery,Donut,-5.0,-10.0,50.0,CUST6713,
+2022-03-17,Beverages,Coffee,-5.0,436.92,-2184.6,XXXX,Cash
+2023-04-30,Snacks,Chips,-5.0,325.41,-1627.0500000000002,CUST2710,
+2023-01-21,Frozen,Frozen Meat,,99999.0,,CUST9945,
+2022-03-30,Frozen,Frozen Fish,18.0,,,XXXX,UPI
+2022-06-26,Dairy,Milk,-5.0,99999.0,-499995.0,CUST8241,Card
+2021-03-31,Vegetables,Potato,,-10.0,,XXXX,Card
+2022-12-23,Dairy,Milk,,99999.0,,CUST1595,UPI
+2023-11-25,Fruits,Apple,1000.0,99999.0,99999000.0,XXXX,Wallet
+2021-05-13,Bakery,Bread,,439.74,,,Wallet
+2021-01-15,Beverages,Juice,11.0,99999.0,1099989.0,XXXX,Wallet
+2022-08-17,Fruits,Mango,,-10.0,,CUST7258,Cash
+2022-08-07,Snacks,Candy,,99999.0,,XXXX,UPI
+2023-06-22,Vegetables,Potato,18.0,20.02,360.36,,UPI
+2022-04-26,Beverages,Coke,-5.0,99999.0,-499995.0,CUST8342,
+2023-07-06,Frozen,Frozen Meat,1000.0,202.48,202480.0,,Card
+2022-04-13,Meat,Lamb,,-10.0,,CUST2010,UPI
+2021-07-23,Dairy,Milk,19.0,121.21,2302.99,,UPI
+2022-10-20,Meat,Beef,,99999.0,,,Card
+2022-11-08,Snacks,Chocolate,,,,,Wallet
+2021-05-10,Bakery,Croissant,-5.0,23.47,-117.35,,UPI
+2023-06-06,Dairy,Milk,-5.0,-10.0,50.0,,UPI
+2021-12-06,Meat,Pork,1000.0,99999.0,99999000.0,CUST1171,
+2022-11-24,Beverages,Coke,,-10.0,,CUST3334,Card
+2023-09-12,Frozen,Ice Cream,,99999.0,,XXXX,Wallet
+2022-02-27,Vegetables,Onion,-5.0,92.19,-460.95,XXXX,
+2023-01-10,Meat,Beef,-5.0,99999.0,-499995.0,XXXX,
+2022-04-12,Meat,Lamb,19.0,-10.0,-190.0,,INVALID
+2023-09-19,Snacks,Chocolate,19.0,,,CUST3781,UPI
+2023-04-29,Bakery,Donut,5.0,,,CUST6755,Cash
+2023-10-26,Dairy,Milk,12.0,-10.0,-120.0,CUST5463,Wallet
+2021-03-28,Bakery,Cake,14.0,99999.0,1399986.0,XXXX,Wallet
+2023-01-03,Dairy,Butter,6.0,,,,UPI
+2023-03-20,Snacks,Cookies,-5.0,,,,Wallet
+2022-01-24,Snacks,Chips,-5.0,-10.0,50.0,,Card
+2023-07-16,Snacks,Nuts,1000.0,195.71,195710.0,,INVALID
+2021-12-03,Frozen,Frozen Veg,,99999.0,,,UPI
+2023-02-12,Frozen,Frozen Fish,-5.0,,,CUST5230,UPI
+2022-02-19,Beverages,Water,17.0,238.34,4051.78,,
+2022-12-10,Fruits,Mango,1000.0,,,XXXX,
+2023-09-23,Frozen,Frozen Meat,-5.0,434.36,-2171.8,XXXX,UPI
+2021-09-17,Snacks,Candy,1000.0,,,CUST5073,
+2021-06-03,Frozen,Frozen Meat,9.0,,,CUST3778,
+2021-10-12,Dairy,Yogurt,1000.0,99999.0,99999000.0,XXXX,Cash
+2023-11-20,Beverages,Coke,11.0,,,XXXX,UPI
+2021-07-19,Fruits,Mango,1000.0,99999.0,99999000.0,CUST7238,Cash
+2022-09-21,Fruits,Grapes,1000.0,109.51,109510.0,CUST7378,Cash
+2022-03-16,Bakery,Bread,,,,CUST3552,Cash
+2022-10-07,Beverages,Coffee,-5.0,,,XXXX,
+2022-03-04,Fruits,Mango,15.0,271.34,4070.0999999999995,XXXX,Cash
+2022-01-06,Vegetables,Potato,9.0,99999.0,899991.0,CUST7731,INVALID
+2023-03-22,Snacks,Chips,3.0,,,,Wallet
+2023-06-20,Dairy,Cream,4.0,336.35,1345.4,,Wallet
+2023-11-27,Beverages,Juice,,99999.0,,,Card
+2023-07-06,Bakery,Croissant,6.0,-10.0,-60.0,CUST9172,INVALID
+2021-06-14,Beverages,Coke,-5.0,,,XXXX,Cash
+2022-06-15,Dairy,Cream,3.0,-10.0,-30.0,,Card
+2022-08-06,Vegetables,Potato,19.0,99999.0,1899981.0,CUST1021,
+2023-05-02,Meat,Lamb,,99999.0,,,
+2021-11-30,Beverages,Juice,,225.24,,XXXX,
+2022-07-16,Vegetables,Potato,19.0,-10.0,-190.0,,
+2021-09-26,Meat,Lamb,,,,XXXX,INVALID
+2022-08-07,Meat,Fish,-5.0,99999.0,-499995.0,CUST9715,
+2021-11-08,Frozen,Frozen Fish,11.0,-10.0,-110.0,XXXX,Cash
+2021-11-13,Snacks,Candy,1000.0,276.67,276670.0,XXXX,Card
+2022-05-09,Beverages,Coke,16.0,,,,Cash
+2022-03-11,Snacks,Chips,-5.0,,,,Card
+2023-10-30,Vegetables,Spinach,17.0,-10.0,-170.0,XXXX,
+2021-03-22,Frozen,Frozen Pizza,1000.0,443.39,443390.0,,UPI
+2023-07-21,Bakery,Bun,-5.0,210.77,-1053.8500000000001,,Card
+2022-01-08,Vegetables,Tomato,1000.0,286.48,286480.0,,Cash
+2021-07-03,Vegetables,Carrot,17.0,-10.0,-170.0,CUST9190,UPI
+2021-03-31,Dairy,Milk,1000.0,,,XXXX,Card
+2021-01-14,Bakery,Cake,-5.0,108.23,-541.15,CUST7739,
+2021-11-19,Beverages,Pepsi,-5.0,466.65,-2333.25,CUST9024,Wallet
+2022-07-14,Vegetables,Potato,-5.0,294.67,-1473.3500000000001,XXXX,Wallet
+2022-04-14,Snacks,Chocolate,1000.0,99999.0,99999000.0,CUST2999,
+2022-01-02,Bakery,Cake,,,,CUST1232,Card
+2023-04-13,Fruits,Orange,19.0,,,XXXX,INVALID
+2022-08-10,Beverages,Pepsi,11.0,99999.0,1099989.0,CUST6187,INVALID
+2021-10-26,Vegetables,Tomato,,99999.0,,XXXX,Cash
+2022-06-10,Frozen,Frozen Pizza,-5.0,99999.0,-499995.0,XXXX,INVALID
+2022-03-12,Dairy,Cream,,99999.0,,CUST4683,Card
+2021-07-14,Beverages,Coffee,-5.0,,,CUST9774,Card
+2021-12-16,Dairy,Butter,-5.0,232.36,-1161.8000000000002,,Card
+2021-06-15,Meat,Beef,-5.0,486.43,-2432.15,XXXX,Cash
+2021-03-10,Meat,Pork,-5.0,,,XXXX,Cash
+2022-01-22,Vegetables,Tomato,-5.0,,,CUST4473,Wallet
+2023-01-31,Meat,Pork,1000.0,99999.0,99999000.0,XXXX,Wallet
+2021-11-11,Dairy,Cheese,1000.0,,,,UPI
+2023-02-25,Dairy,Cream,13.0,,,,Wallet
+2022-07-20,Meat,Pork,-5.0,443.79,-2218.9500000000003,,Wallet
+2021-05-08,Snacks,Nuts,16.0,105.34,1685.44,CUST9980,INVALID
+2023-11-01,Dairy,Cheese,,99999.0,,CUST9435,UPI
+2022-07-03,Vegetables,Potato,,424.45,,CUST5502,Card
+2021-04-03,Beverages,Juice,-5.0,99999.0,-499995.0,CUST7272,Wallet
+2022-04-19,Meat,Lamb,-5.0,-10.0,50.0,XXXX,Wallet
+2022-06-07,Meat,Chicken,-5.0,99999.0,-499995.0,CUST2809,INVALID
+2023-06-23,Dairy,Cheese,19.0,404.09,7677.709999999999,CUST1176,INVALID
+2021-09-23,Meat,Pork,18.0,-10.0,-180.0,XXXX,Cash
+2023-06-07,Meat,Fish,5.0,-10.0,-50.0,,
+2023-10-10,Bakery,Bread,19.0,417.33,7929.2699999999995,,INVALID
+2023-06-15,Vegetables,Onion,,99999.0,,XXXX,Wallet
+2021-07-14,Bakery,Bun,,,,CUST3506,
+2022-01-03,Beverages,Coffee,-5.0,266.71,-1333.55,XXXX,UPI
+2022-06-21,Frozen,Ice Cream,,99999.0,,,
+2021-01-20,Frozen,Frozen Veg,-5.0,,,XXXX,Wallet
+2022-08-17,Snacks,Candy,11.0,316.72,3483.92,XXXX,Card
+2021-12-03,Frozen,Frozen Meat,-5.0,-10.0,50.0,CUST4611,Wallet
+2022-02-11,Vegetables,Spinach,-5.0,99999.0,-499995.0,,Card
+2023-10-01,Vegetables,Onion,1000.0,,,CUST7555,Card
+2021-07-17,Vegetables,Tomato,,-10.0,,CUST2607,Cash
+2023-05-04,Bakery,Bread,,99999.0,,XXXX,Card
+2022-08-03,Frozen,Frozen Fish,19.0,-10.0,-190.0,XXXX,INVALID
+2022-04-26,Frozen,Frozen Fish,-5.0,,,XXXX,Wallet
+2021-06-01,Meat,Fish,19.0,,,XXXX,Card
+2021-09-24,Meat,Fish,20.0,254.51,5090.2,,
+2022-03-20,Bakery,Bun,1000.0,-10.0,-10000.0,CUST6627,
+2021-12-09,Bakery,Cake,8.0,-10.0,-80.0,CUST2413,Cash
+2022-11-19,Beverages,Pepsi,-5.0,,,XXXX,UPI
+2021-10-03,Vegetables,Onion,1000.0,99999.0,99999000.0,XXXX,Wallet
+2021-05-06,Snacks,Candy,1000.0,-10.0,-10000.0,,Cash
+2022-09-22,Frozen,Ice Cream,,,,,Wallet
+2021-02-07,Bakery,Croissant,,446.8,,,Card
+2023-01-18,Bakery,Cake,,,,CUST4544,
+2021-09-02,Dairy,Cheese,18.0,,,,Cash
+2022-10-26,Dairy,Cheese,13.0,195.23,2537.99,CUST1473,Card
+2023-05-13,Dairy,Cheese,-5.0,-10.0,50.0,XXXX,INVALID
+2023-07-31,Snacks,Chocolate,,99999.0,,,
+2022-01-15,Fruits,Banana,1000.0,99999.0,99999000.0,,INVALID
+2023-09-29,Fruits,Banana,4.0,,,CUST1494,INVALID
+2023-09-07,Snacks,Cookies,1.0,251.48,251.48,,INVALID
+2021-09-13,Dairy,Milk,-5.0,-10.0,50.0,,UPI
+2021-05-22,Meat,Lamb,-5.0,,,XXXX,Wallet
+2022-10-16,Bakery,Donut,3.0,,,XXXX,UPI
+2023-09-13,Beverages,Coke,6.0,389.49,2336.94,,Card
+2023-06-25,Beverages,Coke,5.0,92.99,464.95,CUST5079,UPI
+2023-02-06,Frozen,Frozen Fish,7.0,-10.0,-70.0,XXXX,Cash
+2021-02-25,Snacks,Cookies,,339.31,,CUST2274,Cash
+2021-03-19,Vegetables,Potato,-5.0,,,,UPI
+2022-07-07,Fruits,Mango,18.0,347.31,6251.58,XXXX,UPI
+2021-08-25,Meat,Pork,1000.0,99999.0,99999000.0,XXXX,Card
+2021-05-27,Meat,Chicken,-5.0,-10.0,50.0,XXXX,INVALID
+2021-09-09,Meat,Fish,-5.0,,,,Card
+2023-12-23,Dairy,Yogurt,,,,CUST4551,
+2022-06-04,Beverages,Juice,1000.0,99999.0,99999000.0,,Wallet
+2022-08-16,Bakery,Cake,1000.0,99999.0,99999000.0,XXXX,Cash
+2021-02-18,Fruits,Grapes,,,,XXXX,UPI
+2023-06-23,Beverages,Pepsi,-5.0,145.74,-728.7,XXXX,Wallet
+2023-03-18,Meat,Fish,,,,XXXX,UPI
+2022-11-11,Vegetables,Spinach,,-10.0,,CUST4453,Wallet
+2022-04-29,Meat,Lamb,,472.43,,XXXX,Cash
+2023-08-21,Dairy,Butter,,,,XXXX,Card
+2023-02-12,Snacks,Chocolate,1000.0,99999.0,99999000.0,CUST8763,Card
+2023-06-14,Bakery,Bun,-5.0,,,,INVALID
+2023-12-09,Beverages,Pepsi,,421.89,,XXXX,UPI
+2021-07-19,Bakery,Croissant,1000.0,99999.0,99999000.0,XXXX,UPI
+2023-09-01,Fruits,Orange,,,,CUST2298,UPI
+2021-02-07,Frozen,Frozen Veg,-5.0,99999.0,-499995.0,,UPI
+2022-07-19,Meat,Pork,9.0,99999.0,899991.0,CUST5904,Card
+2022-02-02,Vegetables,Potato,15.0,35.97,539.55,CUST7704,UPI
+2021-05-15,Dairy,Milk,18.0,99999.0,1799982.0,,Card
+2021-11-10,Beverages,Water,13.0,,,CUST6162,
+2021-05-12,Meat,Beef,,99999.0,,CUST5761,UPI
+2021-12-30,Vegetables,Potato,2.0,99999.0,199998.0,XXXX,
+2022-05-31,Dairy,Cream,-5.0,99999.0,-499995.0,CUST5319,Card
+2021-09-16,Fruits,Grapes,11.0,,,XXXX,UPI
+2021-10-21,Frozen,Frozen Veg,-5.0,232.01,-1160.05,,UPI
+2023-03-21,Dairy,Yogurt,1000.0,-10.0,-10000.0,,UPI
+2022-01-22,Fruits,Apple,20.0,99999.0,1999980.0,CUST3318,Wallet
+2023-09-26,Snacks,Nuts,1000.0,99999.0,99999000.0,,UPI
+2021-06-01,Snacks,Chocolate,,,,XXXX,Card
+2023-03-16,Fruits,Grapes,1000.0,,,,INVALID
+2022-09-06,Fruits,Grapes,,99999.0,,CUST4076,
+2023-02-14,Meat,Beef,1000.0,,,,Card
+2021-01-10,Dairy,Milk,2.0,395.47,790.94,,Wallet
+2022-05-10,Snacks,Cookies,,16.55,,,
+2023-09-11,Meat,Lamb,1000.0,43.15,43150.0,CUST6022,INVALID
+2023-04-06,Fruits,Apple,,99999.0,,CUST8124,Cash
+2022-07-08,Dairy,Cream,1000.0,-10.0,-10000.0,XXXX,Wallet
+2022-02-03,Snacks,Chocolate,-5.0,,,XXXX,INVALID
+2022-08-01,Fruits,Banana,20.0,99999.0,1999980.0,CUST9542,UPI
+2023-09-21,Fruits,Grapes,-5.0,-10.0,50.0,CUST4526,Cash
+2022-10-05,Frozen,Frozen Veg,,99999.0,,CUST5050,Cash
+2022-09-07,Dairy,Yogurt,-5.0,262.86,-1314.3000000000002,XXXX,Card
+2021-03-07,Vegetables,Carrot,17.0,-10.0,-170.0,CUST6748,UPI
+2022-05-05,Bakery,Croissant,13.0,201.17,2615.21,,Wallet
+2021-04-16,Snacks,Chocolate,1000.0,,,XXXX,UPI
+2023-08-17,Fruits,Grapes,1000.0,-10.0,-10000.0,XXXX,UPI
+2022-01-20,Beverages,Coke,,,,,INVALID
+2022-02-11,Vegetables,Potato,,184.94,,,UPI
+2021-09-05,Meat,Fish,17.0,450.22,7653.740000000001,,Wallet
+2023-07-18,Fruits,Banana,1000.0,-10.0,-10000.0,CUST3221,Card
+2021-03-15,Meat,Lamb,1000.0,,,,INVALID
+2022-11-28,Vegetables,Spinach,,99999.0,,XXXX,UPI
+2023-04-24,Snacks,Chips,8.0,255.65,2045.2,,Cash
+2022-10-24,Dairy,Butter,,99999.0,,CUST3711,Card
+2023-10-10,Dairy,Cheese,-5.0,104.83,-524.15,CUST9379,INVALID
+2023-01-12,Bakery,Cake,,224.53,,CUST1086,Card
+2021-08-06,Bakery,Cake,15.0,99999.0,1499985.0,XXXX,Wallet
+2023-06-06,Meat,Pork,,,,CUST8991,Wallet
+2023-08-04,Meat,Lamb,,-10.0,,CUST3292,Cash
+2023-03-19,Bakery,Bread,13.0,,,CUST1993,
+2021-06-12,Fruits,Orange,1000.0,-10.0,-10000.0,XXXX,UPI
+2021-05-07,Meat,Beef,17.0,92.85,1578.4499999999998,XXXX,Cash
+2023-02-18,Vegetables,Tomato,1000.0,-10.0,-10000.0,XXXX,INVALID
+2021-03-15,Frozen,Frozen Pizza,-5.0,91.19,-455.95,,UPI
+2022-02-26,Beverages,Water,,-10.0,,XXXX,Wallet
+2022-01-09,Vegetables,Tomato,4.0,99999.0,399996.0,CUST1799,Card
+2022-03-05,Bakery,Bread,7.0,99999.0,699993.0,CUST7233,Card
+2021-03-30,Vegetables,Potato,1000.0,99999.0,99999000.0,,INVALID
+2021-01-31,Frozen,Frozen Meat,1000.0,,,XXXX,Wallet
+2021-08-23,Vegetables,Potato,-5.0,432.16,-2160.8,XXXX,
+2022-10-30,Beverages,Coffee,8.0,99999.0,799992.0,XXXX,Card
+2022-06-15,Vegetables,Onion,2.0,,,,
+2023-04-09,Bakery,Bread,-5.0,99999.0,-499995.0,XXXX,Card
+2021-06-19,Beverages,Pepsi,-5.0,99999.0,-499995.0,,Wallet
+2021-03-15,Meat,Fish,1000.0,231.21,231210.0,CUST1803,Cash
+2021-12-11,Snacks,Chips,-5.0,-10.0,50.0,XXXX,Wallet
+2021-02-23,Meat,Beef,-5.0,430.2,-2151.0,CUST8889,Wallet
+2022-05-23,Vegetables,Carrot,1000.0,-10.0,-10000.0,,Cash
+2023-01-13,Beverages,Water,,-10.0,,CUST7028,Card
+2023-01-13,Frozen,Frozen Veg,14.0,-10.0,-140.0,CUST2941,INVALID
+2023-08-08,Frozen,Frozen Meat,1000.0,,,,
+2021-06-14,Snacks,Candy,1000.0,80.05,80050.0,,Card
+2021-04-05,Dairy,Milk,1000.0,387.16,387160.0,,Cash
+2023-08-29,Frozen,Frozen Veg,1000.0,99999.0,99999000.0,CUST9318,INVALID
+2023-12-15,Fruits,Apple,16.0,425.54,6808.64,CUST3490,Card
+2023-06-12,Dairy,Yogurt,1000.0,411.71,411710.0,,UPI
+2022-12-18,Vegetables,Spinach,,,,CUST1469,
+2021-03-17,Fruits,Mango,1000.0,265.4,265400.0,XXXX,INVALID
+2023-01-05,Fruits,Grapes,,99999.0,,CUST2113,Card
+2022-02-04,Fruits,Orange,,-10.0,,XXXX,Cash
+2022-12-16,Snacks,Nuts,-5.0,207.85,-1039.25,,Card
+2022-08-31,Vegetables,Onion,1.0,,,,INVALID
+2023-09-23,Beverages,Juice,12.0,312.62,3751.44,CUST3698,Card
+2022-03-30,Meat,Pork,7.0,99999.0,699993.0,CUST2173,UPI
+2022-12-20,Beverages,Juice,4.0,,,,Card
+2021-07-16,Bakery,Cake,-5.0,253.22,-1266.1,,Card
+2021-04-17,Dairy,Butter,1000.0,112.06,112060.0,,UPI
+2023-05-04,Frozen,Frozen Veg,-5.0,276.34,-1381.6999999999998,XXXX,Card
+2023-07-23,Vegetables,Spinach,,-10.0,,XXXX,Card
+2021-09-24,Dairy,Yogurt,1000.0,445.6,445600.0,,Card
+2022-10-07,Vegetables,Onion,11.0,,,XXXX,Wallet
+2021-02-08,Frozen,Frozen Veg,-5.0,,,CUST1709,Cash
+2023-07-02,Bakery,Cake,-5.0,-10.0,50.0,CUST5291,Cash
+2022-01-14,Vegetables,Tomato,-5.0,99999.0,-499995.0,,UPI
+2023-07-30,Bakery,Donut,-5.0,99999.0,-499995.0,XXXX,Wallet
+2021-11-17,Bakery,Cake,1000.0,,,,
+2022-06-30,Beverages,Pepsi,1000.0,21.95,21950.0,XXXX,Card
+2023-07-25,Frozen,Ice Cream,,239.55,,CUST2225,Card
+2022-03-30,Snacks,Candy,-5.0,-10.0,50.0,,UPI
+2022-03-15,Fruits,Banana,-5.0,,,CUST2212,Cash
+2023-10-27,Vegetables,Carrot,4.0,99999.0,399996.0,XXXX,Card
+2022-08-22,Beverages,Coke,-5.0,,,XXXX,Wallet
+2022-07-04,Fruits,Mango,1000.0,-10.0,-10000.0,,Wallet
+2021-01-24,Bakery,Bun,3.0,158.61,475.83000000000004,XXXX,Card
+2023-02-13,Dairy,Cheese,12.0,191.88,2302.56,,
+2021-03-04,Frozen,Frozen Pizza,-5.0,244.01,-1220.05,CUST2873,Wallet
+2022-07-30,Frozen,Frozen Fish,1000.0,,,CUST5009,Card
+2021-02-08,Dairy,Cheese,-5.0,-10.0,50.0,XXXX,Wallet
+2023-12-19,Vegetables,Onion,,99999.0,,,INVALID
+2021-05-31,Beverages,Pepsi,1000.0,,,,Wallet
+2022-09-01,Meat,Fish,-5.0,173.6,-868.0,XXXX,UPI
+2023-04-18,Dairy,Cream,-5.0,,,,UPI
+2021-10-20,Beverages,Water,1000.0,54.14,54140.0,,Wallet
+2021-04-08,Frozen,Ice Cream,1000.0,44.45,44450.0,XXXX,
+2022-11-19,Meat,Fish,,99999.0,,CUST2958,Cash
+2023-12-15,Meat,Lamb,-5.0,404.93,-2024.65,XXXX,Wallet
+2023-02-11,Meat,Fish,1000.0,476.9,476900.0,CUST3238,Card
+2022-01-16,Vegetables,Potato,1000.0,380.86,380860.0,CUST8589,Cash
+2021-03-03,Snacks,Chips,,-10.0,,XXXX,Cash
+2023-06-26,Beverages,Coffee,-5.0,-10.0,50.0,XXXX,Wallet
+2023-11-18,Vegetables,Carrot,,,,,UPI
+2022-07-27,Vegetables,Potato,,,,,UPI
+2023-01-12,Frozen,Ice Cream,-5.0,99999.0,-499995.0,XXXX,Card
+2021-01-01,Meat,Beef,1000.0,440.64,440640.0,CUST4016,
+2023-08-13,Vegetables,Potato,,99999.0,,,Cash
+2023-01-24,Bakery,Bread,-5.0,,,CUST8775,Card
+2022-02-03,Snacks,Candy,,405.96,,CUST5206,Wallet
+2021-04-27,Frozen,Ice Cream,15.0,,,,
+2022-03-02,Fruits,Mango,6.0,,,XXXX,
+2023-11-29,Snacks,Candy,,99999.0,,,Wallet
+2022-09-25,Frozen,Frozen Veg,-5.0,,,,Cash
+2021-09-14,Snacks,Chocolate,13.0,363.25,4722.25,,
+2021-06-28,Meat,Pork,-5.0,,,,INVALID
+2023-07-09,Snacks,Nuts,1000.0,419.35,419350.0,XXXX,Wallet
+2021-11-10,Snacks,Nuts,-5.0,-10.0,50.0,XXXX,
+2022-10-14,Vegetables,Onion,1000.0,-10.0,-10000.0,XXXX,Wallet
+2023-07-08,Bakery,Bun,1000.0,234.09,234090.0,XXXX,INVALID
+2022-10-15,Fruits,Banana,,99999.0,,CUST2053,INVALID
+2023-11-03,Fruits,Orange,,,,CUST6775,Card
+2023-06-07,Meat,Beef,,-10.0,,CUST5227,Card
+2023-01-11,Beverages,Coke,8.0,-10.0,-80.0,CUST6831,
+2023-09-19,Snacks,Nuts,,99999.0,,CUST8263,Wallet
+2023-11-09,Beverages,Water,1000.0,,,XXXX,
+2023-02-21,Meat,Beef,-5.0,-10.0,50.0,,INVALID
+2023-04-16,Beverages,Coke,,-10.0,,CUST4650,INVALID
+2023-10-16,Fruits,Apple,15.0,,,CUST5452,Card
+2022-07-04,Meat,Chicken,1000.0,123.48,123480.0,,Wallet
+2021-01-18,Frozen,Frozen Veg,1000.0,367.76,367760.0,XXXX,Card
+2021-11-15,Vegetables,Potato,1000.0,-10.0,-10000.0,XXXX,UPI
+2022-04-07,Dairy,Cheese,1000.0,99999.0,99999000.0,XXXX,Wallet
+2022-12-04,Dairy,Yogurt,1000.0,344.15,344150.0,XXXX,INVALID
+2022-11-28,Meat,Pork,12.0,99999.0,1199988.0,XXXX,Cash
+2021-07-25,Bakery,Bun,,,,XXXX,INVALID
+2023-11-27,Fruits,Apple,16.0,,,CUST1813,Wallet
+2021-03-21,Dairy,Cream,-5.0,99999.0,-499995.0,,UPI
+2022-08-05,Fruits,Apple,8.0,41.62,332.96,XXXX,Cash
+2023-02-22,Frozen,Frozen Veg,,71.29,,,Wallet
+2022-01-22,Snacks,Nuts,19.0,99999.0,1899981.0,XXXX,Card
+2023-08-24,Vegetables,Tomato,1000.0,,,,Cash
+2023-06-07,Meat,Fish,,,,,
+2022-12-17,Meat,Chicken,14.0,71.6,1002.3999999999999,,Cash
+2022-06-10,Snacks,Chocolate,1000.0,99999.0,99999000.0,CUST4809,Cash
+2021-05-25,Dairy,Butter,,25.18,,CUST6160,
+2023-07-31,Frozen,Frozen Meat,-5.0,,,XXXX,
+2023-04-29,Dairy,Milk,-5.0,99999.0,-499995.0,XXXX,Cash
+2021-10-27,Meat,Lamb,1.0,99999.0,99999.0,CUST7538,
+2021-03-01,Snacks,Chips,1000.0,,,CUST2330,Cash
+2022-02-25,Bakery,Croissant,-5.0,-10.0,50.0,CUST4338,
+2023-01-18,Frozen,Frozen Meat,1.0,-10.0,-10.0,XXXX,
+2021-09-16,Beverages,Water,1000.0,-10.0,-10000.0,XXXX,
+2021-12-28,Fruits,Grapes,12.0,,,CUST6231,INVALID
+2022-04-08,Vegetables,Tomato,,493.2,,CUST2903,Card
+2022-06-20,Vegetables,Tomato,1000.0,-10.0,-10000.0,CUST7622,UPI
+2021-11-12,Meat,Chicken,9.0,,,,UPI
+2021-04-17,Meat,Beef,10.0,-10.0,-100.0,CUST1303,
+2023-02-24,Dairy,Milk,,486.5,,,UPI
+2023-02-09,Fruits,Grapes,-5.0,,,XXXX,UPI
+2023-11-01,Dairy,Cheese,20.0,-10.0,-200.0,,INVALID
+2021-04-13,Fruits,Mango,,99999.0,,CUST1471,Wallet
+2023-11-04,Dairy,Yogurt,-5.0,,,XXXX,Card
+2023-04-21,Meat,Beef,17.0,-10.0,-170.0,,Wallet
+2022-05-27,Dairy,Yogurt,-5.0,-10.0,50.0,XXXX,Card
+2021-01-30,Bakery,Bread,,99999.0,,,Wallet
+2021-01-26,Beverages,Coffee,-5.0,-10.0,50.0,CUST7566,
+2023-01-18,Beverages,Pepsi,12.0,323.9,3886.7999999999997,,
+2022-10-11,Bakery,Bread,-5.0,-10.0,50.0,XXXX,UPI
+2021-09-13,Beverages,Water,-5.0,99999.0,-499995.0,XXXX,Wallet
+2021-08-25,Snacks,Nuts,,,,XXXX,INVALID
+2023-05-17,Beverages,Coke,-5.0,-10.0,50.0,XXXX,INVALID
+2021-07-03,Fruits,Mango,-5.0,,,XXXX,
+2022-10-14,Dairy,Cream,-5.0,99999.0,-499995.0,,UPI
+2022-10-18,Dairy,Cheese,-5.0,443.84,-2219.2,XXXX,Card
+2021-08-04,Fruits,Apple,,-10.0,,CUST7932,INVALID
+2022-08-30,Snacks,Cookies,-5.0,-10.0,50.0,,INVALID
+2023-09-17,Fruits,Grapes,1000.0,465.53,465530.0,,UPI
+2022-05-19,Vegetables,Tomato,,99999.0,,,INVALID
+2021-08-23,Dairy,Milk,10.0,110.61,1106.1,,Card
+2023-10-14,Snacks,Nuts,-5.0,99999.0,-499995.0,CUST9286,Card
+2023-01-31,Beverages,Pepsi,,92.51,,XXXX,Cash
+2021-09-26,Beverages,Pepsi,-5.0,-10.0,50.0,XXXX,Card
+2021-10-21,Frozen,Frozen Pizza,-5.0,99999.0,-499995.0,,
+2022-12-03,Dairy,Butter,,99999.0,,XXXX,INVALID
+2022-08-16,Beverages,Pepsi,1000.0,-10.0,-10000.0,XXXX,
+2021-03-18,Beverages,Coke,,99999.0,,CUST8857,UPI
+2021-04-30,Frozen,Frozen Fish,1000.0,,,,
+2022-03-02,Vegetables,Potato,13.0,,,,Wallet
+2022-08-14,Dairy,Cheese,7.0,,,,INVALID
+2023-03-04,Frozen,Frozen Veg,1000.0,99999.0,99999000.0,XXXX,INVALID
+2023-03-15,Bakery,Bread,,99999.0,,CUST1632,
+2021-05-27,Meat,Lamb,1000.0,-10.0,-10000.0,XXXX,INVALID
+2023-08-14,Beverages,Coke,-5.0,,,CUST6108,INVALID
+2022-12-16,Snacks,Candy,-5.0,99999.0,-499995.0,XXXX,UPI
+2021-08-04,Vegetables,Carrot,,279.39,,XXXX,Cash
+2023-02-13,Snacks,Chocolate,4.0,99999.0,399996.0,CUST1905,Card
+2022-06-29,Meat,Beef,1000.0,-10.0,-10000.0,,Cash
+2021-09-22,Beverages,Pepsi,19.0,174.83,3321.7700000000004,XXXX,Wallet
+2021-07-22,Beverages,Coke,1000.0,377.9,377900.0,CUST1201,Cash
+2021-03-21,Vegetables,Onion,13.0,-10.0,-130.0,CUST9039,Wallet
+2023-02-10,Dairy,Cream,,217.75,,XXXX,
+2022-09-07,Dairy,Yogurt,-5.0,-10.0,50.0,,Wallet
+2023-08-06,Vegetables,Onion,13.0,-10.0,-130.0,CUST7086,INVALID
+2022-07-30,Frozen,Frozen Veg,1000.0,99999.0,99999000.0,,Card
+2021-03-02,Beverages,Coffee,1000.0,-10.0,-10000.0,XXXX,Wallet
+2022-05-10,Snacks,Chocolate,1000.0,99999.0,99999000.0,,INVALID
+2022-06-27,Vegetables,Tomato,-5.0,99999.0,-499995.0,,INVALID
+2022-01-23,Vegetables,Potato,16.0,99999.0,1599984.0,,Card
+2023-01-03,Meat,Pork,,99999.0,,CUST6939,Wallet
+2021-01-26,Fruits,Apple,-5.0,138.6,-693.0,CUST7537,Wallet
+2022-12-16,Frozen,Frozen Meat,5.0,,,CUST7453,INVALID
+2023-08-20,Bakery,Croissant,1000.0,99999.0,99999000.0,XXXX,INVALID
+2023-12-30,Vegetables,Carrot,,447.09,,,INVALID
+2022-07-04,Beverages,Pepsi,1000.0,432.64,432640.0,,Cash
+2021-03-08,Fruits,Banana,-5.0,99999.0,-499995.0,XXXX,
+2021-09-07,Bakery,Croissant,-5.0,99999.0,-499995.0,,INVALID
+2021-11-21,Beverages,Water,19.0,99999.0,1899981.0,CUST7793,Cash
+2022-12-12,Dairy,Butter,1000.0,99999.0,99999000.0,XXXX,UPI
+2023-10-01,Fruits,Mango,,339.36,,XXXX,Wallet
+2022-10-22,Meat,Lamb,13.0,-10.0,-130.0,XXXX,UPI
+2021-12-23,Fruits,Orange,,231.26,,XXXX,INVALID
+2022-04-19,Vegetables,Tomato,1000.0,,,,Wallet
+2022-08-16,Meat,Fish,12.0,463.63,5563.5599999999995,,Card
+2023-07-12,Beverages,Coke,,,,CUST9879,INVALID
+2021-07-19,Meat,Chicken,,109.65,,CUST4829,Cash
+2023-10-22,Fruits,Grapes,,-10.0,,,INVALID
+2022-02-01,Dairy,Yogurt,10.0,118.69,1186.9,,Wallet
+2021-08-06,Dairy,Cheese,4.0,,,,Cash
+2022-11-09,Bakery,Croissant,-5.0,-10.0,50.0,CUST1304,
+2022-09-02,Beverages,Juice,-5.0,99999.0,-499995.0,,Card
+2022-06-08,Snacks,Nuts,,101.29,,,
+2021-03-31,Dairy,Butter,,175.25,,XXXX,Wallet
+2022-09-22,Vegetables,Spinach,1000.0,99999.0,99999000.0,CUST9481,UPI
+2022-03-05,Fruits,Apple,1.0,,,XXXX,
+2022-11-09,Fruits,Orange,1000.0,99999.0,99999000.0,CUST3796,Card
+2022-03-09,Snacks,Candy,-5.0,39.15,-195.75,CUST7988,Wallet
+2022-02-11,Vegetables,Carrot,,178.23,,,UPI
+2021-10-18,Snacks,Chocolate,1000.0,445.1,445100.0,XXXX,Card
+2023-03-12,Meat,Fish,1000.0,,,,Card
+2023-04-07,Bakery,Cake,17.0,99999.0,1699983.0,CUST9371,Card
+2021-06-24,Bakery,Donut,1000.0,-10.0,-10000.0,CUST8496,UPI
+2023-12-15,Frozen,Frozen Pizza,-5.0,,,,
+2022-10-24,Frozen,Frozen Fish,8.0,,,CUST7839,INVALID
+2023-02-08,Vegetables,Onion,1000.0,99999.0,99999000.0,CUST5056,UPI
+2022-11-24,Meat,Beef,12.0,99999.0,1199988.0,,
+2022-01-08,Bakery,Bun,4.0,86.14,344.56,XXXX,INVALID
+2023-12-10,Fruits,Grapes,,99999.0,,,Wallet
+2022-06-07,Fruits,Orange,1000.0,,,,INVALID
+2023-01-15,Dairy,Butter,-5.0,,,,Wallet
+2021-07-31,Beverages,Coffee,-5.0,-10.0,50.0,CUST4732,UPI
+2023-11-05,Dairy,Butter,17.0,,,CUST6394,UPI
+2023-12-28,Beverages,Coke,-5.0,327.42,-1637.1000000000001,CUST4561,Card
+2023-11-14,Frozen,Ice Cream,1000.0,,,XXXX,Card
+2022-07-02,Dairy,Cheese,13.0,-10.0,-130.0,,Cash
+2023-06-22,Dairy,Milk,,,,CUST4113,INVALID
+2022-11-15,Beverages,Juice,1000.0,,,,Wallet
+2021-06-03,Snacks,Nuts,1000.0,124.74,124740.0,,Wallet
+2021-10-22,Frozen,Frozen Pizza,2.0,,,CUST2536,
+2022-09-18,Frozen,Frozen Meat,1000.0,278.21,278210.0,CUST6840,INVALID
+2023-07-26,Snacks,Chocolate,1000.0,99999.0,99999000.0,CUST8864,
+2023-11-17,Snacks,Cookies,13.0,-10.0,-130.0,,Cash
+2022-09-13,Frozen,Ice Cream,3.0,-10.0,-30.0,CUST6697,Cash
+2021-01-06,Vegetables,Potato,-5.0,-10.0,50.0,,Cash
+2021-10-22,Vegetables,Onion,1000.0,99999.0,99999000.0,CUST2958,INVALID
+2023-09-19,Dairy,Yogurt,1000.0,-10.0,-10000.0,XXXX,Cash
+2021-08-10,Frozen,Frozen Pizza,1000.0,,,CUST6589,Wallet
+2022-10-02,Beverages,Water,8.0,199.47,1595.76,CUST9089,Card
+2022-12-19,Snacks,Chips,,-10.0,,XXXX,UPI
+2021-08-19,Meat,Fish,-5.0,34.45,-172.25,,Card
+2021-03-14,Meat,Fish,-5.0,-10.0,50.0,CUST1967,UPI
+2021-01-02,Beverages,Coffee,,204.57,,CUST8355,Card
+2021-10-09,Fruits,Orange,-5.0,-10.0,50.0,CUST7194,
+2023-01-25,Dairy,Cream,,,,CUST7128,Wallet
+2021-09-23,Vegetables,Onion,,99999.0,,XXXX,
+2023-05-27,Fruits,Mango,,-10.0,,XXXX,Card
+2023-01-03,Fruits,Mango,,99999.0,,XXXX,UPI
+2022-01-03,Frozen,Frozen Veg,1000.0,50.08,50080.0,CUST2928,INVALID
+2023-12-02,Frozen,Ice Cream,1000.0,-10.0,-10000.0,,INVALID
+2022-10-01,Fruits,Orange,1000.0,,,CUST3897,Card
+2022-10-05,Snacks,Nuts,-5.0,,,CUST9012,Wallet
+2023-12-01,Fruits,Banana,5.0,99999.0,499995.0,XXXX,Card
+2023-10-24,Frozen,Ice Cream,-5.0,,,,INVALID
+2021-05-14,Fruits,Grapes,-5.0,-10.0,50.0,,
+2021-06-02,Beverages,Pepsi,1000.0,,,,UPI
+2021-11-24,Bakery,Bread,,232.47,,,Card
+2021-07-30,Fruits,Mango,1.0,99999.0,99999.0,CUST4234,Cash
+2023-07-28,Bakery,Cake,12.0,-10.0,-120.0,XXXX,
+2021-05-29,Dairy,Milk,,-10.0,,XXXX,
+2023-06-07,Dairy,Cream,,99999.0,,,Wallet
+2022-05-10,Bakery,Bun,,376.74,,XXXX,UPI
+2021-11-02,Vegetables,Carrot,-5.0,352.24,-1761.2,,Wallet
+2021-05-22,Frozen,Frozen Meat,1000.0,99999.0,99999000.0,,
+2021-10-17,Fruits,Orange,-5.0,-10.0,50.0,CUST3142,
+2021-03-27,Snacks,Nuts,-5.0,-10.0,50.0,XXXX,Cash
+2022-11-24,Bakery,Cake,-5.0,,,CUST9039,INVALID
+2021-12-16,Meat,Beef,,,,XXXX,
+2021-04-23,Vegetables,Spinach,9.0,99999.0,899991.0,,INVALID
+2023-12-22,Snacks,Cookies,,467.71,,,Cash
+2021-06-04,Beverages,Water,1000.0,-10.0,-10000.0,,Card
+2022-10-31,Bakery,Croissant,-5.0,56.18,-280.9,CUST7376,INVALID
+2023-06-19,Dairy,Cheese,-5.0,,,,INVALID
+2023-12-05,Frozen,Frozen Veg,8.0,99999.0,799992.0,XXXX,
+2023-07-08,Fruits,Grapes,,99999.0,,XXXX,
+2022-01-14,Vegetables,Tomato,,99999.0,,XXXX,Cash
+2021-04-18,Frozen,Frozen Fish,,236.72,,XXXX,Wallet
+2023-01-03,Meat,Pork,10.0,99999.0,999990.0,XXXX,UPI
+2022-03-08,Fruits,Banana,15.0,247.89,3718.35,XXXX,Cash
+2022-09-03,Vegetables,Potato,,-10.0,,CUST7473,Wallet
+2022-07-06,Bakery,Cake,-5.0,358.01,-1790.05,XXXX,Cash
+2022-06-22,Bakery,Bread,1000.0,-10.0,-10000.0,XXXX,INVALID
+2021-08-28,Beverages,Coffee,,408.81,,XXXX,INVALID
+2023-09-27,Meat,Chicken,15.0,,,CUST8380,
+2021-10-18,Snacks,Cookies,9.0,,,,Wallet
+2022-03-02,Meat,Fish,-5.0,472.91,-2364.55,,INVALID
+2023-12-07,Meat,Fish,-5.0,99999.0,-499995.0,,
+2021-08-18,Beverages,Juice,1000.0,,,,
+2023-03-18,Bakery,Donut,,339.52,,XXXX,Wallet
+2021-06-09,Bakery,Donut,-5.0,,,XXXX,Card
+2023-03-19,Meat,Beef,13.0,,,XXXX,Wallet
+2023-03-09,Snacks,Nuts,20.0,384.51,7690.2,CUST9601,UPI
+2021-03-29,Vegetables,Carrot,,99999.0,,,Cash
+2022-08-23,Frozen,Frozen Veg,2.0,,,CUST7061,Wallet
+2021-03-07,Beverages,Coke,14.0,,,CUST3554,INVALID
+2021-01-12,Beverages,Pepsi,-5.0,167.81,-839.05,CUST6086,Cash
+2021-07-30,Snacks,Nuts,,,,CUST8602,Card
+2023-07-21,Meat,Pork,12.0,-10.0,-120.0,XXXX,Cash
+2021-12-17,Vegetables,Spinach,-5.0,,,CUST5832,Card
+2023-07-08,Beverages,Pepsi,10.0,,,CUST1960,Card
+2021-06-15,Bakery,Croissant,1000.0,,,CUST7241,Card
+2021-04-27,Beverages,Water,17.0,-10.0,-170.0,XXXX,
+2023-12-24,Dairy,Cream,,99999.0,,,Wallet
+2021-10-19,Fruits,Banana,1000.0,99999.0,99999000.0,CUST4541,
+2021-09-05,Snacks,Cookies,,,,CUST4005,
+2023-01-19,Fruits,Orange,12.0,,,,INVALID
+2023-05-28,Fruits,Banana,1000.0,-10.0,-10000.0,,UPI
+2021-05-26,Frozen,Frozen Veg,1000.0,,,CUST6078,Card
+2023-06-13,Frozen,Frozen Fish,18.0,-10.0,-180.0,XXXX,UPI
+2022-09-06,Snacks,Candy,1000.0,-10.0,-10000.0,,Wallet
+2023-04-07,Bakery,Bread,-5.0,,,XXXX,INVALID
+2023-02-11,Bakery,Bun,,-10.0,,CUST8844,INVALID
+2021-10-20,Dairy,Butter,-5.0,-10.0,50.0,CUST2618,UPI
+2022-06-11,Vegetables,Carrot,1000.0,-10.0,-10000.0,,
+2023-11-25,Meat,Beef,,165.44,,,Card
+2022-04-17,Meat,Pork,,-10.0,,CUST8011,Wallet
+2023-01-18,Meat,Beef,-5.0,99999.0,-499995.0,CUST6283,
+2023-09-14,Snacks,Chips,,,,,Wallet
+2023-01-05,Meat,Lamb,13.0,240.26,3123.38,,
+2023-08-31,Vegetables,Onion,,403.65,,,Wallet
+2022-12-09,Meat,Beef,9.0,-10.0,-90.0,,UPI
+2023-07-26,Bakery,Bread,-5.0,-10.0,50.0,CUST8179,INVALID
+2021-02-04,Fruits,Apple,,99999.0,,XXXX,
+2021-02-16,Beverages,Pepsi,1000.0,-10.0,-10000.0,XXXX,Wallet
+2021-08-09,Frozen,Ice Cream,,,,XXXX,Card
+2021-05-27,Bakery,Cake,,269.27,,XXXX,Cash
+2022-09-04,Vegetables,Carrot,-5.0,99999.0,-499995.0,CUST1303,Wallet
+2023-03-28,Frozen,Frozen Veg,1000.0,99999.0,99999000.0,XXXX,Card
+2021-09-14,Fruits,Orange,3.0,40.37,121.10999999999999,XXXX,INVALID
+2021-05-07,Meat,Chicken,,-10.0,,,Card
+2023-06-09,Bakery,Cake,-5.0,95.73,-478.65000000000003,XXXX,UPI
+2023-10-08,Bakery,Bread,,-10.0,,XXXX,UPI
+2022-03-07,Dairy,Milk,1000.0,,,CUST3491,Cash
+2021-02-25,Beverages,Water,,99999.0,,XXXX,Cash
+2023-11-30,Vegetables,Carrot,1000.0,,,XXXX,
+2022-03-18,Frozen,Frozen Fish,1000.0,-10.0,-10000.0,,Wallet
+2021-11-07,Dairy,Cream,-5.0,267.39,-1336.9499999999998,CUST6979,Card
+2021-08-05,Fruits,Mango,1000.0,-10.0,-10000.0,CUST3112,
+2023-09-19,Beverages,Juice,-5.0,417.73,-2088.65,XXXX,Card
+2023-08-05,Frozen,Frozen Pizza,-5.0,99999.0,-499995.0,XXXX,INVALID
+2023-10-18,Bakery,Donut,1.0,333.65,333.65,CUST4958,UPI
+2023-04-21,Snacks,Nuts,1000.0,,,,INVALID
+2022-11-04,Bakery,Donut,15.0,99999.0,1499985.0,CUST8385,
+2022-09-10,Vegetables,Spinach,7.0,,,XXXX,UPI
+2022-11-21,Beverages,Juice,1000.0,99999.0,99999000.0,CUST3673,Cash
+2021-09-25,Meat,Beef,-5.0,99999.0,-499995.0,,Cash
+2021-05-07,Dairy,Cheese,1000.0,99999.0,99999000.0,,Cash
+2022-09-30,Vegetables,Spinach,,,,CUST3282,UPI
+2023-04-15,Beverages,Water,7.0,99999.0,699993.0,XXXX,INVALID
+2023-01-21,Bakery,Bread,,,,XXXX,Card
+2021-05-08,Snacks,Chips,,,,,Card
+2021-05-03,Frozen,Frozen Meat,-5.0,-10.0,50.0,,UPI
+2021-04-25,Vegetables,Tomato,1000.0,99999.0,99999000.0,,UPI
+2021-07-23,Fruits,Apple,,,,,Card
+2021-05-28,Beverages,Pepsi,-5.0,-10.0,50.0,CUST6541,Wallet
+2021-04-01,Meat,Lamb,1000.0,334.56,334560.0,,Wallet
+2021-05-13,Snacks,Chocolate,,289.31,,XXXX,UPI
+2023-06-30,Vegetables,Carrot,,99999.0,,XXXX,Wallet
+2022-05-02,Snacks,Chips,8.0,99999.0,799992.0,XXXX,UPI
+2022-02-09,Dairy,Cream,-5.0,-10.0,50.0,,Cash
+2022-09-16,Meat,Lamb,1000.0,173.2,173200.0,CUST8172,INVALID
+2023-09-08,Snacks,Chocolate,1000.0,99999.0,99999000.0,,Cash
+2022-10-04,Beverages,Coke,,187.85,,,
+2021-10-05,Vegetables,Potato,1000.0,-10.0,-10000.0,,Wallet
+2022-09-21,Dairy,Butter,7.0,164.94,1154.58,CUST3356,INVALID
+2023-06-11,Meat,Chicken,-5.0,-10.0,50.0,CUST1856,
+2022-04-12,Meat,Fish,1000.0,99999.0,99999000.0,CUST7080,Cash
+2021-10-08,Dairy,Cheese,-5.0,-10.0,50.0,CUST7432,Card
+2022-01-01,Vegetables,Carrot,-5.0,-10.0,50.0,,Cash
+2022-08-02,Meat,Fish,-5.0,99999.0,-499995.0,XXXX,
+2022-02-06,Dairy,Milk,1000.0,-10.0,-10000.0,,Card
+2021-02-03,Fruits,Apple,-5.0,195.35,-976.75,XXXX,INVALID
+2021-06-16,Fruits,Orange,,-10.0,,CUST2325,UPI
+2023-07-10,Snacks,Nuts,,,,XXXX,UPI
+2021-09-17,Vegetables,Potato,1000.0,-10.0,-10000.0,,Card
+2023-12-03,Beverages,Juice,1000.0,267.04,267040.0,,Card
+2022-12-29,Meat,Lamb,,293.68,,,
+2023-04-10,Beverages,Coffee,2.0,99999.0,199998.0,XXXX,INVALID
+2022-09-23,Vegetables,Onion,1000.0,-10.0,-10000.0,CUST4881,UPI
+2022-06-18,Beverages,Juice,1000.0,99999.0,99999000.0,CUST2676,UPI
+2022-05-09,Fruits,Grapes,7.0,,,XXXX,Cash
+2022-07-21,Snacks,Candy,-5.0,-10.0,50.0,XXXX,Card
+2021-09-16,Frozen,Frozen Fish,1000.0,,,XXXX,INVALID
+2022-07-24,Fruits,Apple,,,,,Card
+2023-10-09,Frozen,Frozen Pizza,-5.0,-10.0,50.0,CUST9811,INVALID
+2023-05-08,Bakery,Bun,1.0,,,CUST1657,
+2022-09-07,Bakery,Croissant,-5.0,99999.0,-499995.0,,Card
+2023-10-01,Dairy,Cheese,19.0,,,XXXX,UPI
+2022-01-28,Fruits,Apple,-5.0,99999.0,-499995.0,CUST7574,
+2021-04-12,Beverages,Water,-5.0,-10.0,50.0,XXXX,Cash
+2023-07-26,Vegetables,Potato,10.0,,,XXXX,
+2021-04-10,Bakery,Bun,-5.0,-10.0,50.0,CUST8434,INVALID
+2022-12-08,Meat,Chicken,-5.0,-10.0,50.0,,UPI
+2022-06-18,Frozen,Frozen Veg,1000.0,99999.0,99999000.0,,INVALID
+2023-11-23,Meat,Lamb,,53.32,,CUST5051,INVALID
+2022-10-30,Dairy,Cream,1000.0,375.71,375710.0,,INVALID
+2022-10-05,Snacks,Chocolate,,-10.0,,,Cash
+2023-01-17,Beverages,Pepsi,-5.0,252.42,-1262.1,CUST9547,Wallet
+2023-12-18,Vegetables,Onion,12.0,,,XXXX,INVALID
+2021-04-30,Vegetables,Tomato,19.0,306.66,5826.540000000001,CUST2850,Cash
+2022-01-19,Dairy,Cheese,1000.0,,,,Wallet
+2023-01-02,Vegetables,Onion,-5.0,99999.0,-499995.0,,Cash
+2022-05-24,Frozen,Ice Cream,15.0,103.82,1557.3,XXXX,Wallet
+2023-07-26,Frozen,Frozen Meat,,,,XXXX,INVALID
+2022-03-11,Meat,Chicken,1000.0,,,,Cash
+2023-08-08,Frozen,Frozen Fish,1000.0,133.41,133410.0,CUST3442,Cash
+2023-11-02,Beverages,Juice,,-10.0,,CUST9992,Cash
+2021-08-20,Fruits,Apple,1000.0,,,,Card
+2021-10-18,Meat,Lamb,,195.43,,XXXX,Cash
+2023-04-23,Beverages,Coffee,,-10.0,,CUST2560,Wallet
+2023-05-15,Fruits,Mango,1.0,293.29,293.29,XXXX,UPI
+2022-01-09,Dairy,Butter,,440.45,,XXXX,Cash
+2021-03-04,Meat,Chicken,1000.0,121.5,121500.0,,
+2022-02-25,Snacks,Cookies,1000.0,,,,Cash
+2023-07-26,Snacks,Nuts,1.0,,,CUST9585,
+2023-02-22,Vegetables,Spinach,1.0,,,XXXX,UPI
+2023-05-23,Fruits,Mango,,-10.0,,CUST6984,INVALID
+2021-10-06,Vegetables,Onion,,99999.0,,,INVALID
+2021-05-10,Bakery,Bun,1000.0,55.05,55050.0,XXXX,Cash
+2021-12-10,Meat,Lamb,13.0,99999.0,1299987.0,,
+2022-09-27,Dairy,Yogurt,20.0,476.57,9531.4,,UPI
+2022-07-14,Beverages,Juice,1000.0,361.47,361470.0,,UPI
+2021-04-17,Fruits,Mango,1000.0,-10.0,-10000.0,CUST3746,Card
+2023-02-06,Dairy,Milk,9.0,57.27,515.4300000000001,,Cash
+2021-09-01,Bakery,Donut,1000.0,,,XXXX,INVALID
+2023-05-08,Meat,Beef,7.0,99999.0,699993.0,CUST7892,Card
+2022-08-22,Vegetables,Onion,2.0,180.09,360.18,,Wallet
+2021-08-17,Meat,Chicken,2.0,99999.0,199998.0,CUST4560,
+2022-05-04,Bakery,Cake,4.0,-10.0,-40.0,XXXX,Wallet
+2022-12-10,Meat,Fish,16.0,470.45,7527.2,CUST2339,Cash
+2023-03-10,Snacks,Nuts,1000.0,-10.0,-10000.0,CUST4538,UPI
+2023-06-21,Beverages,Juice,1000.0,426.53,426530.0,XXXX,UPI
+2023-11-23,Beverages,Pepsi,20.0,,,XXXX,Card
+2021-05-30,Meat,Lamb,1000.0,-10.0,-10000.0,,INVALID
+2022-03-12,Snacks,Chips,5.0,-10.0,-50.0,XXXX,UPI
+2021-03-11,Fruits,Mango,,113.39,,CUST1924,Cash
+2021-10-25,Bakery,Cake,-5.0,99999.0,-499995.0,,
+2023-05-29,Dairy,Milk,1000.0,-10.0,-10000.0,CUST5917,Cash
+2021-02-02,Bakery,Croissant,1000.0,99999.0,99999000.0,XXXX,UPI
+2023-09-05,Vegetables,Potato,,,,CUST9740,
+2023-02-15,Fruits,Mango,,15.08,,,Cash
+2023-03-16,Vegetables,Carrot,4.0,99999.0,399996.0,XXXX,
+2022-06-16,Dairy,Cream,1000.0,99999.0,99999000.0,,
+2021-05-03,Bakery,Cake,,99999.0,,CUST6878,
+2023-09-03,Frozen,Ice Cream,-5.0,,,,Cash
+2021-12-20,Beverages,Water,-5.0,99999.0,-499995.0,XXXX,Card
+2021-03-31,Dairy,Cheese,1000.0,385.58,385580.0,CUST8250,
+2022-09-13,Dairy,Milk,1000.0,-10.0,-10000.0,,UPI
+2021-11-30,Fruits,Apple,1000.0,99999.0,99999000.0,XXXX,INVALID
+2023-03-17,Meat,Pork,,,,XXXX,INVALID
+2021-08-31,Snacks,Cookies,-5.0,396.94,-1984.7,,UPI
+2023-09-18,Vegetables,Onion,1000.0,99999.0,99999000.0,XXXX,Cash
+2023-07-12,Fruits,Apple,9.0,-10.0,-90.0,,UPI
+2022-12-18,Meat,Lamb,,130.02,,,
+2023-08-17,Vegetables,Onion,1000.0,,,CUST2166,Cash
+2023-09-03,Meat,Beef,-5.0,99999.0,-499995.0,,
+2022-02-04,Bakery,Bun,,-10.0,,,
+2022-01-18,Fruits,Apple,-5.0,-10.0,50.0,CUST5228,Wallet
+2023-06-11,Fruits,Mango,1000.0,-10.0,-10000.0,XXXX,
+2023-05-03,Bakery,Cake,,-10.0,,CUST4580,UPI
+2021-05-08,Beverages,Coffee,,424.11,,CUST5345,UPI
+2022-02-03,Frozen,Frozen Pizza,-5.0,182.73,-913.65,CUST5405,Card
+2021-12-22,Frozen,Frozen Pizza,-5.0,395.52,-1977.6,CUST1132,Wallet
+2023-06-23,Beverages,Juice,-5.0,167.06,-835.3,CUST8909,Card
+2022-08-17,Meat,Pork,9.0,99999.0,899991.0,,Cash
+2021-02-10,Frozen,Frozen Pizza,,,,,
+2021-01-01,Frozen,Frozen Pizza,1000.0,99999.0,99999000.0,XXXX,INVALID
+2023-05-15,Dairy,Milk,1000.0,-10.0,-10000.0,CUST3440,INVALID
+2023-08-24,Meat,Pork,-5.0,83.18,-415.90000000000003,CUST6962,Card
+2023-10-11,Dairy,Cheese,10.0,-10.0,-100.0,XXXX,Card
+2022-01-10,Vegetables,Carrot,13.0,-10.0,-130.0,XXXX,INVALID
+2022-07-27,Vegetables,Spinach,19.0,99999.0,1899981.0,XXXX,Wallet
+2023-08-07,Dairy,Butter,-5.0,380.68,-1903.4,,Wallet
+2023-06-25,Bakery,Cake,11.0,190.33,2093.63,CUST7780,Cash
+2021-05-19,Beverages,Coffee,-5.0,99999.0,-499995.0,CUST7841,Cash
+2022-11-15,Bakery,Bun,-5.0,-10.0,50.0,XXXX,Cash
+2021-09-25,Frozen,Frozen Fish,11.0,,,CUST5729,INVALID
+2021-12-02,Fruits,Grapes,10.0,-10.0,-100.0,CUST2948,INVALID
+2023-10-19,Frozen,Ice Cream,,,,XXXX,
+2022-01-24,Frozen,Ice Cream,7.0,-10.0,-70.0,XXXX,INVALID
+2022-11-26,Bakery,Donut,1000.0,-10.0,-10000.0,,
+2023-06-03,Fruits,Grapes,-5.0,99999.0,-499995.0,,INVALID
+2023-08-08,Dairy,Yogurt,,-10.0,,CUST5881,Cash
+2021-12-21,Frozen,Frozen Pizza,,-10.0,,,
+2023-08-15,Vegetables,Potato,,331.72,,XXXX,
+2023-11-01,Snacks,Chocolate,1000.0,,,,Cash
+2022-05-28,Snacks,Chips,-5.0,202.09,-1010.45,CUST2777,INVALID
+2022-03-01,Frozen,Frozen Fish,12.0,-10.0,-120.0,XXXX,INVALID
+2021-10-02,Bakery,Donut,-5.0,,,,Cash
+2022-06-10,Fruits,Mango,-5.0,280.29,-1401.45,,UPI
+2021-11-11,Snacks,Chocolate,1000.0,357.96,357960.0,XXXX,INVALID
+2022-06-06,Fruits,Banana,,99999.0,,,Cash
+2023-08-22,Meat,Pork,,99999.0,,XXXX,Card
+2021-09-16,Fruits,Grapes,,99999.0,,XXXX,INVALID
+2022-12-15,Snacks,Chocolate,,-10.0,,XXXX,INVALID
+2023-10-16,Snacks,Chips,14.0,99999.0,1399986.0,CUST2060,INVALID
+2022-10-26,Frozen,Frozen Fish,,,,XXXX,Wallet
+2022-12-26,Dairy,Milk,-5.0,315.11,-1575.5500000000002,CUST4698,Wallet
+2021-01-11,Beverages,Juice,,,,CUST5959,Cash
+2021-09-04,Meat,Chicken,,334.73,,CUST2167,Card
+2021-01-03,Snacks,Candy,7.0,,,,INVALID
+2022-01-29,Vegetables,Tomato,-5.0,-10.0,50.0,XXXX,UPI
+2022-10-30,Meat,Pork,-5.0,99999.0,-499995.0,CUST7512,Card
+2021-01-26,Vegetables,Tomato,,46.71,,XXXX,UPI
+2023-09-02,Dairy,Milk,1000.0,99999.0,99999000.0,XXXX,Wallet
+2022-10-03,Dairy,Cheese,,,,CUST4526,Card
+2022-10-24,Snacks,Nuts,1000.0,218.14,218140.0,,Cash
+2022-01-06,Frozen,Ice Cream,1000.0,-10.0,-10000.0,XXXX,Card
+2023-04-13,Fruits,Orange,1000.0,,,XXXX,UPI
+2021-07-10,Meat,Beef,-5.0,-10.0,50.0,XXXX,INVALID
+2022-08-10,Meat,Lamb,16.0,-10.0,-160.0,,INVALID
+2023-07-13,Vegetables,Onion,1000.0,,,,Wallet
+2022-06-26,Dairy,Milk,1000.0,-10.0,-10000.0,,Wallet
+2021-12-06,Dairy,Cream,1000.0,,,XXXX,Wallet
+2022-07-02,Frozen,Ice Cream,,-10.0,,,Card
+2023-10-27,Meat,Pork,1000.0,-10.0,-10000.0,,Cash
+2023-05-07,Dairy,Cream,,,,CUST4200,Wallet
+2021-10-13,Beverages,Pepsi,,-10.0,,CUST5422,INVALID
+2022-02-27,Meat,Pork,-5.0,99999.0,-499995.0,,Cash
+2023-04-02,Frozen,Frozen Meat,,-10.0,,XXXX,UPI
+2021-09-09,Fruits,Orange,-5.0,355.54,-1777.7,,Cash
+2023-05-04,Dairy,Milk,1000.0,99999.0,99999000.0,XXXX,UPI
+2021-12-07,Frozen,Frozen Meat,7.0,183.65,1285.55,CUST1525,
+2022-03-04,Frozen,Frozen Fish,,186.34,,,UPI
+2022-11-17,Snacks,Candy,13.0,,,XXXX,INVALID
+2022-12-30,Meat,Lamb,1000.0,,,CUST1677,Card
+2022-08-07,Fruits,Apple,,-10.0,,,UPI
+2023-11-25,Bakery,Croissant,1000.0,-10.0,-10000.0,,Cash
+2021-03-28,Fruits,Banana,-5.0,19.9,-99.5,CUST7114,Card
+2023-10-23,Bakery,Bun,-5.0,99999.0,-499995.0,,
+2021-01-03,Vegetables,Spinach,1000.0,308.58,308580.0,XXXX,Cash
+2021-07-15,Beverages,Pepsi,10.0,165.42,1654.1999999999998,,UPI
+2022-03-31,Beverages,Pepsi,,-10.0,,CUST1425,UPI
+2022-07-22,Dairy,Cream,1000.0,,,XXXX,Wallet
+2022-09-21,Beverages,Coffee,-5.0,-10.0,50.0,XXXX,Wallet
+2021-06-08,Bakery,Bread,1000.0,146.58,146580.0,,Card
+2023-04-12,Frozen,Frozen Meat,19.0,99999.0,1899981.0,XXXX,
+2021-08-17,Bakery,Bun,17.0,99999.0,1699983.0,CUST8815,
+2022-06-28,Fruits,Orange,1000.0,,,XXXX,Cash
+2023-05-14,Beverages,Coke,-5.0,-10.0,50.0,CUST2617,INVALID
+2023-03-09,Meat,Beef,1000.0,424.53,424530.0,,Cash
+2021-08-15,Frozen,Frozen Meat,,397.77,,CUST5196,UPI
+2023-03-22,Frozen,Frozen Veg,1000.0,,,,Card
+2022-08-30,Meat,Lamb,,,,XXXX,Wallet
+2022-02-22,Fruits,Apple,8.0,99999.0,799992.0,,UPI
+2023-06-17,Bakery,Cake,1000.0,315.65,315650.0,,Cash
+2021-06-20,Meat,Pork,1000.0,-10.0,-10000.0,,INVALID
+2022-10-04,Vegetables,Spinach,9.0,99999.0,899991.0,,
+2022-03-26,Meat,Pork,,-10.0,,XXXX,
+2023-11-24,Dairy,Milk,1000.0,-10.0,-10000.0,XXXX,UPI
+2022-10-19,Beverages,Coke,15.0,362.63,5439.45,CUST3783,INVALID
+2022-07-09,Frozen,Frozen Veg,1000.0,-10.0,-10000.0,XXXX,Cash
+2021-12-18,Snacks,Candy,20.0,99999.0,1999980.0,XXXX,Card
+2023-04-11,Meat,Lamb,-5.0,,,CUST1818,Wallet
+2023-10-20,Vegetables,Onion,-5.0,-10.0,50.0,,INVALID
+2023-08-04,Dairy,Cream,,450.25,,CUST1367,Card
+2022-01-20,Dairy,Milk,1000.0,,,CUST9448,Card
+2021-03-28,Bakery,Cake,1000.0,-10.0,-10000.0,CUST5779,
+2023-01-18,Fruits,Mango,,-10.0,,,
+2022-07-16,Fruits,Banana,1000.0,-10.0,-10000.0,CUST3548,Cash
+2022-02-18,Frozen,Frozen Fish,1000.0,140.76,140760.0,CUST4546,INVALID
+2023-03-30,Beverages,Pepsi,,99999.0,,CUST6404,Cash
+2023-04-17,Snacks,Chips,1000.0,,,CUST5617,
+2023-03-05,Fruits,Grapes,,-10.0,,CUST3595,Wallet
+2021-08-11,Frozen,Frozen Fish,,99999.0,,,Card
+2021-01-18,Vegetables,Spinach,1000.0,99999.0,99999000.0,,Card
+2022-10-09,Snacks,Chips,,-10.0,,XXXX,UPI
+2021-07-26,Beverages,Coke,-5.0,-10.0,50.0,XXXX,
+2022-02-24,Frozen,Frozen Veg,1000.0,99999.0,99999000.0,XXXX,UPI
+2021-04-18,Meat,Lamb,1000.0,99999.0,99999000.0,CUST9272,INVALID
+2023-06-20,Vegetables,Potato,-5.0,320.69,-1603.45,XXXX,Card
+2022-06-28,Meat,Lamb,-5.0,217.19,-1085.95,CUST7509,UPI
+2021-12-04,Dairy,Cheese,13.0,99999.0,1299987.0,,UPI
+2022-07-11,Beverages,Coke,-5.0,,,CUST1132,UPI
+2023-08-09,Bakery,Donut,-5.0,117.87,-589.35,,Cash
+2022-09-14,Beverages,Coke,8.0,99999.0,799992.0,,Cash
+2023-01-14,Dairy,Butter,-5.0,99999.0,-499995.0,CUST7370,UPI
+2022-06-13,Snacks,Chips,13.0,,,CUST8477,INVALID
+2021-01-15,Vegetables,Tomato,,99999.0,,,INVALID
+2021-04-20,Vegetables,Tomato,6.0,99999.0,599994.0,,
+2021-04-03,Meat,Pork,20.0,253.85,5077.0,,Cash
+2023-10-28,Vegetables,Potato,,99999.0,,CUST8345,INVALID
+2021-03-08,Vegetables,Onion,-5.0,,,XXXX,
+2023-05-18,Vegetables,Potato,,410.14,,,UPI
+2023-01-31,Bakery,Bun,16.0,,,CUST4227,INVALID
+2023-03-07,Meat,Lamb,-5.0,,,CUST7933,
+2023-05-28,Vegetables,Carrot,10.0,13.35,133.5,,
+2023-05-21,Snacks,Candy,,,,XXXX,Card
+2023-12-15,Snacks,Chips,,-10.0,,,INVALID
+2022-06-16,Beverages,Coke,1000.0,,,XXXX,Wallet
+2023-02-18,Frozen,Frozen Meat,-5.0,-10.0,50.0,CUST6574,Wallet
+2022-02-18,Vegetables,Carrot,,,,CUST4879,INVALID
+2023-06-18,Snacks,Candy,12.0,422.96,5075.5199999999995,XXXX,
+2021-06-10,Dairy,Cream,5.0,168.22,841.1,,
+2022-04-05,Snacks,Chips,7.0,99.67,697.69,CUST2594,Cash
+2021-07-01,Bakery,Croissant,10.0,113.54,1135.4,XXXX,UPI
+2021-02-23,Frozen,Frozen Fish,1000.0,228.57,228570.0,XXXX,INVALID
+2023-04-20,Frozen,Ice Cream,13.0,360.07,4680.91,XXXX,Card
+2022-10-14,Vegetables,Potato,1000.0,99999.0,99999000.0,CUST2249,Cash
+2023-09-28,Fruits,Grapes,1.0,33.38,33.38,,Card
+2021-10-28,Dairy,Yogurt,,40.42,,,INVALID
+2021-05-16,Dairy,Cream,,-10.0,,XXXX,INVALID
+2021-07-09,Snacks,Chocolate,14.0,-10.0,-140.0,,Card
+2023-12-09,Bakery,Donut,1.0,18.17,18.17,,
+2023-08-19,Frozen,Ice Cream,1000.0,329.48,329480.0,CUST6049,Card
+2021-03-14,Beverages,Coffee,,99999.0,,CUST3867,INVALID
+2021-05-23,Vegetables,Onion,,99999.0,,XXXX,
+2022-07-28,Dairy,Yogurt,1000.0,,,,Cash
+2021-03-02,Fruits,Apple,1000.0,-10.0,-10000.0,XXXX,Card
+2022-09-07,Fruits,Grapes,1000.0,99999.0,99999000.0,,Cash
+2023-03-11,Snacks,Candy,6.0,99999.0,599994.0,CUST6446,
+2022-09-25,Snacks,Cookies,,99999.0,,XXXX,INVALID
+2021-09-16,Fruits,Mango,1000.0,237.35,237350.0,,Wallet
+2022-09-30,Fruits,Banana,6.0,99999.0,599994.0,,INVALID
+2022-10-14,Vegetables,Carrot,1000.0,99999.0,99999000.0,CUST9950,
+2021-03-12,Frozen,Frozen Veg,1000.0,,,XXXX,Card
+2023-03-30,Frozen,Ice Cream,8.0,,,XXXX,UPI
+2023-11-06,Fruits,Mango,,99999.0,,CUST2618,INVALID
+2022-04-09,Snacks,Chocolate,-5.0,,,,
+2023-11-05,Snacks,Nuts,,392.53,,,
+2023-03-29,Snacks,Chips,1000.0,185.8,185800.0,CUST7436,
+2021-05-05,Beverages,Juice,16.0,-10.0,-160.0,CUST8534,
+2022-02-06,Frozen,Ice Cream,-5.0,,,CUST9334,Cash
+2021-04-03,Fruits,Grapes,-5.0,,,,Wallet
+2022-02-15,Frozen,Frozen Meat,-5.0,192.03,-960.15,,Card
+2023-03-31,Snacks,Candy,8.0,,,,Cash
+2021-02-12,Frozen,Ice Cream,-5.0,-10.0,50.0,,INVALID
+2022-12-31,Vegetables,Onion,2.0,,,XXXX,Cash
+2022-03-04,Bakery,Donut,-5.0,,,,Card
+2021-02-24,Meat,Pork,14.0,,,,
+2021-04-11,Beverages,Water,1000.0,349.19,349190.0,XXXX,
+2021-11-12,Dairy,Cheese,,306.05,,CUST5436,Cash
+2022-04-07,Bakery,Cake,-5.0,,,XXXX,Card
+2021-10-20,Frozen,Frozen Meat,1000.0,-10.0,-10000.0,CUST4639,UPI
+2023-10-12,Beverages,Water,,99999.0,,CUST4893,UPI
+2023-11-11,Bakery,Croissant,-5.0,-10.0,50.0,CUST7722,Cash
+2021-01-21,Bakery,Bread,4.0,,,,INVALID
+2023-11-18,Vegetables,Spinach,1000.0,99999.0,99999000.0,XXXX,INVALID
+2023-01-26,Beverages,Coke,1000.0,-10.0,-10000.0,CUST7526,Card
+2023-09-19,Beverages,Coffee,1000.0,,,,Cash
+2023-10-25,Beverages,Coffee,-5.0,99999.0,-499995.0,XXXX,INVALID
+2021-07-05,Frozen,Frozen Fish,,99999.0,,,Cash
+2022-05-09,Dairy,Cheese,,-10.0,,CUST7956,Cash
+2021-01-04,Dairy,Cream,1000.0,99999.0,99999000.0,CUST5851,INVALID
+2023-03-25,Fruits,Apple,-5.0,354.25,-1771.25,CUST3856,Cash
+2023-11-18,Bakery,Bread,15.0,244.59,3668.85,,Cash
+2022-05-23,Vegetables,Tomato,9.0,,,CUST4780,
+2023-06-25,Snacks,Candy,-5.0,264.84,-1324.1999999999998,XXXX,UPI
+2023-04-11,Fruits,Apple,,-10.0,,,Card
+2023-08-14,Meat,Lamb,-5.0,355.44,-1777.2,,
+2021-06-20,Vegetables,Tomato,1000.0,-10.0,-10000.0,CUST3108,Wallet
+2021-01-01,Beverages,Water,-5.0,-10.0,50.0,XXXX,UPI
+2023-12-26,Snacks,Cookies,6.0,,,,Wallet
+2023-01-10,Vegetables,Tomato,14.0,,,,Cash
+2022-02-28,Vegetables,Tomato,20.0,462.61,9252.2,CUST1216,
+2021-10-26,Snacks,Candy,1000.0,-10.0,-10000.0,,Cash
+2023-04-20,Beverages,Pepsi,,,,,
+2021-11-29,Vegetables,Tomato,,491.08,,,
+2023-01-29,Bakery,Bread,,-10.0,,,Wallet
+2023-04-24,Beverages,Juice,18.0,99999.0,1799982.0,XXXX,INVALID
+2023-12-24,Meat,Beef,,99999.0,,CUST5174,Wallet
+2021-11-16,Snacks,Nuts,1000.0,92.74,92740.0,,UPI
+2021-05-15,Fruits,Banana,1000.0,-10.0,-10000.0,CUST4335,Card
+2022-06-17,Snacks,Chocolate,-5.0,99999.0,-499995.0,XXXX,Wallet
+2021-06-08,Bakery,Bread,2.0,99999.0,199998.0,XXXX,
+2022-03-29,Dairy,Cream,-5.0,,,,INVALID
+2023-11-03,Beverages,Juice,1000.0,,,XXXX,
+2023-03-01,Dairy,Milk,-5.0,99999.0,-499995.0,,Cash
+2021-12-24,Beverages,Pepsi,,381.8,,XXXX,UPI
+2023-06-22,Dairy,Yogurt,19.0,-10.0,-190.0,,Card
+2021-09-05,Snacks,Nuts,,-10.0,,XXXX,Wallet
+2023-03-02,Dairy,Cream,-5.0,-10.0,50.0,CUST4627,INVALID
+2023-06-20,Beverages,Juice,1000.0,99999.0,99999000.0,,Wallet
+2023-11-05,Snacks,Chocolate,,-10.0,,,UPI
+2021-03-21,Snacks,Chips,1000.0,-10.0,-10000.0,CUST6056,Cash
+2022-11-17,Bakery,Bun,,99999.0,,CUST3431,Card
+2021-02-06,Vegetables,Spinach,,230.44,,,INVALID
+2023-09-27,Beverages,Coffee,,99999.0,,CUST3881,Cash
+2023-09-28,Beverages,Water,,,,,
+2022-03-18,Frozen,Frozen Pizza,,-10.0,,CUST2381,
+2021-06-05,Bakery,Bread,1000.0,212.42,212420.0,CUST4509,INVALID
+2021-07-03,Meat,Lamb,1000.0,99999.0,99999000.0,CUST1089,UPI
+2023-03-28,Fruits,Apple,,99999.0,,,Card
+2023-11-05,Beverages,Juice,,,,CUST7485,INVALID
+2021-08-19,Fruits,Orange,,127.26,,,UPI
+2023-08-27,Frozen,Frozen Fish,-5.0,,,XXXX,Card
+2023-05-11,Fruits,Mango,,,,CUST4355,INVALID
+2022-06-05,Bakery,Bread,1000.0,378.02,378020.0,XXXX,UPI
+2022-02-11,Bakery,Croissant,1000.0,99999.0,99999000.0,XXXX,Card
+2021-03-29,Fruits,Orange,,-10.0,,XXXX,Card
+2021-08-16,Snacks,Chocolate,-5.0,,,XXXX,UPI
+2022-10-26,Dairy,Yogurt,10.0,-10.0,-100.0,XXXX,Cash
+2022-05-17,Frozen,Frozen Veg,7.0,-10.0,-70.0,XXXX,Wallet
+2021-07-26,Beverages,Juice,6.0,154.44,926.64,,Wallet
+2021-06-08,Frozen,Frozen Pizza,-5.0,133.67,-668.3499999999999,,Wallet
+2023-03-01,Snacks,Cookies,-5.0,-10.0,50.0,XXXX,Card
+2021-11-26,Frozen,Frozen Meat,7.0,,,XXXX,Wallet
+2023-06-15,Bakery,Donut,1000.0,-10.0,-10000.0,,UPI
+2021-02-07,Bakery,Bun,-5.0,-10.0,50.0,,Wallet
+2023-12-09,Beverages,Juice,18.0,,,XXXX,Wallet
+2022-02-12,Fruits,Orange,3.0,-10.0,-30.0,,Card
+2022-06-11,Dairy,Yogurt,1000.0,,,CUST4988,INVALID
+2022-03-18,Frozen,Frozen Fish,6.0,,,CUST7348,Card
+2022-09-26,Snacks,Nuts,1.0,,,XXXX,UPI
+2021-05-01,Dairy,Yogurt,,139.44,,,INVALID
+2021-06-18,Snacks,Chocolate,,90.69,,CUST3878,Card
+2023-06-27,Beverages,Coffee,1000.0,-10.0,-10000.0,CUST4528,UPI
+2021-08-06,Dairy,Yogurt,1000.0,,,XXXX,Wallet
+2022-04-20,Bakery,Croissant,-5.0,,,CUST3846,Card
+2021-07-04,Dairy,Cheese,17.0,337.25,5733.25,CUST9354,Cash
+2023-08-02,Meat,Fish,,10.54,,XXXX,Wallet
+2022-01-28,Beverages,Coffee,,184.46,,,Card
+2021-12-01,Frozen,Frozen Meat,7.0,,,CUST1396,INVALID
+2022-12-17,Beverages,Pepsi,5.0,426.5,2132.5,,Cash
+2023-11-19,Vegetables,Spinach,-5.0,99999.0,-499995.0,XXXX,
+2021-06-09,Snacks,Nuts,-5.0,99999.0,-499995.0,,Card
+2021-02-17,Dairy,Butter,,137.03,,CUST1933,UPI
+2022-05-17,Vegetables,Carrot,,179.57,,,UPI
+2021-07-05,Vegetables,Tomato,-5.0,-10.0,50.0,CUST6244,Wallet
+2021-02-14,Vegetables,Carrot,,451.86,,XXXX,Cash
+2023-08-15,Meat,Fish,-5.0,99999.0,-499995.0,XXXX,UPI
+2022-02-23,Bakery,Cake,1000.0,79.32,79320.0,,Wallet
+2021-02-19,Bakery,Bread,1000.0,-10.0,-10000.0,,INVALID
+2021-03-27,Meat,Beef,9.0,316.8,2851.2000000000003,,Wallet
+2022-05-14,Bakery,Bun,10.0,-10.0,-100.0,CUST8463,Card
+2022-09-23,Beverages,Coke,4.0,260.29,1041.16,XXXX,INVALID
+2021-03-25,Snacks,Nuts,4.0,,,,INVALID
+2022-07-26,Beverages,Water,4.0,221.13,884.52,XXXX,UPI
+2023-04-30,Fruits,Banana,,,,CUST6627,UPI
+2022-12-21,Frozen,Frozen Veg,13.0,99999.0,1299987.0,CUST5674,UPI
+2021-10-27,Bakery,Bun,,99999.0,,CUST8003,Wallet
+2023-12-02,Fruits,Banana,,386.01,,CUST6097,INVALID
+2021-07-19,Vegetables,Carrot,-5.0,99999.0,-499995.0,CUST5360,Wallet
+2022-04-18,Snacks,Chips,6.0,,,XXXX,INVALID
+2021-01-01,Vegetables,Onion,1000.0,99999.0,99999000.0,,UPI
+2022-09-15,Vegetables,Spinach,1000.0,390.7,390700.0,XXXX,Cash
+2023-07-22,Meat,Fish,1000.0,-10.0,-10000.0,,Wallet
+2022-07-13,Snacks,Nuts,-5.0,490.78,-2453.8999999999996,XXXX,Card
+2022-03-23,Fruits,Banana,,-10.0,,CUST9555,INVALID
+2021-07-30,Vegetables,Spinach,,-10.0,,CUST5034,
+2023-09-25,Frozen,Frozen Meat,-5.0,278.74,-1393.7,CUST3809,UPI
+2021-10-11,Beverages,Coke,2.0,-10.0,-20.0,CUST1183,Card
+2023-07-22,Dairy,Yogurt,-5.0,99999.0,-499995.0,XXXX,INVALID
+2022-11-02,Bakery,Bread,-5.0,,,CUST8807,Wallet
+2021-10-11,Fruits,Apple,,,,XXXX,
+2023-02-21,Bakery,Bun,,208.84,,XXXX,Wallet
+2022-07-21,Frozen,Frozen Fish,13.0,,,CUST7419,Wallet
+2022-11-01,Beverages,Coke,10.0,-10.0,-100.0,XXXX,INVALID
+2022-11-20,Frozen,Frozen Meat,6.0,-10.0,-60.0,,Cash
+2022-08-06,Meat,Lamb,1000.0,99999.0,99999000.0,XXXX,Wallet
+2022-01-28,Dairy,Butter,-5.0,,,,UPI
+2022-05-07,Bakery,Donut,,-10.0,,,Cash
+2023-09-05,Fruits,Mango,1000.0,112.64,112640.0,XXXX,UPI
+2022-11-22,Frozen,Frozen Fish,,,,,Card
+2021-11-03,Beverages,Juice,-5.0,21.25,-106.25,,INVALID
+2021-04-02,Fruits,Grapes,,104.42,,XXXX,Cash
+2023-04-29,Vegetables,Carrot,1000.0,-10.0,-10000.0,XXXX,
+2023-07-22,Frozen,Frozen Meat,,328.85,,XXXX,Wallet
+2022-03-28,Meat,Fish,1000.0,240.67,240670.0,CUST6033,Wallet
+2022-10-25,Beverages,Water,1000.0,,,CUST8399,UPI
+2023-09-22,Fruits,Banana,,99999.0,,,Card
+2023-02-08,Beverages,Coke,3.0,-10.0,-30.0,,Cash
+2023-12-24,Meat,Pork,-5.0,,,,Card
+2023-12-13,Bakery,Bread,2.0,452.03,904.06,,INVALID
+2022-01-12,Frozen,Frozen Pizza,,-10.0,,CUST2143,Wallet
+2022-11-26,Dairy,Cheese,1000.0,461.36,461360.0,XXXX,UPI
+2023-04-03,Bakery,Bun,-5.0,330.45,-1652.25,,
+2023-12-31,Meat,Fish,1000.0,99999.0,99999000.0,XXXX,Wallet
+2023-09-22,Vegetables,Onion,,270.7,,CUST1175,INVALID
+2021-09-09,Vegetables,Onion,,-10.0,,,Cash
+2023-11-19,Bakery,Cake,5.0,,,,INVALID
+2022-04-09,Frozen,Frozen Fish,,-10.0,,XXXX,Card
+2023-03-04,Dairy,Cheese,10.0,377.27,3772.7,XXXX,Card
+2021-07-08,Snacks,Nuts,,-10.0,,CUST9833,Card
+2022-05-14,Fruits,Banana,1000.0,-10.0,-10000.0,,Card
+2021-12-28,Snacks,Chocolate,1000.0,484.69,484690.0,,Card
+2022-12-03,Bakery,Croissant,6.0,-10.0,-60.0,,Card
+2021-11-15,Frozen,Frozen Meat,-5.0,257.44,-1287.2,CUST5465,Wallet
+2022-11-12,Snacks,Cookies,1.0,38.66,38.66,XXXX,Card
+2022-06-25,Frozen,Frozen Fish,,-10.0,,CUST9261,Cash
+2022-08-06,Beverages,Juice,,-10.0,,XXXX,Cash
+2021-11-26,Vegetables,Onion,15.0,127.98,1919.7,XXXX,Cash
+2021-05-16,Vegetables,Potato,-5.0,,,,Wallet
+2022-07-14,Frozen,Frozen Fish,,336.23,,,INVALID
+2022-08-08,Snacks,Nuts,1000.0,99999.0,99999000.0,XXXX,Card
+2021-12-02,Bakery,Bun,16.0,,,XXXX,Card
+2023-09-08,Frozen,Ice Cream,,,,CUST7408,Cash
+2022-12-10,Beverages,Coffee,-5.0,-10.0,50.0,XXXX,
+2023-01-16,Meat,Chicken,,-10.0,,CUST7738,
+2023-06-25,Snacks,Cookies,1000.0,99999.0,99999000.0,CUST7094,
+2022-05-10,Bakery,Bun,,,,,UPI
+2021-06-24,Dairy,Milk,-5.0,-10.0,50.0,,UPI
+2021-02-12,Fruits,Banana,,-10.0,,,UPI
+2021-07-05,Vegetables,Carrot,-5.0,,,XXXX,INVALID
+2023-11-01,Beverages,Water,1000.0,,,CUST3196,Card
+2023-05-05,Vegetables,Tomato,,368.46,,,Wallet
+2022-10-16,Meat,Fish,1.0,-10.0,-10.0,XXXX,INVALID
+2022-09-26,Snacks,Candy,14.0,,,XXXX,UPI
+2023-07-21,Frozen,Frozen Pizza,,37.97,,CUST5984,
+2022-05-03,Meat,Chicken,1000.0,322.03,322030.0,XXXX,Wallet
+2021-06-12,Vegetables,Carrot,,,,,UPI
+2021-04-04,Vegetables,Onion,-5.0,485.15,-2425.75,XXXX,UPI
+2023-03-03,Bakery,Bun,,373.64,,XXXX,
+2023-12-05,Beverages,Pepsi,18.0,99999.0,1799982.0,XXXX,INVALID
+2023-02-25,Fruits,Apple,,165.18,,,UPI
+2023-06-10,Dairy,Cream,,223.4,,,INVALID
+2022-03-24,Meat,Chicken,,496.65,,CUST6759,Card
+2022-09-25,Frozen,Frozen Veg,1000.0,,,,Wallet
+2023-12-25,Beverages,Pepsi,18.0,99999.0,1799982.0,XXXX,Wallet
+2023-08-06,Bakery,Bread,2.0,99999.0,199998.0,,Card
+2022-11-20,Meat,Fish,,99999.0,,XXXX,INVALID
+2022-02-22,Snacks,Chips,7.0,181.61,1271.27,XXXX,Card
+2023-07-31,Beverages,Juice,,359.76,,CUST4022,
+2021-01-14,Frozen,Frozen Veg,14.0,99999.0,1399986.0,,Card
+2023-07-31,Dairy,Yogurt,,-10.0,,CUST9130,Card
+2021-02-16,Vegetables,Spinach,6.0,178.72,1072.32,,Cash
+2022-08-01,Fruits,Mango,,448.3,,,Card
+2023-01-13,Snacks,Chocolate,19.0,383.21,7280.99,,
+2022-01-31,Bakery,Bread,,,,XXXX,INVALID
+2023-09-10,Fruits,Orange,1000.0,99999.0,99999000.0,,Card
+2022-06-07,Fruits,Mango,-5.0,99999.0,-499995.0,XXXX,Card
+2023-03-20,Fruits,Banana,1000.0,,,CUST8401,Wallet
+2023-03-03,Snacks,Candy,12.0,,,XXXX,Cash
+2021-07-01,Vegetables,Carrot,-5.0,-10.0,50.0,XXXX,Card
+2021-05-14,Dairy,Yogurt,1000.0,,,CUST4699,INVALID
+2023-09-09,Fruits,Grapes,-5.0,-10.0,50.0,XXXX,INVALID
+2023-06-23,Fruits,Mango,,-10.0,,,
+2022-03-14,Beverages,Coke,,239.12,,CUST4126,Card
+2022-08-05,Beverages,Juice,1000.0,99999.0,99999000.0,,UPI
+2023-01-25,Frozen,Frozen Pizza,1000.0,,,,Wallet
+2021-01-13,Dairy,Milk,,99999.0,,CUST5260,UPI
+2021-03-11,Bakery,Bun,,,,XXXX,Cash
+2023-08-04,Fruits,Apple,-5.0,99999.0,-499995.0,XXXX,
+2021-03-28,Beverages,Coffee,-5.0,,,CUST9948,INVALID
+2023-07-08,Dairy,Butter,-5.0,99999.0,-499995.0,CUST5476,INVALID
+2022-03-13,Frozen,Frozen Pizza,,-10.0,,CUST4061,INVALID
+2022-12-25,Dairy,Cream,1000.0,99999.0,99999000.0,XXXX,INVALID
+2021-12-16,Dairy,Butter,5.0,99999.0,499995.0,XXXX,INVALID
+2022-02-15,Snacks,Candy,1000.0,99999.0,99999000.0,CUST9170,Wallet
+2021-03-08,Dairy,Butter,10.0,99999.0,999990.0,CUST1768,INVALID
+2021-10-04,Snacks,Candy,,99999.0,,,INVALID
+2021-10-11,Vegetables,Spinach,-5.0,-10.0,50.0,,Cash
+2021-01-11,Dairy,Milk,-5.0,403.22,-2016.1000000000001,CUST1108,Cash
+2023-02-08,Snacks,Chips,2.0,-10.0,-20.0,CUST8282,Wallet
+2022-07-10,Fruits,Grapes,,99999.0,,XXXX,UPI
+2022-09-10,Bakery,Croissant,1000.0,-10.0,-10000.0,CUST9713,Card
+2023-07-04,Dairy,Butter,1000.0,491.25,491250.0,XXXX,INVALID
+2023-12-14,Beverages,Water,-5.0,75.08,-375.4,CUST4183,Wallet
+2022-05-27,Vegetables,Potato,4.0,420.1,1680.4,CUST3514,Wallet
+2023-08-12,Vegetables,Tomato,2.0,103.1,206.2,CUST4597,Wallet
+2022-11-21,Dairy,Milk,9.0,,,CUST4804,INVALID
+2021-08-29,Bakery,Cake,,-10.0,,CUST1515,UPI
+2021-06-05,Dairy,Cream,,,,,
+2021-05-01,Beverages,Coke,-5.0,316.28,-1581.3999999999999,XXXX,UPI
+2021-12-20,Dairy,Cheese,2.0,427.71,855.42,CUST5776,
+2022-03-10,Frozen,Frozen Pizza,,134.99,,CUST4630,UPI
+2022-01-13,Vegetables,Carrot,-5.0,,,CUST4821,UPI
+2021-10-10,Dairy,Yogurt,,99999.0,,,
+2021-03-25,Meat,Fish,1000.0,99999.0,99999000.0,,Wallet
+2023-07-18,Dairy,Butter,,,,CUST1447,Card
+2022-10-13,Bakery,Bun,,34.56,,CUST9978,Card
+2023-03-17,Snacks,Chocolate,1000.0,99999.0,99999000.0,,Card
+2022-01-06,Dairy,Milk,10.0,471.83,4718.3,,Card
+2021-05-14,Bakery,Donut,1000.0,99999.0,99999000.0,,
+2022-09-20,Frozen,Frozen Fish,,,,CUST5459,Cash
+2023-02-08,Bakery,Donut,,99999.0,,CUST3917,
+2021-08-27,Dairy,Yogurt,1000.0,99999.0,99999000.0,,Wallet
+2021-08-04,Snacks,Cookies,,-10.0,,XXXX,
+2023-02-22,Meat,Beef,1.0,-10.0,-10.0,CUST5189,
+2023-07-31,Frozen,Frozen Meat,1000.0,,,XXXX,Card
+2023-10-29,Dairy,Milk,,-10.0,,,Cash
+2021-06-09,Snacks,Cookies,,143.62,,XXXX,UPI
+2023-04-17,Bakery,Bread,,99999.0,,CUST6198,Wallet
+2023-06-25,Bakery,Bread,5.0,99999.0,499995.0,XXXX,
+2021-02-10,Beverages,Juice,1000.0,99999.0,99999000.0,CUST5469,Wallet
+2023-01-25,Fruits,Apple,17.0,-10.0,-170.0,XXXX,UPI
+2023-12-25,Beverages,Coke,9.0,62.2,559.8000000000001,,Cash
+2021-10-26,Beverages,Pepsi,10.0,308.22,3082.2000000000003,,UPI
+2022-06-19,Beverages,Pepsi,-5.0,99999.0,-499995.0,XXXX,
+2022-05-20,Snacks,Cookies,8.0,99999.0,799992.0,CUST5211,
+2023-12-08,Bakery,Croissant,1000.0,-10.0,-10000.0,,Wallet
+2022-12-05,Meat,Fish,,,,,Wallet
+2023-06-05,Bakery,Donut,,411.46,,XXXX,UPI
+2021-06-25,Bakery,Croissant,1000.0,,,CUST1862,Wallet
+2022-08-03,Fruits,Grapes,8.0,99999.0,799992.0,CUST9677,Cash
+2023-03-26,Meat,Fish,,99999.0,,CUST5561,Wallet
+2022-01-04,Dairy,Cream,18.0,435.97,7847.460000000001,XXXX,Cash
+2022-06-13,Frozen,Frozen Pizza,1000.0,,,XXXX,UPI
+2021-12-30,Bakery,Croissant,18.0,,,CUST1269,Card
+2021-01-08,Bakery,Bread,1000.0,,,,
+2023-12-18,Beverages,Coke,-5.0,99999.0,-499995.0,CUST5233,UPI
+2022-10-03,Bakery,Donut,11.0,320.06,3520.66,,Wallet
+2022-11-28,Vegetables,Spinach,6.0,99999.0,599994.0,XXXX,Wallet
+2022-11-17,Bakery,Cake,1.0,355.97,355.97,CUST7791,Card
+2023-10-30,Frozen,Ice Cream,,99999.0,,CUST4285,Wallet
+2022-11-28,Bakery,Bun,10.0,,,XXXX,
+2022-04-22,Bakery,Bread,13.0,99999.0,1299987.0,,INVALID
+2021-05-14,Dairy,Cream,,341.61,,CUST1054,UPI
+2023-01-09,Meat,Beef,-5.0,,,CUST9865,Wallet
+2023-12-28,Snacks,Chips,-5.0,227.11,-1135.5500000000002,,Cash
+2023-08-21,Beverages,Juice,-5.0,-10.0,50.0,CUST5009,INVALID
+2023-07-19,Beverages,Coke,-5.0,-10.0,50.0,,Wallet
+2022-02-15,Vegetables,Carrot,8.0,281.27,2250.16,XXXX,
+2023-11-08,Snacks,Chocolate,-5.0,,,CUST1370,INVALID
+2023-02-07,Dairy,Milk,,-10.0,,XXXX,INVALID
+2021-03-06,Frozen,Frozen Pizza,-5.0,99999.0,-499995.0,XXXX,INVALID
+2022-06-28,Vegetables,Spinach,1000.0,260.18,260180.0,,
+2023-01-23,Fruits,Grapes,-5.0,,,XXXX,Card
+2021-01-28,Meat,Beef,10.0,-10.0,-100.0,,INVALID
+2021-04-08,Snacks,Chips,-5.0,,,CUST4305,
+2021-06-20,Dairy,Cream,1000.0,-10.0,-10000.0,,Cash
+2021-03-22,Frozen,Frozen Meat,,99999.0,,,
+2022-06-11,Frozen,Ice Cream,12.0,358.98,4307.76,XXXX,Card
+2023-12-03,Meat,Lamb,-5.0,99999.0,-499995.0,CUST3128,INVALID
+2023-09-23,Beverages,Coffee,-5.0,,,,INVALID
+2021-10-30,Frozen,Frozen Veg,1000.0,,,XXXX,
+2023-05-07,Meat,Pork,-5.0,99999.0,-499995.0,CUST8310,Wallet
+2021-02-04,Frozen,Ice Cream,1000.0,99999.0,99999000.0,CUST2227,
+2022-12-02,Meat,Lamb,,99999.0,,XXXX,Card
+2022-01-15,Snacks,Chocolate,,-10.0,,XXXX,UPI
+2022-03-10,Beverages,Water,-5.0,99999.0,-499995.0,CUST4313,INVALID
+2023-05-19,Fruits,Mango,1000.0,,,,Wallet
+2021-11-14,Fruits,Apple,-5.0,163.01,-815.05,XXXX,INVALID
+2023-05-09,Beverages,Coffee,,-10.0,,CUST7824,UPI
+2023-06-27,Fruits,Orange,-5.0,485.33,-2426.65,XXXX,Wallet
+2022-12-30,Bakery,Cake,-5.0,99999.0,-499995.0,,Cash
+2021-01-28,Frozen,Frozen Meat,19.0,,,XXXX,INVALID
+2023-11-17,Dairy,Cheese,-5.0,414.08,-2070.4,XXXX,Wallet
+2022-05-07,Beverages,Coffee,-5.0,,,CUST4361,UPI
+2023-09-17,Vegetables,Carrot,,99999.0,,CUST8544,Cash
+2023-10-04,Fruits,Apple,7.0,175.85,1230.95,,Wallet
+2022-09-17,Snacks,Cookies,,,,,Cash
+2021-05-22,Frozen,Frozen Fish,5.0,-10.0,-50.0,XXXX,Wallet
+2023-09-19,Meat,Pork,-5.0,,,XXXX,UPI
+2023-10-15,Fruits,Mango,,99999.0,,CUST5244,UPI
+2022-04-01,Beverages,Coffee,,-10.0,,XXXX,UPI
+2021-01-28,Vegetables,Tomato,,-10.0,,XXXX,Cash
+2023-09-28,Beverages,Pepsi,-5.0,,,CUST8871,Wallet
+2023-11-30,Frozen,Frozen Fish,,488.81,,XXXX,Wallet
+2023-01-09,Bakery,Croissant,14.0,292.38,4093.3199999999997,XXXX,Wallet
+2022-02-11,Vegetables,Spinach,-5.0,363.49,-1817.45,XXXX,INVALID
+2021-06-21,Bakery,Croissant,12.0,99999.0,1199988.0,XXXX,Card
+2023-04-18,Vegetables,Potato,1000.0,-10.0,-10000.0,CUST9624,UPI
+2022-04-02,Beverages,Pepsi,-5.0,,,XXXX,Cash
+2022-11-16,Dairy,Butter,20.0,-10.0,-200.0,CUST4734,Card
+2021-07-04,Snacks,Chocolate,,-10.0,,CUST6806,Cash
+2022-11-28,Frozen,Ice Cream,1000.0,,,CUST7212,
+2021-05-17,Dairy,Butter,,-10.0,,XXXX,Card
+2021-08-29,Bakery,Donut,1000.0,99999.0,99999000.0,CUST2202,UPI
+2021-05-09,Frozen,Frozen Pizza,1000.0,235.15,235150.0,XXXX,UPI
+2023-01-28,Frozen,Frozen Veg,1000.0,-10.0,-10000.0,,Wallet
+2023-01-18,Snacks,Cookies,-5.0,-10.0,50.0,,Cash
+2021-03-26,Fruits,Grapes,,99999.0,,CUST7347,
+2023-06-16,Vegetables,Tomato,1000.0,-10.0,-10000.0,,Card
+2023-05-14,Snacks,Candy,-5.0,,,XXXX,Card
+2023-09-22,Fruits,Orange,1000.0,134.16,134160.0,,
+2021-11-05,Fruits,Banana,-5.0,498.34,-2491.7,,Cash
+2023-09-02,Dairy,Cream,,99999.0,,,UPI
+2021-06-18,Meat,Beef,15.0,401.86,6027.900000000001,CUST8018,
+2022-06-05,Snacks,Candy,,428.05,,,Wallet
+2021-09-20,Frozen,Frozen Pizza,1000.0,-10.0,-10000.0,,Card
+2022-09-16,Frozen,Frozen Pizza,-5.0,99999.0,-499995.0,,
+2022-02-27,Frozen,Frozen Fish,-5.0,-10.0,50.0,XXXX,Cash
+2022-12-04,Frozen,Ice Cream,7.0,-10.0,-70.0,XXXX,UPI
+2021-04-22,Beverages,Coke,,-10.0,,CUST3582,Wallet
+2023-07-09,Beverages,Water,-5.0,,,,Card
+2023-04-19,Snacks,Nuts,-5.0,85.06,-425.3,,Card
+2023-05-09,Dairy,Cream,1000.0,-10.0,-10000.0,XXXX,UPI
+2021-12-26,Frozen,Frozen Meat,,-10.0,,XXXX,INVALID
+2021-02-16,Bakery,Croissant,,-10.0,,XXXX,Wallet
+2022-10-15,Fruits,Banana,15.0,99999.0,1499985.0,CUST7021,INVALID
+2023-02-28,Meat,Beef,8.0,,,,INVALID
+2023-08-15,Snacks,Nuts,14.0,,,CUST5632,
+2022-04-13,Beverages,Coke,1000.0,191.65,191650.0,CUST1536,UPI
+2022-01-24,Bakery,Cake,17.0,,,,Card
+2022-06-26,Dairy,Yogurt,,,,,Wallet
+2022-11-07,Bakery,Bread,1000.0,311.45,311450.0,XXXX,Card
+2022-05-03,Meat,Pork,1000.0,344.65,344650.0,,UPI
+2023-05-07,Bakery,Donut,,99999.0,,,Wallet
+2023-06-17,Frozen,Frozen Veg,19.0,-10.0,-190.0,CUST6444,UPI
+2022-08-19,Bakery,Cake,-5.0,,,CUST1724,Cash
+2021-10-09,Fruits,Mango,10.0,238.25,2382.5,,Card
+2022-02-20,Bakery,Bun,,230.56,,XXXX,Wallet
+2021-03-13,Dairy,Yogurt,-5.0,295.53,-1477.6499999999999,,UPI
+2021-12-23,Vegetables,Spinach,,-10.0,,XXXX,Card
+2022-07-12,Snacks,Candy,,370.76,,XXXX,
+2023-01-22,Snacks,Nuts,1000.0,311.56,311560.0,CUST4936,INVALID
+2021-08-11,Dairy,Butter,1000.0,,,CUST5535,UPI
+2023-07-15,Frozen,Frozen Pizza,-5.0,-10.0,50.0,CUST5335,INVALID
+2022-04-19,Beverages,Pepsi,5.0,218.26,1091.3,,UPI
+2022-11-10,Bakery,Bread,1000.0,-10.0,-10000.0,CUST7278,INVALID
+2021-09-17,Meat,Fish,4.0,,,XXXX,Card
+2022-02-15,Snacks,Chocolate,,-10.0,,,Card
+2022-09-21,Beverages,Juice,,-10.0,,CUST2066,
+2022-08-13,Beverages,Juice,4.0,,,XXXX,UPI
+2023-06-25,Dairy,Yogurt,-5.0,,,XXXX,INVALID
+2022-06-07,Fruits,Orange,-5.0,-10.0,50.0,XXXX,UPI
+2023-12-24,Beverages,Pepsi,12.0,-10.0,-120.0,CUST5916,Wallet
+2021-04-29,Fruits,Apple,,-10.0,,,Cash
+2022-12-08,Dairy,Butter,15.0,99999.0,1499985.0,CUST8111,INVALID
+2021-03-13,Snacks,Cookies,-5.0,498.28,-2491.3999999999996,,Wallet
+2021-08-02,Beverages,Juice,16.0,-10.0,-160.0,,INVALID
+2022-05-18,Vegetables,Potato,1000.0,-10.0,-10000.0,,Wallet
+2023-08-16,Dairy,Cream,-5.0,120.99,-604.9499999999999,XXXX,UPI
+2021-07-10,Snacks,Candy,,44.56,,CUST6340,Wallet
+2023-07-23,Vegetables,Tomato,-5.0,73.66,-368.29999999999995,CUST5246,UPI
+2021-06-14,Bakery,Donut,-5.0,-10.0,50.0,XXXX,Card
+2021-03-21,Fruits,Grapes,16.0,397.48,6359.68,,Card
+2023-08-13,Vegetables,Onion,,411.37,,CUST6119,Card
+2021-09-19,Bakery,Donut,-5.0,99999.0,-499995.0,,UPI
+2021-11-25,Meat,Pork,11.0,286.16,3147.76,CUST4140,Wallet
+2021-05-04,Vegetables,Carrot,-5.0,-10.0,50.0,XXXX,Wallet
+2023-09-12,Frozen,Frozen Veg,1000.0,,,XXXX,Cash
+2023-05-20,Beverages,Coke,-5.0,-10.0,50.0,CUST2677,INVALID
+2021-01-10,Fruits,Orange,-5.0,99999.0,-499995.0,,
+2022-03-04,Frozen,Frozen Veg,11.0,87.78,965.58,XXXX,UPI
+2021-08-15,Dairy,Cheese,,,,CUST5134,Card
+2021-08-21,Fruits,Orange,5.0,-10.0,-50.0,,Wallet
+2022-05-10,Beverages,Coffee,1000.0,99999.0,99999000.0,XXXX,INVALID
+2023-03-31,Meat,Fish,1000.0,99999.0,99999000.0,,Card
+2022-06-11,Meat,Beef,11.0,-10.0,-110.0,CUST9862,
+2023-07-24,Bakery,Croissant,,,,CUST8670,Wallet
+2021-12-07,Beverages,Pepsi,1000.0,99999.0,99999000.0,,
+2021-09-27,Meat,Pork,1000.0,-10.0,-10000.0,XXXX,UPI
+2022-07-15,Frozen,Frozen Meat,7.0,336.9,2358.2999999999997,XXXX,Wallet
+2021-04-18,Frozen,Frozen Fish,,236.72,,XXXX,Wallet
+2022-03-02,Vegetables,Potato,13.0,,,,Wallet
+2023-05-28,Vegetables,Carrot,10.0,13.35,133.5,,
+2022-02-18,Frozen,Frozen Fish,1000.0,140.76,140760.0,CUST4546,INVALID
+2023-01-02,Vegetables,Onion,-5.0,99999.0,-499995.0,,Cash
+2022-10-16,Bakery,Donut,3.0,,,XXXX,UPI
+2021-12-10,Meat,Lamb,13.0,99999.0,1299987.0,,
+2021-10-16,Snacks,Cookies,-5.0,-10.0,50.0,CUST1391,UPI
+2023-10-29,Fruits,Orange,18.0,,,CUST7607,INVALID
+2021-12-11,Fruits,Grapes,,99999.0,,XXXX,Cash
+2022-06-14,Beverages,Juice,14.0,273.4,3827.5999999999995,XXXX,Cash
+2022-09-26,Snacks,Nuts,1.0,,,XXXX,UPI
+2023-06-03,Frozen,Frozen Fish,-5.0,,,,Card
+2021-10-04,Snacks,Candy,,99999.0,,,INVALID
+2022-06-11,Dairy,Yogurt,1000.0,,,CUST4988,INVALID
+2022-04-10,Vegetables,Potato,5.0,-10.0,-50.0,CUST3287,UPI
+2023-10-01,Dairy,Cheese,19.0,,,XXXX,UPI
+2023-02-24,Bakery,Donut,8.0,,,XXXX,Cash
+2022-03-26,Meat,Pork,,-10.0,,XXXX,
+2023-07-21,Meat,Pork,12.0,-10.0,-120.0,XXXX,Cash
+2022-02-15,Snacks,Chocolate,,-10.0,,,Card
+2021-08-15,Frozen,Frozen Meat,,397.77,,CUST5196,UPI
+2022-07-27,Vegetables,Spinach,19.0,99999.0,1899981.0,XXXX,Wallet
+2022-07-22,Dairy,Cream,1000.0,,,XXXX,Wallet
+2022-06-04,Vegetables,Carrot,-5.0,,,XXXX,Card
+2023-07-08,Dairy,Butter,-5.0,99999.0,-499995.0,CUST5476,INVALID
+2022-07-23,Meat,Beef,-5.0,99999.0,-499995.0,,INVALID
+2021-10-25,Bakery,Cake,-5.0,99999.0,-499995.0,,
+2021-12-02,Bakery,Croissant,-5.0,,,CUST6215,UPI
+2022-04-23,Snacks,Cookies,1000.0,,,,INVALID
+2022-09-05,Meat,Lamb,5.0,131.79,658.9499999999999,CUST3149,INVALID
+2022-12-04,Snacks,Chocolate,1000.0,,,,INVALID
+2023-01-23,Fruits,Grapes,-5.0,,,XXXX,Card
+2021-05-18,Frozen,Frozen Meat,1000.0,45.16,45160.0,,
+2023-06-05,Bakery,Donut,,411.46,,XXXX,UPI
+2023-08-01,Beverages,Water,-5.0,370.82,-1854.1,,Wallet
+2022-03-10,Beverages,Water,-5.0,99999.0,-499995.0,CUST4313,INVALID
+2021-04-13,Meat,Lamb,1.0,99999.0,99999.0,CUST2612,Card
+2023-09-29,Snacks,Cookies,-5.0,99999.0,-499995.0,CUST2988,
+2021-04-04,Bakery,Donut,-5.0,-10.0,50.0,XXXX,Cash
+2021-03-02,Fruits,Apple,1000.0,-10.0,-10000.0,XXXX,Card
+2022-10-30,Beverages,Coffee,8.0,99999.0,799992.0,XXXX,Card
+2022-05-04,Beverages,Coffee,8.0,263.8,2110.4,CUST7896,
+2023-04-02,Meat,Lamb,1000.0,-10.0,-10000.0,,Cash
+2023-08-28,Fruits,Apple,,446.34,,CUST9219,Card
+2021-07-15,Meat,Chicken,-5.0,,,CUST9709,Wallet
+2021-02-09,Bakery,Donut,,99999.0,,XXXX,Card
+2023-11-03,Beverages,Juice,1000.0,,,XXXX,
+2023-03-18,Bakery,Donut,,339.52,,XXXX,Wallet
+2023-08-18,Meat,Fish,1000.0,-10.0,-10000.0,CUST8229,INVALID
