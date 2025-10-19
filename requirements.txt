@@ -5,3 +5,8 @@ pandas
 google-genai
 python-dotenv
 openpyxl
+python-jose[cryptography]
+passlib[bcrypt]
+pyjwt 
+bcrypt
+email-validator
