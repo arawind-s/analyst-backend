@@ -1,7 +1,7 @@
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
-from src.agent import DataAnalysisAgent
+from src.Analyst import DataAnalysisAgent
 from src.database import init_db, get_db, User, Conversation, Message, Dataset
 from src.auth import get_password_hash, verify_password, create_access_token, get_current_user
 from pydantic import BaseModel, EmailStr
