@@ -2,7 +2,7 @@ from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 from src.Analyst import DataAnalysisAgent
-from src.database import init_db, get_db, User, Conversation, Message, Dataset
+from src.database import init_db, get_db, User, Conversation, Message, Dataset, SavedChart, DashboardLayout
 from src.auth import get_password_hash, verify_password, create_access_token, get_current_user
 from pydantic import BaseModel, EmailStr
 import uuid
@@ -41,6 +41,14 @@ class LoginRequest(BaseModel):
 
 class CreateConversationRequest(BaseModel):
     title: str = "New Chat"
+
+class SaveChartRequest(BaseModel):
+    message_id: str
+    title: str = None
+
+class DashboardLayoutRequest(BaseModel):
+    layout: list
+    chart_ids: list
 
 # ============= AUTH ENDPOINTS =============
 
@@ -301,6 +309,197 @@ async def query_data(
         db.rollback()
         raise HTTPException(status_code=500, detail=str(e))
 
+# ============= SAVED CHARTS ENDPOINTS =============
+
+@app.get("/saved-charts")
+async def get_saved_charts(
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Get all saved charts for the current user"""
+    charts = db.query(SavedChart).filter(
+        SavedChart.user_id == current_user.id
+    ).order_by(SavedChart.created_at.desc()).all()
+
+    return {
+        "charts": [
+            {
+                "id": chart.id,
+                "title": chart.title,
+                "chart_type": chart.chart_type,
+                "chart_data": chart.chart_data,
+                "interpretation": chart.interpretation,
+                "created_at": chart.created_at.isoformat(),
+                "is_favorite": bool(chart.is_favorite),
+                "conversation_id": chart.conversation_id,
+                "message_id": chart.message_id
+            }
+            for chart in charts
+        ]
+    }
+
+@app.post("/saved-charts")
+async def save_chart(
+    request: SaveChartRequest,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Save a chart from a message"""
+    # Get the message with chart data
+    message = db.query(Message).filter(
+        Message.id == request.message_id
+    ).first()
+
+    if not message or not message.chart_data:
+        raise HTTPException(status_code=404, detail="Message or chart data not found")
+
+    # Verify the message belongs to user's conversation
+    conversation = db.query(Conversation).filter(
+        Conversation.id == message.conversation_id,
+        Conversation.user_id == current_user.id
+    ).first()
+
+    if not conversation:
+        raise HTTPException(status_code=403, detail="Unauthorized")
+
+    # Create saved chart
+    chart_data = message.chart_data
+    saved_chart = SavedChart(
+        id=str(uuid.uuid4()),
+        user_id=current_user.id,
+        conversation_id=message.conversation_id,
+        message_id=message.id,
+        title=request.title or chart_data.get("config", {}).get("title", "Untitled Chart"),
+        chart_type=chart_data.get("chartType", "bar"),
+        chart_data=chart_data,
+        interpretation=message.content
+    )
+
+    db.add(saved_chart)
+    db.commit()
+    db.refresh(saved_chart)
+
+    return {
+        "id": saved_chart.id,
+        "message": "Chart saved successfully",
+        "chart": {
+            "id": saved_chart.id,
+            "title": saved_chart.title,
+            "chart_type": saved_chart.chart_type,
+            "created_at": saved_chart.created_at.isoformat()
+        }
+    }
+
+@app.delete("/saved-charts/{chart_id}")
+async def delete_saved_chart(
+    chart_id: str,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Delete a saved chart"""
+    chart = db.query(SavedChart).filter(
+        SavedChart.id == chart_id,
+        SavedChart.user_id == current_user.id
+    ).first()
+
+    if not chart:
+        raise HTTPException(status_code=404, detail="Chart not found")
+
+    db.delete(chart)
+    db.commit()
+
+    return {"message": "Chart deleted successfully"}
+
+@app.patch("/saved-charts/{chart_id}/favorite")
+async def toggle_favorite(
+    chart_id: str,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Toggle favorite status of a chart"""
+    chart = db.query(SavedChart).filter(
+        SavedChart.id == chart_id,
+        SavedChart.user_id == current_user.id
+    ).first()
+
+    if not chart:
+        raise HTTPException(status_code=404, detail="Chart not found")
+
+    chart.is_favorite = 1 if chart.is_favorite == 0 else 0
+    db.commit()
+
+    return {
+        "message": "Favorite status updated",
+        "is_favorite": bool(chart.is_favorite)
+    }
+
+# ============= DASHBOARD LAYOUT ENDPOINTS =============
+
+@app.get("/dashboard-layout")
+async def get_dashboard_layout(
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Get user's dashboard layout"""
+    layout = db.query(DashboardLayout).filter(
+        DashboardLayout.user_id == current_user.id
+    ).first()
+
+    if not layout:
+        return {"layout": [], "charts": []}
+
+    # Get all charts referenced in the layout
+    charts = db.query(SavedChart).filter(
+        SavedChart.id.in_(layout.chart_ids),
+        SavedChart.user_id == current_user.id
+    ).all()
+
+    return {
+        "layout": layout.layout,
+        "charts": [
+            {
+                "id": chart.id,
+                "title": chart.title,
+                "chart_type": chart.chart_type,
+                "chart_data": chart.chart_data,
+                "interpretation": chart.interpretation,
+                "created_at": chart.created_at.isoformat()
+            }
+            for chart in charts
+        ]
+    }
+
+@app.post("/dashboard-layout")
+async def save_dashboard_layout(
+    request: DashboardLayoutRequest,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Save or update user's dashboard layout"""
+    # Check if layout exists
+    existing_layout = db.query(DashboardLayout).filter(
+        DashboardLayout.user_id == current_user.id
+    ).first()
+
+    if existing_layout:
+        # Update existing layout
+        existing_layout.layout = request.layout
+        existing_layout.chart_ids = request.chart_ids
+        existing_layout.updated_at = datetime.utcnow()
+    else:
+        # Create new layout
+        new_layout = DashboardLayout(
+            id=str(uuid.uuid4()),
+            user_id=current_user.id,
+            layout=request.layout,
+            chart_ids=request.chart_ids
+        )
+        db.add(new_layout)
+
+    db.commit()
+
+    return {"message": "Dashboard layout saved successfully"}
+
 @app.get("/")
 def read_root():
     return {
@@ -311,7 +510,9 @@ def read_root():
             "me": "GET /me",
             "conversations": "GET /conversations",
             "upload": "POST /upload",
-            "query": "POST /query"
+            "query": "POST /query",
+            "saved-charts": "GET /saved-charts",
+            "dashboard-layout": "GET/POST /dashboard-layout"
         }
     }
 

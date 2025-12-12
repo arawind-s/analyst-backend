@@ -54,7 +54,7 @@ class Message(Base):
 # Dataset Model
 class Dataset(Base):
     __tablename__ = "datasets"
-    
+
     id = Column(String, primary_key=True)
     user_id = Column(String, ForeignKey("users.id"), nullable=False)
     filename = Column(String, nullable=False)
@@ -64,9 +64,43 @@ class Dataset(Base):
     dtypes = Column(JSON)
     upload_date = Column(DateTime, default=datetime.utcnow)
     status = Column(String, default='active')
-    
+
     # Relationships
     user = relationship("User", back_populates="datasets")
+
+# SavedChart Model
+class SavedChart(Base):
+    __tablename__ = "saved_charts"
+
+    id = Column(String, primary_key=True)
+    user_id = Column(String, ForeignKey("users.id"), nullable=False)
+    conversation_id = Column(String, ForeignKey("conversations.id"), nullable=True)
+    message_id = Column(String, ForeignKey("messages.id"), nullable=True)
+    title = Column(String, nullable=False)
+    chart_type = Column(String, nullable=False)  # 'bar', 'line', 'pie', etc.
+    chart_data = Column(JSON, nullable=False)
+    interpretation = Column(Text, nullable=True)
+    created_at = Column(DateTime, default=datetime.utcnow)
+    is_favorite = Column(Integer, default=0)  # 0 = not favorite, 1 = favorite
+
+    # Relationships
+    user = relationship("User")
+    conversation = relationship("Conversation")
+    message = relationship("Message")
+
+# DashboardLayout Model
+class DashboardLayout(Base):
+    __tablename__ = "dashboard_layouts"
+
+    id = Column(String, primary_key=True)
+    user_id = Column(String, ForeignKey("users.id"), nullable=False)
+    layout = Column(JSON, nullable=False)  # Grid layout configuration
+    chart_ids = Column(JSON, nullable=False)  # List of chart IDs on dashboard
+    created_at = Column(DateTime, default=datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+    # Relationships
+    user = relationship("User")
 
 def init_db():
     Base.metadata.create_all(bind=engine)
