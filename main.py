@@ -2,7 +2,7 @@ from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 from src.Analyst import DataAnalysisAgent
-from src.database import init_db, get_db, User, Conversation, Message, Dataset, SavedChart, DashboardLayout
+from src.database import init_db, get_db, User, Conversation, Message, Dataset, SavedChart, Dashboard
 from src.auth import get_password_hash, verify_password, create_access_token, get_current_user
 from pydantic import BaseModel, EmailStr
 import uuid
@@ -46,9 +46,13 @@ class SaveChartRequest(BaseModel):
     message_id: str
     title: str = None
 
-class DashboardLayoutRequest(BaseModel):
-    layout: list
-    chart_ids: list
+class CreateDashboardRequest(BaseModel):
+    title: str = "New Dashboard"
+
+class SaveDashboardRequest(BaseModel):
+    title: str
+    charts: list
+    background_pattern: str = "transparent"
 
 # ============= AUTH ENDPOINTS =============
 
@@ -433,72 +437,131 @@ async def toggle_favorite(
         "is_favorite": bool(chart.is_favorite)
     }
 
-# ============= DASHBOARD LAYOUT ENDPOINTS =============
+# ============= DASHBOARDS ENDPOINTS =============
 
-@app.get("/dashboard-layout")
-async def get_dashboard_layout(
+@app.get("/dashboards")
+async def get_dashboards(
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
-    """Get user's dashboard layout"""
-    layout = db.query(DashboardLayout).filter(
-        DashboardLayout.user_id == current_user.id
-    ).first()
-
-    if not layout:
-        return {"layout": [], "charts": []}
-
-    # Get all charts referenced in the layout
-    charts = db.query(SavedChart).filter(
-        SavedChart.id.in_(layout.chart_ids),
-        SavedChart.user_id == current_user.id
-    ).all()
+    """Get all dashboards for the current user"""
+    dashboards = db.query(Dashboard).filter(
+        Dashboard.user_id == current_user.id
+    ).order_by(Dashboard.updated_at.desc()).all()
 
     return {
-        "layout": layout.layout,
-        "charts": [
+        "dashboards": [
             {
-                "id": chart.id,
-                "title": chart.title,
-                "chart_type": chart.chart_type,
-                "chart_data": chart.chart_data,
-                "interpretation": chart.interpretation,
-                "created_at": chart.created_at.isoformat()
+                "id": d.id,
+                "title": d.title,
+                "created_at": d.created_at.isoformat(),
+                "updated_at": d.updated_at.isoformat(),
+                "chart_count": len(d.charts) if d.charts else 0,
+                "background_pattern": d.background_pattern
             }
-            for chart in charts
+            for d in dashboards
         ]
     }
 
-@app.post("/dashboard-layout")
-async def save_dashboard_layout(
-    request: DashboardLayoutRequest,
+@app.post("/dashboards")
+async def create_dashboard(
+    request: CreateDashboardRequest,
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
-    """Save or update user's dashboard layout"""
-    # Check if layout exists
-    existing_layout = db.query(DashboardLayout).filter(
-        DashboardLayout.user_id == current_user.id
+    """Create a new dashboard"""
+    dashboard = Dashboard(
+        id=str(uuid.uuid4()),
+        user_id=current_user.id,
+        title=request.title,
+        charts=[]
+    )
+    db.add(dashboard)
+    db.commit()
+    db.refresh(dashboard)
+
+    return {
+        "id": dashboard.id,
+        "title": dashboard.title,
+        "created_at": dashboard.created_at.isoformat(),
+        "charts": []
+    }
+
+@app.get("/dashboards/{dashboard_id}")
+async def get_dashboard(
+    dashboard_id: str,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Get a specific dashboard"""
+    dashboard = db.query(Dashboard).filter(
+        Dashboard.id == dashboard_id,
+        Dashboard.user_id == current_user.id
     ).first()
 
-    if existing_layout:
-        # Update existing layout
-        existing_layout.layout = request.layout
-        existing_layout.chart_ids = request.chart_ids
-        existing_layout.updated_at = datetime.utcnow()
-    else:
-        # Create new layout
-        new_layout = DashboardLayout(
-            id=str(uuid.uuid4()),
-            user_id=current_user.id,
-            layout=request.layout,
-            chart_ids=request.chart_ids
-        )
-        db.add(new_layout)
+    if not dashboard:
+        raise HTTPException(status_code=404, detail="Dashboard not found")
+
+    return {
+        "id": dashboard.id,
+        "title": dashboard.title,
+        "charts": dashboard.charts,
+        "background_pattern": dashboard.background_pattern,
+        "created_at": dashboard.created_at.isoformat(),
+        "updated_at": dashboard.updated_at.isoformat()
+    }
+
+@app.put("/dashboards/{dashboard_id}")
+async def update_dashboard(
+    dashboard_id: str,
+    request: SaveDashboardRequest,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Update a dashboard"""
+    dashboard = db.query(Dashboard).filter(
+        Dashboard.id == dashboard_id,
+        Dashboard.user_id == current_user.id
+    ).first()
+
+    if not dashboard:
+        raise HTTPException(status_code=404, detail="Dashboard not found")
+
+    dashboard.title = request.title
+    dashboard.charts = request.charts
+    dashboard.background_pattern = request.background_pattern
+    dashboard.updated_at = datetime.utcnow()
 
     db.commit()
+    db.refresh(dashboard)
 
-    return {"message": "Dashboard layout saved successfully"}
+    return {
+        "id": dashboard.id,
+        "title": dashboard.title,
+        "charts": dashboard.charts,
+        "background_pattern": dashboard.background_pattern,
+        "message": "Dashboard updated successfully"
+    }
+
+@app.delete("/dashboards/{dashboard_id}")
+async def delete_dashboard(
+    dashboard_id: str,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Delete a dashboard"""
+    dashboard = db.query(Dashboard).filter(
+        Dashboard.id == dashboard_id,
+        Dashboard.user_id == current_user.id
+    ).first()
+
+    if not dashboard:
+        raise HTTPException(status_code=404, detail="Dashboard not found")
+
+    db.delete(dashboard)
+    db.commit()
+
+    return {"message": "Dashboard deleted successfully"}
 
 @app.get("/")
 def read_root():
@@ -512,7 +575,7 @@ def read_root():
             "upload": "POST /upload",
             "query": "POST /query",
             "saved-charts": "GET /saved-charts",
-            "dashboard-layout": "GET/POST /dashboard-layout"
+            "dashboards": "GET/POST /dashboards"
         }
     }
 

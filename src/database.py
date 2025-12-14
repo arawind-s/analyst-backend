@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, Column, String, Integer, DateTime, Text, JSON, ForeignKey
+from sqlalchemy import create_engine, Column, String, Integer, DateTime, Text, JSON, ForeignKey, text
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 from datetime import datetime
@@ -88,14 +88,15 @@ class SavedChart(Base):
     conversation = relationship("Conversation")
     message = relationship("Message")
 
-# DashboardLayout Model
-class DashboardLayout(Base):
-    __tablename__ = "dashboard_layouts"
+# Dashboard Model - Saved dashboards with charts and configurations
+class Dashboard(Base):
+    __tablename__ = "dashboards"
 
     id = Column(String, primary_key=True)
     user_id = Column(String, ForeignKey("users.id"), nullable=False)
-    layout = Column(JSON, nullable=False)  # Grid layout configuration
-    chart_ids = Column(JSON, nullable=False)  # List of chart IDs on dashboard
+    title = Column(String, default="New Dashboard")
+    charts = Column(JSON, nullable=False)  # List of chart objects with positions
+    background_pattern = Column(String, default="transparent")  # Background pattern/color
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
@@ -103,7 +104,32 @@ class DashboardLayout(Base):
     user = relationship("User")
 
 def init_db():
+    """Initialize database and run migrations"""
     Base.metadata.create_all(bind=engine)
+
+    # Migration: Add background_pattern column to dashboards table if it doesn't exist
+    with engine.connect() as conn:
+        try:
+            # Check if column exists
+            check_query = text("""
+                SELECT column_name
+                FROM information_schema.columns
+                WHERE table_name='dashboards' AND column_name='background_pattern'
+            """)
+            result = conn.execute(check_query)
+
+            if result.fetchone() is None:
+                # Column doesn't exist, add it
+                print("Adding background_pattern column to dashboards table...")
+                alter_query = text("""
+                    ALTER TABLE dashboards
+                    ADD COLUMN background_pattern VARCHAR DEFAULT 'transparent'
+                """)
+                conn.execute(alter_query)
+                conn.commit()
+                print("✓ Successfully added background_pattern column to dashboards table!")
+        except Exception as e:
+            print(f"Migration note: {e}")
 
 def get_db():
     db = SessionLocal()
