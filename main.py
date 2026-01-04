@@ -3,7 +3,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 from src.Analyst import DataAnalysisAgent
 from src.database import init_db, get_db, User, Conversation, Message, Dataset, SavedChart, Dashboard
-from src.auth import get_password_hash, verify_password, create_access_token, get_current_user
+from src.auth import (
+    get_password_hash, verify_password, create_access_token, get_current_user,
+    send_otp_email, generate_otp
+)
 from pydantic import BaseModel, EmailStr
 import uuid
 from datetime import datetime
@@ -30,14 +33,24 @@ UPLOAD_DIR.mkdir(exist_ok=True)
 # Agent instance
 agent = DataAnalysisAgent()
 
+# ============= SIMPLE OTP STORAGE (IN-MEMORY) =============
+# Dictionary to store OTPs: { "email": "123456" }
+# ============= OTP STORAGE =============
+otp_storage = {}
+
 # Pydantic models
+class EmailRequest(BaseModel):
+    email: EmailStr
+
 class SignupRequest(BaseModel):
     email: EmailStr
     password: str
+    otp: str
 
 class LoginRequest(BaseModel):
     email: EmailStr
     password: str
+    otp: str
 
 class CreateConversationRequest(BaseModel):
     title: str = "New Chat"
@@ -56,14 +69,35 @@ class SaveDashboardRequest(BaseModel):
 
 # ============= AUTH ENDPOINTS =============
 
+@app.post("/send-otp")
+async def send_otp(request: EmailRequest):
+    """Generates an OTP and sends it to the user's email"""
+    try:
+        otp = generate_otp()
+        otp_storage[request.email] = otp
+        success = send_otp_email(request.email, otp)
+        
+        if not success:
+            raise HTTPException(status_code=500, detail="Failed to send email (Check credentials)")
+        
+        return {"message": f"OTP sent to {request.email}"}
+    except Exception as e:
+        print(f"Error sending OTP: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
 @app.post("/signup")
 async def signup(request: SignupRequest, db: Session = Depends(get_db)):
-    # Check if user exists
+    # 1. Verify OTP
+    stored_otp = otp_storage.get(request.email)
+    if not stored_otp or stored_otp != request.otp:
+        raise HTTPException(status_code=400, detail="Invalid or expired OTP")
+
+    # 2. Check if user exists
     existing_user = db.query(User).filter(User.email == request.email).first()
     if existing_user:
         raise HTTPException(status_code=400, detail="Email already registered")
     
-    # Create user
+    # 3. Create user
     user = User(
         id=str(uuid.uuid4()),
         email=request.email,
@@ -73,7 +107,11 @@ async def signup(request: SignupRequest, db: Session = Depends(get_db)):
     db.commit()
     db.refresh(user)
     
-    # Create token
+    # 4. Clear OTP
+    if request.email in otp_storage:
+        del otp_storage[request.email]
+    
+    # 5. Create token
     access_token = create_access_token(data={"sub": user.id})
     
     return {
@@ -87,9 +125,24 @@ async def signup(request: SignupRequest, db: Session = Depends(get_db)):
 
 @app.post("/login")
 async def login(request: LoginRequest, db: Session = Depends(get_db)):
+    # 1. Verify OTP first
+    stored_otp = otp_storage.get(request.email)
+    if not stored_otp or stored_otp != request.otp:
+        raise HTTPException(status_code=400, detail="Invalid or expired OTP")
+
+    # 2. Find User
     user = db.query(User).filter(User.email == request.email).first()
-    if not user or not verify_password(request.password, user.hashed_password):
-        raise HTTPException(status_code=401, detail="Incorrect email or password")
+    
+    # 3. Verify Password (safe from crashes now due to auth.py fix)
+    if not user:
+        raise HTTPException(status_code=401, detail="User not found")
+        
+    if not verify_password(request.password, user.hashed_password):
+        raise HTTPException(status_code=401, detail="Incorrect password")
+    
+    # 4. Clear OTP
+    if request.email in otp_storage:
+        del otp_storage[request.email]
     
     access_token = create_access_token(data={"sub": user.id})
     
@@ -108,9 +161,8 @@ async def get_me(current_user: User = Depends(get_current_user)):
         "id": current_user.id,
         "email": current_user.email,
         "created_at": current_user.created_at.isoformat()
-    }
-
-# ============= CONVERSATION ENDPOINTS =============
+        
+    }# ============= CONVERSATION ENDPOINTS =============
 
 @app.post("/conversations")
 async def create_conversation(

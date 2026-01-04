@@ -10,3 +10,4 @@ passlib[bcrypt]
 pyjwt 
 bcrypt
 email-validator
+firebase-admin
